@@ -1,0 +1,84 @@
+Yang's Keyboard Layout v1.1
+QHRF|X][|YOUJ|/
+LSNT|D'P|IAEK|
+ZMCV|B;W|G,. |
+http://patorjk.com/keyboard-layout-analyzer/#/load/hqrGn4NG
+
+Yang's Keyboard Layout v1.0
+QHRF|X][|YUOJ|/
+LSNT|D'P|IAEK|
+ZMCV|B;W|G,. |
+
+God's Keyboard Layout for Yang v0.1
+QHRF|[]X|YUOJ|/
+LSNT|D'P|IAEK|
+ZMWC|VB;|G,. |
+
+God's Keyboard Layout for Yang V0.0
+QRSF|[]X|YUOJ|/
+LHNT|D'P|IAEK|
+ZMWC|VB;|G,. |
+
+roundPi's Keyboard Layout v1.4
+QHSP|;][|YOUJ|/
+LRNT|C'D|IAEK|
+ZMBF|VXW|G,. |
+
+roundPi's Keyboard Layout v1.3
+QHSC|;][|YOUJ|/
+LRNT|P'D|IAEK|
+ZMBF|VXW|G,. |
+
+roundPi's Keyboard Layout v1.2
+QHRC|;][|YOUJ|?
+LSNT|D'P|IAEK|
+ZMBF|VXW|G,. |
+
+
+roundPi's Keyboard Layout v1.1
+http://patorjk.com/keyboard-layout-analyzer/#/load/QQXpsdvZ
+QHRF|;][|YOUJ|?
+LSNT|D'P|IAEK|
+ZMBC|VXW|G,. |
+
+Cui's Layout for Interlaced Keyboards v1.0
+QHSF|;][|YOUJ|?
+LRNT|D'P|IAEK|
+ZMBC|VXG|W,. |
+
+rHGamerV1.2
+QHRF|;][|WUOJ|?
+LSNT|D'P|IAEK|
+ZMYC|VXG|B,. |
+
+Easy_1.1
+QHRF|;'[|WIUJ|?
+LSNT|D]P|OAEK|
+ZMYC|VXG|B,. |
+
+Easy_1.0
+QHRF|;['|WOUJ|?
+LSNT|D]P|IAEK|
+ZYMC|VXG|B,. |
+
+3:
+QHRF|;[]|YUOJ|?
+LSNT|D'P|IAEK|
+ZXMC|VBG|W,. |
+
+2:
+QHSF|;[Z|BUOJ|?
+LRNT|D'P|IAEK|
+XMYC|V]G|W,. |
+
+1:
+QHSF|;[Z|YUOJ|?
+LRNT|D'P|IAEK|
+XBMC|V]G|W,. |
+
+0:
+QRNF; { }MUOJ?
+LHSTD ' PIAEK
+ZXCVB < WGY>
+
+
