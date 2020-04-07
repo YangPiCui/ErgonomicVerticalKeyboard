@@ -1,4 +1,5 @@
-The Design and Making of a Vertical Keyboard
+#The Design and Making of a Vertical Keyboard
+
 Requirements:
 1. Hands can rest on the desk with palms facing each other. This relaxes the shoulder and straightens the spine.
 
