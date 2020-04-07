@@ -44,13 +44,13 @@
 
 [Reddit Post 1](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) | [Reddit Post 2](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/)
 
-## Keyboard Design Process
+## Design Keyboard Shape 
 
 &nbsp;
 
 &nbsp;
 
-## Letter Layout Design
+## Design Letter Layout 
 
 Fingers&#39; usage should be proportional to their strengths, which is proportional to the cube of their diameters.
 
@@ -70,9 +70,13 @@ Include usage of mouse. Most people are right handed.&nbsp;
 
 &nbsp;
 
-Letter and Symbol Frequency
+#### Letter and Symbol Frequency
+For the letter layout:
+The same multiple languages: English, Chinese, German and French (the common characters)
 
-The same multiple languages: English, Chinese, German and French (the common charactors)
+For the symbol layout:
+Get symbol frequencies for 'spaces', 'enter', 'comma'... from literature and from codes in (C++, Python, etc.). 
+
 
 &nbsp;
 
