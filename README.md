@@ -90,3 +90,8 @@ Get symbol frequencies for 'spaces', 'enter', 'comma'... from literature and fro
 &nbsp;
 
 &nbsp;
+
+##### License
+ODC Open Database License v1.0
+https://choosealicense.com/appendix/
+No patents from this!
