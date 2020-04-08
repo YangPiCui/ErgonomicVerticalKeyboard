@@ -1,8 +1,10 @@
+
 # The Design and Making of a Vertical Keyboard
 ## Introduction
 A sore neck, and sore little fingers? 
 Developing a stretched forth neck and a hump back? (A broken posture is terrible for attracting the opposite sex.)
 The keyboard and the mouse are to be blamed, because they force our hands to lay flat on the desk pronated.
+
 ## Requirements:
 
 1. Hands can rest on the desk with palms facing each other. This relaxes the shoulder and straightens the spine.
@@ -47,13 +49,7 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 
 [Reddit Post 1](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) | [Reddit Post 2](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/)
 
-## Part 1: Design Keyboard Shape 
-
-
-
-
-
-
+## [Part 1: Design Keyboard Shape](/design_keyboard_shape) 
 
 Next step: 
 decide:
