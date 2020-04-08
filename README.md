@@ -68,10 +68,9 @@ corsair - need more people requesting it with a value proposition
 ## [Part 1: Design Keyboard Shape](/design_keyboard_shape) 
 
 Next step, decide:
-1. buy new laptop, install Ubuntu, play with Clojure
-2. 1st option but use virtual machine
-3. get the 3D model in Fusion 360 and learn it myself
-4. 3rd option but ask a friend to do it.
+1. Play with Clojure, Leiningen, OpenSCAD
+2. get the 3D model in Fusion 360 
+3. 2nd option but ask a friend to do it.
 
 
 ## Part ?: Design Letter and Symbol Layout 
