@@ -1,4 +1,8 @@
 # Design Keyboard Shape 
 ## Concept Sketches
-![enter image description here](key_map_sketch_0.jpg)
-<img src="key_map_sketch_0.jpg" width="100" height="100">
+<img src="key_map_sketch_0.jpg" width="100" height="400">
+<img src="concept_sketch_0.jpg" width="100" height="400">
+<img src="concept_sketch_1.jpg" width="100" height="400">
+<img src="concept_usage_0.jpg" width="100" height="400">
+<img src="concept_usage_1.jpg" width="100" height="400">
+<img src="concept_usage_2.jpg" width="100" height="400">
