@@ -50,7 +50,7 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 
 [Reddit Post 1](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) | [Reddit Post 2](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/)
 
-## Find a Company to Make This (unsuccessful so far)
+## Find a Company to Make This
 
 Razer 
 
@@ -106,7 +106,4 @@ Get symbol frequencies for 'spaces', 'enter', 'comma'... from literature and fro
 
 &nbsp;
 
-##### License
-ODC Open Database License v1.0
-https://choosealicense.com/appendix/
-No patents from this!
+#### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)
