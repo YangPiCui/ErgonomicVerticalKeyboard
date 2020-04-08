@@ -1,6 +1,7 @@
 
 
 
+
 # The Design and Making of a Vertical Keyboard
 ## Introduction
 A sore neck, and sore little fingers? 
@@ -68,9 +69,10 @@ corsair - need more people requesting it with a value proposition
 ## [Part 1: Design Keyboard Shape](/design_keyboard_shape) 
 
 Next step, decide:
-1. Play with Clojure, Leiningen, OpenSCAD
-2. get the 3D model in Fusion 360 
-3. 2nd option but ask a friend to do it.
+~~1. Play with Clojure, Leiningen, OpenSCAD. I am learning C++ and want to master it. I don't want to confuse myself with the language syntaxes before mastering C++.
+2. get the 3D model in Fusion 360. Can't find one.
+3. 2nd option but ask a friend to do it. Friend left.~~
+4. Buy a new desktop, take my sweet time, and design with my old good friend Solidworks.
 
 
 ## Part ?: Design Letter and Symbol Layout 
