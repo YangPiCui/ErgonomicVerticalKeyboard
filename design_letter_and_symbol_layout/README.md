@@ -34,3 +34,4 @@ Get symbol frequencies for 'spaces', 'enter', 'comma'... from literature and fro
 
 ### Modification Keys
 
+how comfortably one presses simple operations such as 'ctrl + c' needs to be taken into account.
