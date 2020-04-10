@@ -77,37 +77,7 @@ Next step, decide:
  5. Buy a new desktop, take my sweet time, and design with my old good friend Solidworks.
 
 
-## Part ?: Design Letter and Symbol Layout 
+## [Part ?: Design Letter and Symbol Layout ](/design_letter_and_symbol_layout)
 
-
-Fingers&#39; usage should be proportional to their strengths, which is proportional to the cube of their diameters.
-
-What&#39;s the&nbsp;
-
-Diameter of my left index finder (LI): 56mm
-
-LM: 54mm
-
-LR: 53mm
-
-LP: 47mm
-
-So the ratio of finger key presses should be 1.69 : 1.52 : 1.43 : 1.
-
-Include usage of mouse. Most people are right handed.&nbsp;
-
-&nbsp;
-
-#### Letter and Symbol Frequency
-For the letter layout:
-The same multiple languages: English, Chinese, German and French (the common characters)
-
-For the symbol layout:
-Get symbol frequencies for 'spaces', 'enter', 'comma'... from literature and from codes in (C++, Python, etc.). 
-
-
-&nbsp;
-
-&nbsp;
 
 #### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)
