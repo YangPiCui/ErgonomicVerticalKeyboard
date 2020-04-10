@@ -28,6 +28,9 @@ Assume most people are right handed mouse users. Their right index and right mid
 The same multiple languages: English, Chinese, German and French (the common characters)
 [Letter Frequencies](https://norvig.com/mayzner.html)
 
+Scoring system:
+1. switch 1 or 2 rows needs the other hand to type two letters to be optimal. Switching 3 rows requires the other hand to strike 3 times.
+
 ### Symbols
 Get symbol frequencies for 'spaces', 'enter', 'comma'... from literature and from codes in (C++, Python, etc.). 
 [http://xahlee.info/comp/computer_language_char_distribution.html](http://xahlee.info/comp/computer_language_char_distribution.html)
