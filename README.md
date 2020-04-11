@@ -67,7 +67,7 @@ corsair - need more people requesting it with a value proposition
 
 悠然自得数码 - need to create a 3D model first. 
 
-## [Part 1: Design Keyboard Shape](/design_keyboard_shape) 
+## [Part 1: Keyboard Shape and Keycap Layout](/keyboard_shape_and_keycap_layout) 
 
 Next step, decide:
 
@@ -76,8 +76,11 @@ Next step, decide:
  4. ~~Ask a friend to do it. Friend left.~~
  5. Buy a new desktop, take my sweet time, and design with my old good friend Solidworks.
 
+## Part 2: Internal Electronics and Wiring
 
-## [Part ?: Design Letter and Symbol Layout ](/design_letter_and_symbol_layout)
+## Part 3: Driver and Software
+
+## [Part 4: Letter-Symbol Layout](/letter-symbol_layout)
 
 
 #### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)
