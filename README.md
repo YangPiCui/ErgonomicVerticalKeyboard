@@ -67,7 +67,7 @@ corsair - need more people requesting it with a value proposition
 
 悠然自得数码 - need to create a 3D model first. 
 
-## [Part 1: Keyboard Shape and Keycap Layout](/keyboard_shape_and_keycap_layout) 
+## [Part 1: Keyboard Shape and Keycap Positioning](/keyboard_shape_and_keycap_positioning) 
 
 Next step, decide:
 
