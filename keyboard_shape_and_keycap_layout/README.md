@@ -1,7 +1,7 @@
 # Design Keyboard Shape 
 ## 1. Physiology
-A 90 degrees tenting erects the spine better than a 60 degree one. Try it with your hands.
-Incorporate the radiating keycap layout from the [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)
+A 90 degrees tenting erects the spine better than a 60 degree one. Try it with your hands.  
+Incorporate the radiating keycap layout from the [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)  
 Too many keys away from the home row makes touch typing difficult. As few keys as possible. 
 
 ## Concept Sketches
