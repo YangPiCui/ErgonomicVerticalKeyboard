@@ -1,5 +1,5 @@
 
-# Design Keyboard Shape 
+# Design Letter and Symbol Layout
 ## 1. Average Finger Strengths
 Fingers' total usage should be proportional to their strengths, which is proportional to the cube of their diameters.
 
