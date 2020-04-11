@@ -11,4 +11,8 @@
 <img src="thumb_rest_2.jpg" width="500">
 
 ## Design Rationale
+A 90 degrees tenting erects the spine better than a 60 degree one. Try it with your hands.
+
+Incorporate [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)
+
 Too many keys away from the home row makes touch typing difficult. As few keys as possible. This saves cost also.
