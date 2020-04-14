@@ -74,7 +74,7 @@ Next step, decide:
  1. ~~Play with Clojure, Leiningen, OpenSCAD. I am learning C++ and want to master it. I don't want to confuse myself with the language syntaxes before mastering C++.~~
  3. ~~get the 3D model in Fusion 360. Can't find one.~~
  4. ~~Ask a friend to do it. Friend left.~~
- 5. Buy a new desktop, take my sweet time, and design with my old good friend Solidworks.
+ 5. Setup a new desktop computer and learn FreeCAD.
 
 ## Part 2: Internal Electronics and Wiring
 
