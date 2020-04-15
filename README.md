@@ -75,7 +75,7 @@ Next step, decide:
 
 ## Part 3: Driver and Software
 
-## [Part 4: Optimize Letter-Symbol Layout](/LetterSymbolLayout)
+## [Part 4: Optimize Letter and Symbol Layout](/LetterSymbolLayout)
 
 
 #### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)
