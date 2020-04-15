@@ -1,8 +1,3 @@
-
-
-
-
-
 # The Design and Making of a Vertical Keyboard
 ## Introduction
 A sore neck, and sore little fingers? 
@@ -67,7 +62,7 @@ corsair - need more people requesting it with a value proposition
 
 悠然自得数码 - need to create a 3D model first. 
 
-## [Part 1: Keyboard Shape and Keycap Positioning](/keyboard_shape_and_keycap_positioning) 
+## [Part 1: Keyboard Shape and Keycap Positioning](/KeyboardShapeDesign) 
 
 Next step, decide:
 
@@ -80,7 +75,7 @@ Next step, decide:
 
 ## Part 3: Driver and Software
 
-## [Part 4: Letter-Symbol Layout](/letter-symbol_layout)
+## [Part 4: Letter-Symbol Layout](/LetterSymbolLayout)
 
 
 #### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)

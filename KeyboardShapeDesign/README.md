@@ -6,15 +6,15 @@ Too many keys away from the home row makes touch typing difficult. As few keys a
 Take average hand size, arm length, finger lengths and finger diameters from global population. Scale these variables to a single variable, such as height when changing the size of the keyboard.
 
 ## Concept Sketches
-<img src="key_map_sketch_0.jpg" width="500">
-<img src="concept_sketch_0.jpg" width="500">
-<img src="concept_sketch_1.jpg" width="500">
-<img src="concept_usage_0.jpg" width="500">
-<img src="concept_usage_1.jpg" width="500">
-<img src="concept_usage_2.jpg" width="500">
-<img src="thumb_rest_0.jpg" width="500">
-<img src="thumb_rest_1.jpg" width="500">
-<img src="thumb_rest_2.jpg" width="500">
+<img src="KeyMapSketch0.jpg" width="500">
+<img src="ConceptSketch0.jpg" width="500">
+<img src="ConceptSketch1.jpg" width="500">
+<img src="ConceptUsage0.jpg" width="500">
+<img src="ConceptUsage1.jpg" width="500">
+<img src="ConceptUsage2.jpg" width="500">
+<img src="ThumbRest0.jpg" width="500">
+<img src="ThumbRest1.jpg" width="500">
+<img src="ThumbRest2.jpg" width="500">
 
 
 
