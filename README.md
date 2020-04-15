@@ -62,7 +62,7 @@ corsair - need more people requesting it with a value proposition
 
 悠然自得数码 - need to create a 3D model first. 
 
-## [Part 1: Keyboard Shape and Keycap Positioning](/KeyboardShapeDesign) 
+## [Part 1: Design Keyboard Shape and Keycap Positioning](/KeyboardShapeDesign) 
 
 Next step, decide:
 
@@ -75,7 +75,7 @@ Next step, decide:
 
 ## Part 3: Driver and Software
 
-## [Part 4: Letter-Symbol Layout](/LetterSymbolLayout)
+## [Part 4: Optimize Letter-Symbol Layout](/LetterSymbolLayout)
 
 
 #### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)
