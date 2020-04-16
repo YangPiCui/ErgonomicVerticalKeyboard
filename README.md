@@ -48,19 +48,7 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 
 [Original Reddit Post](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) | [Reddit Post 1](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/)
 
-## Find a Company to Make This
-
-Razer 
-
-contact@ergodox-ez.com - will not make
-
-info@safetype.com
-
-steelseries.com
-
-corsair - need more people requesting it with a value proposition
-
-悠然自得数码 - need to create a 3D model first. 
+## [Find a Company to Make This](/ManufacturingRequests.txt)
 
 ## [Part 1: Design Keyboard Shape and Keycap Positioning](/KeyboardShapeDesign) 
 
