@@ -48,9 +48,9 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 
 [Original Reddit Post](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) | [Reddit Post 1](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/)
 
-## [Find a Company to Make This](/ManufacturingRequests.txt)
+## [Step 0: Find a Company to Make This](/ManufacturingRequests.txt)
 
-## [Part 1: Design Keyboard Shape and Keycap Positioning](/KeyboardShapeDesign) 
+## [Step 1: Design Keyboard Shape and Keycap Positioning](/KeyboardShapeDesign) 
 
 Next step, decide:
 
@@ -59,11 +59,11 @@ Next step, decide:
  4. ~~Ask a friend to do it. Friend left.~~
  5. Setup a new desktop computer and learn FreeCAD.
 
-## Part 2: Internal Electronics and Wiring
+## Step 2: Internal Electronics and Wiring
 
-## Part 3: Driver and Software
+## Step 3: Driver and Software
 
-## [Part 4: Optimize Letter and Symbol Layout](/LetterSymbolLayout)
+## [Step 4: Optimize Letter and Symbol Layout](/LetterSymbolLayout)
 
 
 #### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)
