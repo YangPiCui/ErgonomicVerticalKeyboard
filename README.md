@@ -1,3 +1,4 @@
+
 # The Design and Making of a Vertical Keyboard
 ## Introduction
 A sore neck, and sore little fingers? 
@@ -20,7 +21,7 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 
 7. Must not be too expensive.
 
-8. Must be open source and non-proprietary.
+8. Must be open source ~~and non-proprietary.~~ (I've had too much trouble with FreeCAD)
 
 ## Resources:
 
@@ -54,9 +55,10 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 Next step, decide:
 
  1. ~~Play with Clojure, Leiningen, OpenSCAD. I am learning C++ and want to master it. I don't want to confuse myself with the language syntaxes before mastering C++.~~
- 3. ~~get the 3D model in Fusion 360. Can't find one.~~
- 4. ~~Ask a friend to do it. Friend left.~~
- 5. Setup a new desktop computer and learn FreeCAD.
+ 2. ~~get the 3D model in Fusion 360. Can't find one.~~
+ 3. ~~Ask a friend to do it. Friend left.~~
+ 4. ~~Setup a new desktop computer and learn FreeCAD.~~
+ 5. Learn Catia
 
 ## Step 2: Internal Electronics and Wiring
 
