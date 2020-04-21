@@ -9,19 +9,17 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 
 1. Hands can rest on the desk with palms facing each other. This relaxes the shoulder and straightens the spine.
 
-2. The keyboard takes up minimal&nbsp;space. This leaves room for the mouse.
+2. The keyboard takes up minimal&nbsp;space leaving room for the mouse.
 
-3. Keyboard must be steady during single-hand typing. This is for gamers.
+3. Keyboard must be steady during single-hand typing/gaming.
 
-4. Concave design. This is to maximize finger comfort.
+4. Concave design to maximize finger-comfort.
 
-5. Mechanical switches or better.
+5. Uses mechanical switches.
 
-6. Better key layout&nbsp;than qwerty. This is for the next generation human beings.
+6. Optimized key layout. Qwerty layout no more.
 
-7. Must not be too expensive.
-
-8. Must be open source ~~and non-proprietary.~~ (I've had too much trouble with FreeCAD)
+7. Inexpensive for adoption.
 
 ## Resources:
 
@@ -57,7 +55,7 @@ Next step, decide:
  1. ~~Play with Clojure, Leiningen, OpenSCAD. I am learning C++ and want to master it. I don't want to confuse myself with the language syntaxes before mastering C++.~~
  2. ~~get the 3D model in Fusion 360. Can't find one.~~
  3. ~~Ask a friend to do it. Friend left.~~
- 4. ~~Setup a new desktop computer and learn FreeCAD.~~
+ 4. ~~Setup a new desktop computer and learn FreeCAD. (FreeCAD 0.18 and 0.19 has been way too inconvenient/problematic/buggy for me to design with.) ~~
  5. Learn Catia
 
 ## Step 2: Internal Electronics and Wiring
