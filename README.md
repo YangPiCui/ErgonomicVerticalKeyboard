@@ -1,4 +1,5 @@
 
+
 # The Design and Making of a Vertical Keyboard
 ## Introduction
 A sore neck, and sore little fingers? 
@@ -46,23 +47,28 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 [English Letter Frequency](https://norvig.com/mayzner.html)
 
 
-## [Step 0: Find a Company to Make This](/ManufacturingRequests.txt)
+## [~~Step 0: Find a Company to Make This (no one wants to make it)~~](/ManufacturingRequests.txt)
 
 ## [Step 1: Design Keyboard Shape and Keycap Positioning](/KeyboardShapeDesign) 
 
-Next step, decide:
+Next step:
 
  1. ~~Play with Clojure, Leiningen, OpenSCAD. I am learning C++ and want to master it. I don't want to confuse myself with the language syntaxes before mastering C++.~~
  2. ~~get the 3D model in Fusion 360. Can't find one.~~
  3. ~~Ask a friend to do it. Friend left.~~
- 4. ~~Setup a new desktop computer and learn FreeCAD. (FreeCAD 0.18 and 0.19 has been way too inconvenient/problematic/buggy for me to design with.) ~~
- 5. Learn Catia
+ 4. ~~Setup a new desktop computer and learn FreeCAD. (FreeCAD 0.18 and 0.19 has been way too inconvenient/problematic/buggy for me to design with.)~~ 
+ 5. ~~Learn Catia (Too expensive and no torrent)~~
+ 6. Design the keyboard case in Siemens NX12
 
 ## Step 2: Internal Electronics and Wiring
 
 ## Step 3: Driver and Software
 
 ## [Step 4: Optimize Letter and Symbol Layout](/LetterSymbolLayout)
+Next step:
+1. Break down the problem into smaller parts for C++
+2. 
 
 
-#### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)
+
+#### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (No patent use)
