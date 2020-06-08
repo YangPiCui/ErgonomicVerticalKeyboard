@@ -1,159 +1,213 @@
+#include <algorithm> // find
+#include <cctype> // toupper()
 #include <iostream>
+#include <map>
 #include <string>
 #include <vector>
 
-enum class Hand
-{
-	left,
-	right,
+#include "Finger.h"
+#include "Key.h"
+#include "Timer.h"
 
-	MAX_COUNT
-};
 
-std::string getHand(Hand hand)
+Key& getKeyByPosition(std::vector<Key> &keys, int row, int col)
 {
-	switch (hand)
-	{
-	case Hand::left:
-		return "left";
-		break;
-	case Hand::right:
-		return "right";
-		break;
-	case Hand::MAX_COUNT:
-	default:
-		return "unspecified";
-		break;
-	}
+	std::vector<Key>::iterator keyPtr{ std::find_if(keys.begin(), keys.end(),
+		[=](Key &key)
+		{
+			return (key.getRow() == row) && (key.getCol() == col);
+		}) };
+
+	if (keyPtr == keys.end())
+		std::cerr << "key at row:" << row << ", col:" << col << " not found\n";
+
+	return *keyPtr;
 }
 
-enum class Digit
+Key& getKeyByCharacter(std::vector<Key> &keys, char character)
 {
-	thumb,
-	index,
-	middle,
-	ring,
-	little,
+	std::vector<Key>::iterator keyPtr{ std::find_if(keys.begin(), keys.end(),
+		[=](Key &key)
+		{
+			return (key.getRow() == row) && (key.getCol() == col);
+		}) };
 
-	MAX_COUNT
-};
+	if (keyPtr == keys.end())
+		std::cerr << "key at row:" << row << ", col:" << col << " not found\n";
 
-std::string getDigit(Digit digit)
-{
-	switch (digit)
-	{
-	case Digit::thumb:
-		return "thumb";
-		break;
-	case Digit::index:
-		return "index";
-		break;
-	case Digit::middle:
-		return "middle";
-		break;
-	case Digit::ring:
-		return "ring";
-		break;
-	case Digit::little:
-		return "little";
-		break;
-	case Digit::MAX_COUNT:
-	default:
-		return "unspecified";
-		break;
-	}
+	return *keyPtr;
 }
 
-class Key; // forward declare the Key class
-
-class Finger
-{
-private:
-	Hand m_hand;
-	Digit m_digit;
-	Key m_homeKey; // The default home key for the finger
-	int_least64_t m_count; // number of finger presses
-	long double m_travel; // finger travel
-public:
-	Finger(Hand hand, Digit digit, Key &homeKey) : m_hand{hand}, m_digit{digit}, m_homeKey{homeKey}
-	{
-		m_count = 0;
-		m_travel = 0;
-	}
-
-	Finger& operator++()
-	{
-		++m_count;
-		++m_travel;
-
-		return *this;
-	}
-
-	void addCount(int count)
-	{
-		m_count += count;
-	}
-
-	void addTravel(long double travel)
-	{
-		m_travel += travel;
-	}
-
-	friend std::ostream& operator<<(std::ostream& out, Finger &finger)
-	{
-		out << getHand(finger.m_hand) << " " << getDigit(finger.m_digit) << " - "
-			<< "count: " << finger.m_count << ", " 
-			<< "travel: " << finger.m_travel;
-
-		return out;
-	}
-};
-
-class Key
-{
-private:
-	int m_row; // The home row is at row 0; up one row is row 1; up two rows is row 2; down one row is row -1, etc.
-	int m_col; // The first column at the left, where the left little finger travels on, is column 1.
-			   // The second column from the left, where the left ring finger travels on, is column 2.
-			   // The first column from the right, where the right little finger travels on, is column -1. 
-			   // The second column from the right, where the right ring finger travels on, is column -2, etc.
-			   // There is no 0th column.
-	char m_lr; // The lower right key. This returns the default key without any modifier keys, such as the 'shift' key, being pressed together.
-	char m_ur; // The upper right key. This is returned together with the 'shift' key.
-	char m_ll; // 'Fn' key
-	char m_ul; // 'Fn' + 'shift'
-	Finger m_finger;
-public:
-	Key(int row, int col, char lr, char ur, char ll, char ul, Finger finger)
-	{}
-};
-
+//std::vector<Key&> getKeysByAsciiCode(const std::vector<Key> &keys, int asciiCode)
+//{
+//	std::vector<Key&> keysFound;
+//
+//	std::for_each(keys.begin(), keys.end(),
+//		[](const Key &key)
+//		{
+//			if ()
+//		}
+//
+//
+//	return *std::find_if(keys.begin(), keys.end(),
+//		[=](Key &key)
+//		{
+//			return (key.getRow() == row) && (key.getCol() == col);
+//		});
+//}
 
 int main()
 {
-	std::vector<Finger> fingers;
+	// =================================
+	// =================================
+	// Optimization parameter weightings
+	// The higher the number, the more important its corresponding parameter.
+	double evenFingerUsage = 1.0; // How evenly should be fingers be used according to their strengths?
+	double keyScore = 1.0; // How important is it for the desired keys, which have higher key scores, to be pressed more frequently? 
+	double handTravel = 1.0;
 
-	for (int i{ 0 }; i < static_cast<int>(Hand::MAX_COUNT); ++i)
+	// =================================
+	// =================================
+	// Create the Finger class variables.
+	// Based on engineering priciples, the strength of a finger is approximately proportional to the qube of the width of the finger.
+	// The tip knuckle of my little finger has a width of 13.3mm; and that of my index finger is 16.0mm. (16.0/13.3)^3 = 1.74.
+	// Therefore, the total load on the index finger should be 1.74 times more than that on the little finger.
+	// In other words, total key press on the index finger should be ideally 1.74 times more than on the little finger.
+	Finger leftLittle{ Hand::left, Digit::little, 1.0, 0, 1 };  Finger rightLittle{ Hand::right, Digit::little, 1.0, 0, -1 };
+	Finger leftRing{ Hand::left, Digit::ring, 1.32, 0, 2 };	    Finger rightRing{ Hand::right, Digit::ring, 1.32, 0, -2 };
+	Finger leftMiddle{ Hand::left, Digit::middle, 1.58, 0, 3 }; Finger rightMiddle{ Hand::right, Digit::middle, 1.58, 0, -3 };
+	Finger leftIndex{ Hand::left, Digit::index, 1.74, 0, 4 };   Finger rightIndex{ Hand::right, Digit::index, 1.74, 0, -4 };
+	Finger leftThumb{ Hand::left, Digit::thumb, 1.74, -3, 5 };  Finger rightThumb{ Hand::right, Digit::thumb, 1.74, -3, -5 };
+
+	std::vector<Finger*> fingers{&leftLittle,  &leftRing,  &leftMiddle,  &leftIndex,  &leftThumb		
+								,&rightLittle, &rightRing, &rightMiddle, &rightIndex, &rightThumb};	
+
+	// =================================
+	// =================================
+	std::vector<Key> keys;
+	double attenuationFactor{ 0.7 }; // A key two columns right to the index finger's home key would have a score of 1.74*0.7^2 = 0.85,
+							         // making it slightly less desirable than the little finger's home key to be pressed 
+	std::vector<int> lowerCaseLetters{};
+	std::vector<int> upperCaseLetters{};
+	std::vector<int> symbols{};
+	std::vector<int> controlKeys{};
+
+
+	// ---------------------------------
+	// Create the keys with their corresponding fingers and scores.
+	// See "Key.h" for the meaning of parameters
+
+	// each finger's vertical home column
+	int row{}; int col{};
+	for (int row{ -2 }; row <= 2; ++row)
 	{
-		for (int j{ 0 }; j < static_cast<int>(Digit::MAX_COUNT); ++j)
-		{
-			Finger finger{ static_cast<Hand>(i), static_cast<Digit>(j) };
-			fingers.push_back(finger);
+		{   // left little finger's key column
+			col = 1; Key key{ row, col, &leftLittle, attenuationFactor };
+			keys.push_back(key);
+		}
+
+		{   // right little finger's key column
+			col = -1; Key key{ row, col, &rightLittle, attenuationFactor };
+			keys.push_back(key);
+		}
+
+		{   // left ring finger
+			col = 2; Key key{ row, col, &leftRing, attenuationFactor };
+			keys.push_back(key);
+		}
+
+		{   // right ring finger
+			col = -2; Key key{ row, col, &rightRing, attenuationFactor };
+			keys.push_back(key);
+		}
+
+		{   // left middle finger
+			col = 3; Key key{ row, col, &leftMiddle, attenuationFactor };
+			keys.push_back(key);
+		}
+
+		{   // right middle finger
+			col = -3; Key key{ row, col, &rightMiddle, attenuationFactor };
+			keys.push_back(key);
+		}
+
+		{   // left index finger
+			col = 4; Key key{ row, col, &leftIndex, attenuationFactor };
+			keys.push_back(key);
+		}
+
+		{   // right index finger
+			col = -4; Key key{ row, col, &rightIndex, attenuationFactor };
+			keys.push_back(key);
 		}
 	}
 
-	for (Finger f : fingers)
+	// Extra columns for the index fingers
+	for (int row{ 0 }; row <= 2; ++row)
 	{
-		std::cout << f << "\n";
+		for (int col{ 5 }; col <= 6; ++col)
+		{
+			// left index finger
+			Key key{ row, col, &leftIndex, attenuationFactor };
+			keys.push_back(key);
+
+			// right index finger
+			int colRight{ -col };
+			Key keyRight{ row, colRight, &rightIndex, attenuationFactor };
+			keys.push_back(keyRight);
+		}
 	}
 
+	// Thumb keys
+	row = -3;
+	for (int col{ 5 }; col <= 6; ++col)
+	{
+		Key key{ row, col, &leftThumb, attenuationFactor };
+		keys.push_back(key);
+
+		// right index finger
+		int colRight{ -col };
+		Key keyRight{ row, colRight, &rightThumb, attenuationFactor };
+		keys.push_back(keyRight);
+	}
+
+	//for (auto key : keys)
+	//	std::cout << key << '\n';
+
+	// ---------------------------------
+	// Assign characters to keys.
+
+	// Set the number characters 0 1 2 3 4 5 6 7 8 9 0
+	row = 2;
+	for (int col{ 1 }; col <= 5; ++col)
+	{
+		std::cout << getKeyByPosition(keys, 2, col).setAsciiCode('0' + col, 0, false) << '\n';
+	}
+
+	for (int col{ -5 }, digit{ 6 }; col <= -1; ++col, ++digit)
+	{
+		std::cout << getKeyByPosition(keys, 2, col).setAsciiCode(static_cast<int>('0' + digit%10), 0, false) << '\n';
+	}
+
+	// Set 'space' and 'enter' on the thumb keys
+	std::cout << getKeyByPosition(keys, -3, 5).setAsciiCode(' ', 0, false) << '\n';
+	std::cout << getKeyByPosition(keys, -3, -5).setAsciiCode(' ', 0, false) << '\n';
+	std::cout << getKeyByPosition(keys, -3, 6).setAsciiCode(10, 0, false) << '\n';
+	std::cout << getKeyByPosition(keys, -3, 6).setAsciiCode(10, 0, false) << '\n';
+	
+	std::cout << getKeyByPosition(keys, -3, 5).whereCharacter(' ');
+	
 
 
-	// load the data
-	// use the initial assignment to iterate through the data and calculate a score
-	  // constraints, like a particular key only accepts certain letters.
 
 
 
-	return 1;
+
+
+	// Load the data. The data is a plain document one would normally type on a keyboard. 
+	// Punctuations, spaces, enters, symbols should all be present.
+
+
+
+	return 0;
 }
