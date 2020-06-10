@@ -29,8 +29,6 @@ Try rotating your palms to face each other. Do you feel your necks relieved, sho
 
 [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide)
 
-[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)
-
 [reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)
 
 [https://geekhack.org/](https://geekhack.org/)
