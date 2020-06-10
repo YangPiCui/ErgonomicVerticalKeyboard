@@ -41,7 +41,7 @@ Try rotating your palms to face each other. Do you feel your necks relieved, sho
 
 [English Letter Frequency](https://norvig.com/mayzner.html)
 
-## [0. Keyboard Case](KeyboardCase) 
+## 0. [Keyboard Case](KeyboardCase) 
 
 Next step:
 
@@ -57,12 +57,12 @@ Next step:
 
 ## 2. [Firmware and Software](FirmwareAndSoftware)
 
-## [3. Character Layout](CharacterLayout)
+## 3. [Character Layout](CharacterLayout)
 Next step:
 1. ~~Break down the problem into smaller parts for C++.~~
 2. Figure out how to do simulated annealling. 
 
-## [4. Manufacturing Request](ManufacturingRequests)
+## 4. [Manufacturing Request](ManufacturingRequests)
 No one wants to make it right now. So I will prototype it.
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free and no use with patents)
