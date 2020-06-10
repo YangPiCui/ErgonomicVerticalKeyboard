@@ -1,0 +1,18 @@
+﻿LoadOptions_SearchPaths: C:\\Users\\Yang\\Desktop\\YangsFiles\\Projects\\ErgonomicVerticalKeyboard\\KeyboardShapeDesign\\ASM_ErgonomicVerticalKeyboard_v1.0... 
+LoadOptions_LoadComponents: load_all_components
+LoadOptions_PartLoadOption: partially_load
+LoadOptions_LoadWAVE: YES
+LoadOptions_LoadWAVEParents: IMMEDIATE
+LoadOptions_LoadSubstitution: dont_allow_substitution
+LoadOptions_LoadLatest: NO
+LoadOptions_LoadOption: load_from_dir
+LoadOptions_ManagedModeLoadOption: load_by_revision_rule
+LoadOptions_LoadFilters: load_no_components
+LoadOptions_LoadFailOption: dont_abort
+LoadOptions_ReferenceSets: "As Saved" "Use Model" "Entire Part" "Empty" 
+LoadOptions_ApplyAllLevels: NO
+LoadOptions_GenerateMissingPFM: YES
+LoadOptions_BookmarkRefSets: Import
+LoadOptions_BookmarkPartsLoad: Load_Visible
+LoadOptions_BookmarkRestoreFullyLoadedState: no
+LoadOptions_SubsetLoadBehavior: Do_Not_Update

@@ -1,2 +1,0 @@
-C:\Users\Yang\Desktop\YangsFiles\Projects\ErgonomicVerticalKeyboard\LetterSymbolLayout\LetterSymbolLayoutOptimizerInC++\Debug\LetterSymbolLayoutOptimizerInC++.exe
-C:\Users\Yang\Desktop\YangsFiles\Projects\ErgonomicVerticalKeyboard\LetterSymbolLayout\LetterSymbolLayoutOptimizerInC++\Debug\LetterSymbolLayoutOptimizerInC++.pdb

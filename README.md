@@ -1,28 +1,23 @@
 
 
+
 # The Design and Making of a Vertical Keyboard
 ## Introduction
-A sore neck, and sore little fingers? 
-Developing a stretched forth neck and a hump back? (A broken posture is terrible for attracting the opposite sex.)
-The keyboard and the mouse are to be blamed, because they force our hands to lay flat on the desk pronated.
+Sore neck and sore fingers from typing? A stretched forth neck and a hump back?  
+A broken posture is unattractive. The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated. This in turn stresses our neck.  
+Try rotating your palms to face each other. Do you feel your necks relieved, shoulder relaxed and spine straightened? This is the fix.  
 
-## Requirements:
+## Requirements
 
-1. Hands can rest on the desk with palms facing each other. This relaxes the shoulder and straightens the spine.
+1. Hands can rest on the desk with palms facing each other.  
+2. The keyboard takes up minimal space, leaving room for the mouse.  
+3. Concave design to maximize finger-comfort.  
+4. Keyboard must be steady during single-hand typing/gaming.  
+5. Uses mechanical switches.  
+7. Optimized key layout. No more Qwerty layout.  
+8. Inexpensive for mass adoption.  
 
-2. The keyboard takes up minimal&nbsp;space leaving room for the mouse.
-
-3. Keyboard must be steady during single-hand typing/gaming.
-
-4. Concave design to maximize finger-comfort.
-
-5. Uses mechanical switches.
-
-6. Optimized key layout. Qwerty layout no more.
-
-7. Inexpensive for adoption.
-
-## Resources:
+## Resources
 
 [Reddit Post 0](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) | [Reddit Post 1](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Main Reddit Thread ](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/)  
 
@@ -46,10 +41,7 @@ The keyboard and the mouse are to be blamed, because they force our hands to lay
 
 [English Letter Frequency](https://norvig.com/mayzner.html)
 
-
-## [~~Step 0: Find a Company to Make This (no one wants to make it)~~](/ManufacturingRequests.txt)
-
-## [Step 1: Design Keyboard Shape and Keycap Positioning](/KeyboardShapeDesign) 
+## [Step 1: Keyboard Case](/KeyboardShapeDesign) 
 
 Next step:
 
@@ -58,17 +50,19 @@ Next step:
  3. ~~Ask a friend to do it. Friend left.~~
  4. ~~Setup a new desktop computer and learn FreeCAD. (FreeCAD 0.18 and 0.19 has been way too inconvenient/problematic/buggy for me to design with.)~~ 
  5. ~~Learn Catia (Too expensive and no torrent)~~
- 6. Design the keyboard case in Siemens NX12
+ 6. ~~Design the keyboard case in Siemens NX12.~~
+ 7. 3D print the case.
 
-## Step 2: Internal Electronics and Wiring
+## Step 2: Electronics
 
-## Step 3: Driver and Software
+## Step 3: Firmware and Software
 
-## [Step 4: Optimize Letter and Symbol Layout](/LetterSymbolLayout)
+## [Step 4: Character Layout](CharacterLayout)
 Next step:
-1. Break down the problem into smaller parts for C++
-2. 
+1. ~~Break down the problem into smaller parts for C++.~~
+2. Figure out how to do simulated annealling. 
 
+## [Step 5: Manufacturing Request](ManufacturingRequests)
+No one wants to make it right now. So I will prototype it.
 
-
-#### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (No patent use)
+###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free and no use with patents)
