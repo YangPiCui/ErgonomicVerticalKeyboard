@@ -63,6 +63,7 @@ Next step:
 2. Figure out how to do simulated annealling. 
 
 ## 4. [Manufacturing Request](ManufacturingRequests)
-No one wants to make it right now. So I will prototype it.
-
+No one wants to make it right now. So I will prototype it.  
+  
+  
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free and no use with patents)
