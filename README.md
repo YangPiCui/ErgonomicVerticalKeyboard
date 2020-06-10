@@ -9,13 +9,13 @@ Try rotating your palms to face each other. Do you feel your necks relieved, sho
 
 ## Requirements
 
-1. Hands can rest on the desk with palms facing each other.  
-2. The keyboard takes up minimal space, leaving room for the mouse.  
-3. Concave design to maximize finger-comfort.  
-4. Keyboard must be steady during single-hand typing/gaming.  
-5. Uses mechanical switches.  
-7. Optimized key layout. No more Qwerty layout.  
-8. Inexpensive for mass adoption.  
+0. Hands can rest on the desk with palms facing each other.  
+1. The keyboard takes up minimal space, leaving room for the mouse.  
+2. Concave design to maximize finger-comfort.  
+3. Keyboard must be steady during single-hand typing/gaming.  
+4. Uses mechanical switches.  
+5. Optimized key layout. No more Qwerty layout.  
+6. Inexpensive for mass adoption.  
 
 ## Resources
 
@@ -41,7 +41,7 @@ Try rotating your palms to face each other. Do you feel your necks relieved, sho
 
 [English Letter Frequency](https://norvig.com/mayzner.html)
 
-## [Step 1: Keyboard Case](/KeyboardShapeDesign) 
+## [0. Keyboard Case](KeyboardCase) 
 
 Next step:
 
@@ -53,16 +53,16 @@ Next step:
  6. ~~Design the keyboard case in Siemens NX12.~~
  7. 3D print the case.
 
-## Step 2: Electronics
+## 1. [Electronics](Electronics)
 
-## Step 3: Firmware and Software
+## 2. [Firmware and Software](FirmwareAndSoftware)
 
-## [Step 4: Character Layout](CharacterLayout)
+## [3. Character Layout](CharacterLayout)
 Next step:
 1. ~~Break down the problem into smaller parts for C++.~~
 2. Figure out how to do simulated annealling. 
 
-## [Step 5: Manufacturing Request](ManufacturingRequests)
+## [4. Manufacturing Request](ManufacturingRequests)
 No one wants to make it right now. So I will prototype it.
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free and no use with patents)
