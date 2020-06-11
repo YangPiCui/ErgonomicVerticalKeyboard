@@ -19,15 +19,12 @@ Try rotating your palms to face each other. Do you feel your necks relieved, sho
 
 ## Resources
 
+[reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)  
+[https://geekhack.org/](https://geekhack.org/)  
+[Xah Keyboard Guide](http://Xah%20Keyboard%20Guide)  
 [Reddit Post 0](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) | [Reddit Post 1](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Main Reddit Thread ](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/)  
 
-[reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)
-
-[https://geekhack.org/](https://geekhack.org/)  
-
-[Windows 10 Key Mapping software](https://thegeekpage.com/top-10-best-free-key-mapping-software-for-windows-10/)&nbsp;| [SharpKeys](https://github.com/randyrants/sharpkeys/releases)
-
-## 0. [Keyboard Case](KeyboardCase) 
+## [Keyboard Case](KeyboardCase) 
 
 Next step:
 
@@ -39,16 +36,16 @@ Next step:
  6. ~~Design the keyboard case in Siemens NX12.~~
  7. 3D print the case.
 
-## 1. [Electronics](Electronics)
+## [Electronics](Electronics)
 
-## 2. [Firmware and Software](FirmwareAndSoftware)
+## [Firmware and Software](FirmwareAndSoftware)
 
-## 3. [Character Layout](CharacterLayout)
+## [Character Layout](CharacterLayout)
 Next step:
 1. ~~Break down the problem into smaller parts for C++.~~
 2. Figure out how to do simulated annealling. 
 
-## 4. [Manufacturing Request](ManufacturingRequests)
+## [Manufacturing Requests](ManufacturingRequests)
 No one wants to make it right now. So I will prototype it.  
   
   
