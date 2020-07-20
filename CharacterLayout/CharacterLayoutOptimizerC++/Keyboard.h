@@ -9,6 +9,7 @@ class Keyboard
 {
 private:
 	std::vector<Key> m_keys;
+	int m_score;  // The overall score of this particular keyborad
 public:
 	Keyboard();
 
@@ -18,6 +19,9 @@ public:
 		return *this;
 	}
 
+	// Save the keyboard layout to an external file.
+
+	// Print the keyboard score and its layout
 	friend std::ostream& const operator<<(std::ostream &out, const Keyboard &keyboard)
 	{
 		

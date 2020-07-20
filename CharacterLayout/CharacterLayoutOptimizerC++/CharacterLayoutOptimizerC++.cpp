@@ -61,9 +61,9 @@ int main()
 	// #######################################
 	// ## Optimization Parameters 
 	// #######################################
-	double evenFingerUsage = 1.0; // How evenly should be fingers be used according to their strengths?
+	double evenFingerUsage = 1.0; // How important it is for the fingers to be evenly used according to their strengths.
 	double keyScore = 1.0; // How important is it for the desired keys, which have higher key scores, to be pressed more frequently? 
-	double handTravel = 1.0;
+	double handTravel = 1.0; // How important it is to minimize hand travel?
 
 	// ############################################
 	// Create the Finger class variables.
@@ -77,123 +77,123 @@ int main()
 	Finger leftIndex{ Hand::left, Digit::index, 1.74, 0, 4 };   Finger rightIndex{ Hand::right, Digit::index, 1.74, 0, -4 };
 	Finger leftThumb{ Hand::left, Digit::thumb, 1.74, -3, 5 };  Finger rightThumb{ Hand::right, Digit::thumb, 1.74, -3, -5 };
 
-	std::vector<Finger*> fingers{ &leftLittle,  &leftRing,  &leftMiddle,  &leftIndex,  &leftThumb
-								,&rightLittle, &rightRing, &rightMiddle, &rightIndex, &rightThumb };
+	//std::vector<Finger*> fingers{ &leftLittle,  &leftRing,  &leftMiddle,  &leftIndex,  &leftThumb
+	//							,&rightLittle, &rightRing, &rightMiddle, &rightIndex, &rightThumb };
 
-	// =================================
-	// =================================
-	std::vector<Key> keys;
-	double attenuationFactor{ 0.7 }; // A key two columns right to the index finger's home key would have a score of 1.74*0.7^2 = 0.85,
-									 // making it slightly less desirable than the little finger's home key to be pressed 
-	std::vector<int> lowerCaseLetters{};
-	std::vector<int> upperCaseLetters{};
-	std::vector<int> symbols{};
-	std::vector<int> controlKeys{};
+	//// =================================
+	//// =================================
+	//std::vector<Key> keys;
+	//double attenuationFactor{ 0.7 }; // A key two columns right to the index finger's home key would have a score of 1.74*0.7^2 = 0.85,
+	//								 // making it slightly less desirable than the little finger's home key to be pressed 
+	//std::vector<int> lowerCaseLetters{};
+	//std::vector<int> upperCaseLetters{};
+	//std::vector<int> symbols{};
+	//std::vector<int> controlKeys{};
 
 
-	// ---------------------------------
-	// Create the keys with their corresponding fingers and scores.
-	// See "Key.h" for the meaning of parameters
+	//// ---------------------------------
+	//// Create the keys with their corresponding fingers and scores.
+	//// See "Key.h" for the meaning of parameters
 
-	// each finger's vertical home column
-	int row{}; int col{};
-	for (int row{ -2 }; row <= 2; ++row)
-	{
-		{   // left little finger's key column
-			col = 1; Key key{ row, col, &leftLittle, attenuationFactor };
-			keys.push_back(key);
-		}
+	//// each finger's vertical home column
+	//int row{}; int col{};
+	//for (int row{ -2 }; row <= 2; ++row)
+	//{
+	//	{   // left little finger's key column
+	//		col = 1; Key key{ row, col, &leftLittle, attenuationFactor };
+	//		keys.push_back(key);
+	//	}
 
-		{   // right little finger's key column
-			col = -1; Key key{ row, col, &rightLittle, attenuationFactor };
-			keys.push_back(key);
-		}
+	//	{   // right little finger's key column
+	//		col = -1; Key key{ row, col, &rightLittle, attenuationFactor };
+	//		keys.push_back(key);
+	//	}
 
-		{   // left ring finger
-			col = 2; Key key{ row, col, &leftRing, attenuationFactor };
-			keys.push_back(key);
-		}
+	//	{   // left ring finger
+	//		col = 2; Key key{ row, col, &leftRing, attenuationFactor };
+	//		keys.push_back(key);
+	//	}
 
-		{   // right ring finger
-			col = -2; Key key{ row, col, &rightRing, attenuationFactor };
-			keys.push_back(key);
-		}
+	//	{   // right ring finger
+	//		col = -2; Key key{ row, col, &rightRing, attenuationFactor };
+	//		keys.push_back(key);
+	//	}
 
-		{   // left middle finger
-			col = 3; Key key{ row, col, &leftMiddle, attenuationFactor };
-			keys.push_back(key);
-		}
+	//	{   // left middle finger
+	//		col = 3; Key key{ row, col, &leftMiddle, attenuationFactor };
+	//		keys.push_back(key);
+	//	}
 
-		{   // right middle finger
-			col = -3; Key key{ row, col, &rightMiddle, attenuationFactor };
-			keys.push_back(key);
-		}
+	//	{   // right middle finger
+	//		col = -3; Key key{ row, col, &rightMiddle, attenuationFactor };
+	//		keys.push_back(key);
+	//	}
 
-		{   // left index finger
-			col = 4; Key key{ row, col, &leftIndex, attenuationFactor };
-			keys.push_back(key);
-		}
+	//	{   // left index finger
+	//		col = 4; Key key{ row, col, &leftIndex, attenuationFactor };
+	//		keys.push_back(key);
+	//	}
 
-		{   // right index finger
-			col = -4; Key key{ row, col, &rightIndex, attenuationFactor };
-			keys.push_back(key);
-		}
-	}
+	//	{   // right index finger
+	//		col = -4; Key key{ row, col, &rightIndex, attenuationFactor };
+	//		keys.push_back(key);
+	//	}
+	//}
 
-	// Extra columns for the index fingers
-	for (int row{ 0 }; row <= 2; ++row)
-	{
-		for (int col{ 5 }; col <= 6; ++col)
-		{
-			// left index finger
-			Key key{ row, col, &leftIndex, attenuationFactor };
-			keys.push_back(key);
+	//// Extra columns for the index fingers
+	//for (int row{ 0 }; row <= 2; ++row)
+	//{
+	//	for (int col{ 5 }; col <= 6; ++col)
+	//	{
+	//		// left index finger
+	//		Key key{ row, col, &leftIndex, attenuationFactor };
+	//		keys.push_back(key);
 
-			// right index finger
-			int colRight{ -col };
-			Key keyRight{ row, colRight, &rightIndex, attenuationFactor };
-			keys.push_back(keyRight);
-		}
-	}
+	//		// right index finger
+	//		int colRight{ -col };
+	//		Key keyRight{ row, colRight, &rightIndex, attenuationFactor };
+	//		keys.push_back(keyRight);
+	//	}
+	//}
 
-	// Thumb keys
-	row = -3;
-	for (int col{ 5 }; col <= 6; ++col)
-	{
-		Key key{ row, col, &leftThumb, attenuationFactor };
-		keys.push_back(key);
+	//// Thumb keys
+	//row = -3;
+	//for (int col{ 5 }; col <= 6; ++col)
+	//{
+	//	Key key{ row, col, &leftThumb, attenuationFactor };
+	//	keys.push_back(key);
 
-		// right index finger
-		int colRight{ -col };
-		Key keyRight{ row, colRight, &rightThumb, attenuationFactor };
-		keys.push_back(keyRight);
-	}
+	//	// right index finger
+	//	int colRight{ -col };
+	//	Key keyRight{ row, colRight, &rightThumb, attenuationFactor };
+	//	keys.push_back(keyRight);
+	//}
 
-	//for (auto key : keys)
-	//	std::cout << key << '\n';
+	////for (auto key : keys)
+	////	std::cout << key << '\n';
 
-	// ---------------------------------
-	// Assign characters to keys.
+	//// ---------------------------------
+	//// Assign characters to keys.
 
-	// Set the number characters 0 1 2 3 4 5 6 7 8 9 0
-	row = 2;
-	for (int col{ 1 }; col <= 5; ++col)
-	{
-		std::cout << getKeyByPosition(keys, 2, col).setAsciiCode('0' + col, 0, false) << '\n';
-	}
+	//// Set the number characters 0 1 2 3 4 5 6 7 8 9 0
+	//row = 2;
+	//for (int col{ 1 }; col <= 5; ++col)
+	//{
+	//	std::cout << getKeyByPosition(keys, 2, col).setAsciiCode('0' + col, 0, false) << '\n';
+	//}
 
-	for (int col{ -5 }, digit{ 6 }; col <= -1; ++col, ++digit)
-	{
-		std::cout << getKeyByPosition(keys, 2, col).setAsciiCode(static_cast<int>('0' + digit % 10), 0, false) << '\n';
-	}
+	//for (int col{ -5 }, digit{ 6 }; col <= -1; ++col, ++digit)
+	//{
+	//	std::cout << getKeyByPosition(keys, 2, col).setAsciiCode(static_cast<int>('0' + digit % 10), 0, false) << '\n';
+	//}
 
-	// Set 'space' and 'enter' on the thumb keys
-	std::cout << getKeyByPosition(keys, -3, 5).setAsciiCode(' ', 0, false) << '\n';
-	std::cout << getKeyByPosition(keys, -3, -5).setAsciiCode(' ', 0, false) << '\n';
-	std::cout << getKeyByPosition(keys, -3, 6).setAsciiCode(10, 0, false) << '\n';
-	std::cout << getKeyByPosition(keys, -3, 6).setAsciiCode(10, 0, false) << '\n';
+	//// Set 'space' and 'enter' on the thumb keys
+	//std::cout << getKeyByPosition(keys, -3, 5).setAsciiCode(' ', 0, false) << '\n';
+	//std::cout << getKeyByPosition(keys, -3, -5).setAsciiCode(' ', 0, false) << '\n';
+	//std::cout << getKeyByPosition(keys, -3, 6).setAsciiCode(10, 0, false) << '\n';
+	//std::cout << getKeyByPosition(keys, -3, 6).setAsciiCode(10, 0, false) << '\n';
 
-	std::cout << getKeyByPosition(keys, -3, 5).whereCharacter(' ');
+	//std::cout << getKeyByPosition(keys, -3, 5).whereCharacter(' ');
 
 
 

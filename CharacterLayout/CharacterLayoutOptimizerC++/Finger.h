@@ -73,6 +73,8 @@ private:
 	Hand m_hand;
 	Digit m_digit;
 	double m_strength; // the higher the number, the stronger the finger.
+	int m_homeRow;
+	int m_homeCol;
 	int m_row; // current row of the finger on the keyboard. See "Key.h" for how the rows and columns are defined.
 	int m_col; // current column of this finger.
 	int_least64_t m_count; // number of finger presses
@@ -112,5 +114,8 @@ public:
 		return out;
 	}
 };
+
+
+
 
 #endif
