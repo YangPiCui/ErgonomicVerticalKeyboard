@@ -34,7 +34,8 @@ Next step:
  4. ~~Setup a new desktop computer and learn FreeCAD. (FreeCAD 0.18 and 0.19 has been way too inconvenient/problematic/buggy for me to design with.)~~ 
  5. ~~Learn Catia (Too expensive and no torrent)~~
  6. ~~Design the keyboard case in Siemens NX12.~~
- 7. 3D print the case.
+ 7. ~~3D print the case.~~
+ 8. Iterate Case Design
 
 ## [Electronics](Electronics)
 

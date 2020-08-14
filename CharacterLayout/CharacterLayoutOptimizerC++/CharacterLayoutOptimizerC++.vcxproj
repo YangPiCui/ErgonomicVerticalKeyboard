@@ -144,7 +144,6 @@
   <ItemGroup>
     <ClInclude Include="Finger.h" />
     <ClInclude Include="Keyboard.h" />
-    <ClInclude Include="Key.h" />
     <ClInclude Include="Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

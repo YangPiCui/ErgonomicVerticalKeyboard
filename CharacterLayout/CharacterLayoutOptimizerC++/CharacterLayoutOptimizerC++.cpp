@@ -6,7 +6,7 @@
 #include <vector>
 
 #include "Finger.h"
-#include "Key.h"
+#include "Keyboard.h"
 #include "Timer.h"
 
 

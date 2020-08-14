@@ -78,11 +78,13 @@ private:
 	int m_row; // current row of the finger on the keyboard. See "Key.h" for how the rows and columns are defined.
 	int m_col; // current column of this finger.
 	int_least64_t m_count; // number of finger presses
-	long double m_travel; // finger travel
+	long double m_travel; // how much this finger has travelled
 public:
-	Finger(Hand hand = Hand::left, Digit digit = Digit::little, double strength = 1.0, int row = 0, int col = 0)
-		: m_hand{ hand }, m_digit{ digit }, m_strength{ strength }, m_row{ row }, m_col{ col }
+	Finger(Hand hand = Hand::left, Digit digit = Digit::little, double strength = 1.0, int homeRow = 0, int homeCol = 0)
+		: m_hand{ hand }, m_digit{ digit }, m_strength{ strength }, m_homeRow{ homeRow }, m_homeCol{ homeCol }
 	{
+		m_row = m_homeRow;
+		m_col = m_homeCol;
 		m_count = 0;
 		m_travel = 0;
 	}

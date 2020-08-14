@@ -26,3 +26,5 @@ Teensy header pins [单排针1*40双排排针2*40圆2.54mm间距](https://detail
 [2x TRRS 3.5mm音频座](https://detail.tmall.com/item.htm?id=601564458381&spm=a1z09.2.0.0.7d1f2e8depIv8w&_u=b1t8kl8uc061)  
 1x 4节3.5mm公对公音频线(>0.5m)  
 [0.7mm 直焊型漆包线免刮漆](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7d1f2e8depIv8w&id=548036303261&_u=b1t8kl8u510f)  
+
+# Sodering
