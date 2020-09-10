@@ -10,17 +10,26 @@ Based on EVK version 1.2.
 
 ### 0. Find the Natural Path (spline) Travelled by the Middle Finger.
 Put a piece of paper on the table. Rest the left hand on the piece of paper and point the palm horizontally to the right. Use a pen to mark the path travelled by the middle finger onto the paper as one curls the finger. 
-<img src="/Images/MidFingerPath0.jpg" width="500"> 
+<img src="./Images/MidFingerPath0.jpg" width="500"> 
 <img src="/Images/MidFingerPath1.jpg" width="500"> 
 <img src="/Images/FingerTipPath0.png" width="500"> 
+I used the middle finger because it's the longest finger. Other fingers should trace the same spline. 
+Import the raster image into NX12 and sketch the spline. Then, tilt each key along the spline to further fit the finger actions. See "ASM_MASTER_MidFingeColumn.prt".  
+<img src="/Images/ASM_MASTER_MidFingeColumn0.PNG" width="500">  
 
+### 1. Mount the Key Switches
+Create the key assembly and mount the keys in the same file.  
+Connect the key mounts with NX12 Bridge Curve, Studio Surface, and the Sew Feature.  
+<img src="/Images/ASM_MASTER_MidFingeColumn0.PNG" width="500">   
 
-I used the middle finger because it's the longest finger. Other fingers are assumed to trace out the same spline. 
-Each key is tilted along the spline to maximize typing comfort.
+Create family parts for the other fingers, i.e. "ASM_SLAVE_LittleFingerColumn.prt".  
+<img src="/Images/PartFamilies.PNG" width="500">  
 
-
-### 1. Positioning of the Keys
-Find the natural path of the middle (longest) finger.  
+### 2. Put Everything together
+The Github folder "Images/MeasurementMethods/" constains photos illustrating how I tool my own anthropometric data.  
+Create the thumb keys in "ASM_ThumbPlate.prt".  
+Create "ASM_Case_LeftHand.prt" and trace out the knuckles with curves. Assemble each finger's key columns onto the trace curves.
+Use NX12 Bridge Curves, Studio Surfaces, Sew and other features to model the case.
 
 
 

@@ -24,7 +24,7 @@ Design Objectives:
 
 ## [Character Layout](CharacterLayout)
 Design Objectives:  
-0. Optimized key layout to further reduce typing fatigue. No more Qwerty layout.
+0. Optimized key layout to further reduce typing fatigue. No more Qwerty layout.  
 
 ## [Manufacturing Requests](ManufacturingRequests)
   
