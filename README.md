@@ -10,11 +10,11 @@ A vertical keyboard that lets you type with palms facing each other will fix you
 ## [Keyboard Case](KeyboardCase) 
 This is what makes this keyboard unique.  
 Design Objectives:  
-0. The case orientates the key caps into a vertical [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]  formation, so that palms face each other while typing.  
-1. Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
-2. Shift little fingers' extra columns to the index fingers to alleviate sore pinkies and to allow both hands to rest on the desk.
-3. Use an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
-4. Minimize the total number of keys by overloading them to save money.  
+- The case orientates the key caps into a vertical [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]  formation, so that palms face each other while typing.  
+- Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
+- Shift little fingers' extra columns to the index fingers to alleviate sore pinkies and to allow both hands to rest on the desk.
+- Use an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
+- Minimize the total number of keys by overloading them to save money.  
 
 
 ## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
