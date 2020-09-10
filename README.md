@@ -18,10 +18,12 @@ Design Objectives:
 
 
 ## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
-0. Use of mechanical switches.  
-In Progress...
+Design Objectives:  
+- Use of mechanical switches.  
+[currently in progress]
 
 ## [Character Layout](CharacterLayout)
+Design Objectives:  
 0. Optimized key layout to further reduce typing fatigue. No more Qwerty layout.
 
 ## [Manufacturing Requests](ManufacturingRequests)
