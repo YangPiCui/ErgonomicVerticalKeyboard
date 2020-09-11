@@ -30,11 +30,11 @@ See "ASM_SLAVE_LittleFingerColumn.prt",  "ASM_ThumbPlate.prt".
 ### 3. Put all finger columns together
 See "ASM_Case_LeftHand.prt".  
 Path Constraints:  
-<img src="./Images/ASM_Case_LeftHand0.PNG">  
+<img src="./Images/ASM_Case_LeftHand0.png">  
 Resulting Positions of the Key Mounts:  
-<img src="./Images/ASM_Case_LeftHand1.PNG>  
+<img src="./Images/ASM_Case_LeftHand1.png>  
 Use NX12 Bridge Curves, Studio Surfaces, Sew and other features to model the case:  
-<img src="./Images/ASM_Case_LeftHand2.PNG">  
+<img src="./Images/ASM_Case_LeftHand2.png">  
 
 
 ## 3D Printing the Case
