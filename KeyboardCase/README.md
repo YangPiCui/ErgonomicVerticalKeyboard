@@ -32,7 +32,7 @@ See "ASM_Case_LeftHand.prt".
 Path Constraints:  
 <img src="./Images/ASM_Case_LeftHand0.png">  
 Resulting Positions of the Key Mounts:  
-<img src="./Images/ASM_Case_LeftHand1.png>  
+<img src="./Images/ASM_Case_LeftHand1.png">  
 Use NX12 Bridge Curves, Studio Surfaces, Sew and other features to model the case:  
 <img src="./Images/ASM_Case_LeftHand2.png">  
 
@@ -40,7 +40,7 @@ Use NX12 Bridge Curves, Studio Surfaces, Sew and other features to model the cas
 ## 3D Printing the Case
 See "ToleranceAndClearance.prt".  
 The case is printed vertically. Notice the tear drop shaped M3 self-tapping pilot holes.  
-<img src="./Images/ASM_Case_LeftHand3.PNG">  
+<img src="./Images/ASM_Case_LeftHand3.png">  
 <img src="./Images/3DPrintedCase0.jpg">  
 Removing printing supports is currently very painful. Future versions will address this issue.  
 
