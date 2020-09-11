@@ -15,7 +15,7 @@ EVK combines as much as possible the existing ergonomic features on the market:
 - Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
 - Shift little fingers' extra columns to the index fingers to alleviate sore pinkies and to allow both hands to rest on the desk.
 - Use an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
-- Minimize the total number of keys for compactness and for cost-saving.  
+- Minimize the total number of keys for compactness and to save cost.   
 
 
 ## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
