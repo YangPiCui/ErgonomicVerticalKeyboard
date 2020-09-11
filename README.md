@@ -7,9 +7,9 @@ Now put your hands on the desk but rotate your palms to face each other. Do you 
 A vertical keyboard that lets you type with palms facing each other will fix your unattractive broken posture. 
 
 ## Reddit Threads
-[[Main Thread] (https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/)]  
-[[Old] (https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/)]
-[[Older] (https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/)]  
+[Main Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/)  
+[Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/)    
+[Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/)    
 
 ## [Keyboard Case](KeyboardCase) 
 EVK combines as much as possible the existing ergonomic features on the market:
