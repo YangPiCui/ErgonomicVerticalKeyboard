@@ -53,5 +53,5 @@ Removing printing supports is currently very painful. Future versions will addre
  5. ~~Learn Catia (Too expensive and no torrent)~~
  6. ~~Design the keyboard case in Siemens NX12.~~
  7. ~~3D print the case.~~  
- 8. ~~Iterate Case Design~~  
- 9. ~~ EVK v1.2 completed and 3D printed. ~~  
+ 8. ~~Iterate Case Design.~~  
+ 9. ~~EVK v1.2 completed and 3D printed.~~  
