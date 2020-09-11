@@ -1,9 +1,9 @@
 # Keyboard Case
 A 3D modelling software is required to design the case. I have tried many but only Siemens NX12 cut it. Do not ask me whether I bought it. Instead of answering that question, I will share with you, in addition to the .stl files and NX12 source files, the design process.  
 
-"GeneralAnthropometricData" contains anthropometric data for the world's population.   
-"Images/MeasurementMethods/" constains photos illustrating how I took my own anthropometric data.  
-"PastVersions" cotains all past versions in compressed .rar format.  
+"./GeneralAnthropometricData/" contains anthropometric data for the world's population.   
+"./Images/MeasurementMethods/" constains photos illustrating how I took my own anthropometric data.  
+"./PastVersions/" cotains all past versions in compressed .rar format.  
 
 ## Siemens NX Modelling
 I have parametrically modelled the case after my own hand, as my height of 1.7m is world's average. This guide is based on the EVK version 1.2.  
