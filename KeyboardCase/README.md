@@ -12,9 +12,8 @@ I have parametrically modelled the case after my own hand, as my height of 1.7m 
 Put a piece of paper on the table. Rest the left hand on the piece of paper and point the palm horizontally to the right. Use a pen to mark the path travelled by the middle finger onto the paper as one curls the finger.  
 ![Kiku](Images/FingerTipPath0.png)  
 <img src="./Images/MidFingerPath0.jpg" width="500">  
-<img src="/Images/MidFingerPath1.jpg" width="500">  
-<img src="Images/FingerTipPath0.png" width="500">  
-<img src=Images/FingerTipPath0.png width="500">  
+<img src="./Images/MidFingerPath0.jpg" width="500">  
+
 I used the middle finger because it's the longest finger. Other fingers should trace the same spline profile.  
 Import the raster image into NX12 and sketch the spline. Then, tilt each key along the spline to further fit the finger actions. See "ASM_MASTER_MidFingeColumn.prt".  
 <img src="/Images/ASM_MASTER_MidFingeColumn0.PNG" width="500">  
