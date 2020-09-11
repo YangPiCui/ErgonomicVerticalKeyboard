@@ -21,7 +21,7 @@ Create the key assembly in "ASM_Key.prt":
 <img src="./Images/ASM_Key0.PNG"> 
  
 Mount the keys to the midfinger's path of travel in "ASM_MASTER_MidFingeColumn.prt":  
-<img src="./Images/ASM_MASTER_MidFingeColumn0.PNG">   
+<img src="./Images/ASM_MASTER_MidFingeColumn1.PNG">   
 
 ### 2. Create family parts for the other fingers 
 See "ASM_SLAVE_LittleFingerColumn.prt",  "ASM_ThumbPlate.prt".  
