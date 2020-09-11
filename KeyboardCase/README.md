@@ -45,12 +45,7 @@ The case is printed vertically. Notice the tear drop shaped M3 self-tapping pilo
 Removing printing supports is currently very painful. Future versions will address this issue.  
 
 
-
-
-
-
-
-Next step:
+## Next step:
  1. ~~Play with Clojure, Leiningen, OpenSCAD. I am learning C++ and want to master it. I don't want to confuse myself with the language syntaxes before mastering C++.~~
  2. ~~get the 3D model in Fusion 360. Can't find one.~~
  3. ~~Ask a friend to do it. Friend left.~~
@@ -59,4 +54,4 @@ Next step:
  6. ~~Design the keyboard case in Siemens NX12.~~
  7. ~~3D print the case.~~  
  8. ~~Iterate Case Design~~  
- 9. EVK v1.2 completed and 3D printed.  
+ 9. ~~ EVK v1.2 completed and 3D printed. ~~  
