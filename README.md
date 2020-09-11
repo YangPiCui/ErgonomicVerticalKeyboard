@@ -19,9 +19,8 @@ EVK combines as much as possible the existing ergonomic features on the market:
 
 
 ## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
-Design Objectives:  
-- Use of mechanical switches.  
-[currently in progress]
+- Use of mechanical switches. EVK v1.2 uses Cherry Silver switches.
+[currently working on the wiring]
 
 ## [Character Layout](CharacterLayout)
 Design Objectives:  
