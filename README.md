@@ -6,15 +6,18 @@ The keyboard and the mouse are the culprits. They force our hands to lay flat on
 Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?  
 A vertical keyboard that lets you type with palms facing each other will fix your unattractive broken posture. 
 
+## Reddit Threads
+[[Main Thread] (https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/)]  
+[[Old] (https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/)]
+[[Older] (https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/)]  
 
 ## [Keyboard Case](KeyboardCase) 
-This is what makes this keyboard unique.  
-Design Objectives:  
-- The case orientates the key caps into a vertical [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]  formation, so that palms face each other while typing.  
+EVK combines as much as possible the existing ergonomic features on the market:
+- The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
 - Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
 - Shift little fingers' extra columns to the index fingers to alleviate sore pinkies and to allow both hands to rest on the desk.
 - Use an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
-- Minimize the total number of keys by overloading them to save money.  
+- Minimize the total number of keys for compactness and for cost-saving.  
 
 
 ## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)

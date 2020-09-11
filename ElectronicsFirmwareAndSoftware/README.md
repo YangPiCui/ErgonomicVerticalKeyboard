@@ -1,5 +1,4 @@
-# Electronics
-## Resources
+## This Keyboard is made possible thanks to these online resources
 Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting))  
 [Ergodox](https://www.ergodox.io/)  
 [Dactyl Keyboard Wiring](https://github.com/adereth/dactyl-keyboard/blob/master/guide/README.org#wiring)   
@@ -10,6 +9,7 @@ Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard
 [Detailed guide to making a custom keyboard](https://www.reddit.com/r/MechanicalKeyboards/comments/4l0p41/guide_detailed_guide_to_making_a_custom_keyboard/?utm_source=amp&utm_medium=&utm_content=post_body)  
 [Building your own keyboard (from scratch)](https://medium.com/@monkeytypewritr/building-your-own-keyboard-from-scratch-bd0638c40850)  
 
+# 0. Electronics
 ## Part List (in Chinese)
 56x Cherry Mechanical Switch 樱桃银轴
 [1x Teensy 2.0 USB Board 开发板](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7d1f2e8depIv8w&id=537590679522&_u=b1t8kl8uaf14)
@@ -27,11 +27,15 @@ Teensy header pins [单排针1*40双排排针2*40圆2.54mm间距](https://detail
 1x 4节3.5mm公对公音频线(>0.5m)  
 [0.7mm 直焊型漆包线免刮漆](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7d1f2e8depIv8w&id=548036303261&_u=b1t8kl8u510f)  
 
+# Firmware and Software
+
+[Windows 10 Key Mapping software](https://thegeekpage.com/top-10-best-free-key-mapping-software-for-windows-10/)&nbsp;| [SharpKeys](https://github.com/randyrants/sharpkeys/releases)
+
+
+
 # Sodering
 
 
 
 
-# Firmware and Software
-
-[Windows 10 Key Mapping software](https://thegeekpage.com/top-10-best-free-key-mapping-software-for-windows-10/)&nbsp;| [SharpKeys](https://github.com/randyrants/sharpkeys/releases) 
+ 
