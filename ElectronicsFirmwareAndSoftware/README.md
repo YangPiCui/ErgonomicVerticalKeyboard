@@ -1,5 +1,5 @@
-# This guide is Based on The Dactyl Keyboard QMK Guide (with content credits) for EVK v1.2  
-URL: https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide  
+# ElectronicsFirmwareAndSoftware
+This guide is Based on The [Dactyl Keyboard QMK Guide] (https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide) (with content credits) for the EVK v1.2.    
 
 ## Part List 
 From https://www.ergodox.io/  
@@ -61,8 +61,9 @@ For the right hand part:
 Both parts:  
 <img src="./Images/BothHandMatrices.jpg"> 
 
+
 ## Keymap
-Use this manually optimized keymap.
+Use this manually optimized keymap for now.
 
 
 ## Setup QMK Firmware

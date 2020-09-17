@@ -56,14 +56,13 @@ See "ASM_Case_LeftHand.prt":
 
 ## 3D Printing the Case
 My 3D printer tunning is documented [here] (https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA).  
-Make sure to update "ToleranceAndClearance.prt" for your own print parameters.
+Make sure to update "ToleranceAndClearance.prt" for your own print parameters.  
 "./NX_ErgonomicVerticalKeyboard_v1.2/STL Files" constains Cura project files.  
-I have modelled the case to be printed vertically. Removing printing supports is currently very painful. Future versions will address this issue.  
-I have also added tear-drop shaped M3 self-tapping pilot holes to do away with their print supports:  
+I have modelled the case to be printed vertically and added tear-drop shaped M3 self-tapping pilot holes to do away with some supports:  
 <img src="./Images/ASM_Case_LeftHand3.png"> 
 
 
-Printed front case with hot-glued keys:  
+Front case with press-fit keycaps and hot-glued switches:  
 <img src="./Images/CaseFront.jpg"> 
 
 How the keyboand will be used:   
