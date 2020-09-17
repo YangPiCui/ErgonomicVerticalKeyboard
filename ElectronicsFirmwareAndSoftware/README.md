@@ -1,5 +1,6 @@
 # Follow [This] (https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide) Guide (with content credits)  
 URL: https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide
+This guide is based on EVK version 1.2.
 
 ## Part List 
 From https://www.ergodox.io/  
@@ -47,10 +48,22 @@ Physically, it looks like this for the Dactyl Keyboard:
 For EVK v1.2, it looks like this:
 <img src="./Images/EVKv1.2_Keymapping.jpg"> 
 
+### Rows
+You don't have to decide how to connect the rows to the Teensy or MCP yet. Just worry about getting the matrix right.  
+Row 5 is the thumb cluster, so just wire them together and imagine they're in a row instead of it being more like a circle.  
+For the right hand part:  
+<img src="./Images/RightHandRowWiring.jpg"> 
 
+### Columns
+The diodes need the black bar facing away from the key.  
+For the right hand part:  
+<img src="./Images/RightHandMatrix.jpg"> 
 
+Both parts:  
+<img src="./Images/BothHandMatrices.jpg"> 
 
-
+## Keymap
+Use this manually optimized keymap.
 
 
 ## Setup QMK Firmware
@@ -60,11 +73,6 @@ The ErgoDox uses the Teensy 2.0 and MCP23018
 Start with the Ergodox_EZ firmware.  
 
 
-## Keymap
-Use this manually optimized keymap.
-
-
-## Wiring
 
 
 
