@@ -1,4 +1,4 @@
-# Follow [This (https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide)] Guide (with content credits)
+# Follow [This] (https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide) Guide (with content credits)  
 URL: https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide
 
 ## Part List 
@@ -19,7 +19,7 @@ From https://www.ergodox.io/
 
 ## Wiring up the Matrix
 
-Here's what the matrix code for the Ergodox-EZ in QMK firmware looks like:
+Wiring of the key switches depends on the firmware and keymap setup. Here's what the matrix code for the Ergodox-EZ in QMK firmware looks like:  
 
 ```c
 // matrix positions
@@ -41,17 +41,17 @@ Here's what the matrix code for the Ergodox-EZ in QMK firmware looks like:
  { k0D, k1D, k2D,   k3D, k4D,   KC_NO }                      \
 }
 ```
-Physically, it looks like this for the Dactyl Keyboard:
+Physically, it looks like this for the Dactyl Keyboard:  
 <img src="./Images/dactyl-keymapping.png"> 
 
 For EVK v1.2, it looks like this:
+<img src="./Images/EVKv1.2_Keymapping.jpg"> 
 
 
 
 
 
 
-Wiring of the key switches depends on the firmware and keymap setup.
 
 ## Setup QMK Firmware
 Note: while preparing the build environment for QMK, Follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.
