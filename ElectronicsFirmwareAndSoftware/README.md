@@ -1,6 +1,5 @@
-# Follow [This] (https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide) Guide (with content credits)  
-URL: https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide
-This guide is based on EVK version 1.2.
+# This guide is Based on The Dactyl Keyboard QMK Guide (with content credits) for EVK v1.2  
+URL: https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide  
 
 ## Part List 
 From https://www.ergodox.io/  
