@@ -17,7 +17,7 @@ From https://www.ergodox.io/
 12. 1x TRRS Cable <- 4节3.5mm公对公音频线(>0.5m)  
 13. 30AWG wrapping wire <- 0.5mm 直焊型漆包线免刮漆
 
-## Wiring up the Matrix
+## Wiring up the Keyboard Matrix
 
 Wiring of the key switches depends on the firmware and keymap setup. Here's what the matrix code for the Ergodox-EZ in QMK firmware looks like:  
 
@@ -62,19 +62,22 @@ Both parts:
 <img src="./Images/BothHandMatrices.jpg"> 
 
 
-## Keymap
-Use this manually optimized keymap for now.
+## Wiring up the electronics
+<img src="./Images/dactyl-circuit-diagram.png">  
 
+My wiring is very messy. I will have to modify the backplates in EVK v1.2 to house the electronics.  
+<img src="./Images/FullWiring.jpg"> 
 
-## Setup QMK Firmware
-Note: while preparing the build environment for QMK, Follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.
-
-The ErgoDox uses the Teensy 2.0 and MCP23018  
-Start with the Ergodox_EZ firmware.  
-
+Now that I know how it's wired up, I will redesign the case to use a single controller (maybe Teensy 2.0++) to drive both parts.
 
 
 
+## Flash the QMK firmware
+Use the [QMK Corfigurator] (https://docs.qmk.fm/#/newbs_building_firmware_configurator) to generate the Ergodox EZ .hex file.  
+Use this manually optimized keymap for now.  
+Note: if manually preparing the build environment for QMK on the PC instead, Follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
+
+Use the [Teensy Loader App] (https://www.pjrc.com/teensy/loader.html) to flash the generated .hex file onto the teensy.  
 
 
 
