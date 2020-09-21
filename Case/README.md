@@ -66,9 +66,6 @@ Back of the left front case:
 Both front cases with press-fit keycaps and hot-glued switches:  
 <img src="./Images/CaseFront.jpg"> 
 
-Without backplates:   
-<img src="./Images/LeftHandPositioning.jpg"> 
-
 Front and back cases without connector rods and hand rests. I ran out of blue filaments, so I printed half of the right backplate with white filaments and glued it onto the existing part.  
 <img src="./Images/LeftRightCases0.jpg"> 
 <img src="./Images/LeftRightCases1.jpg"> 
