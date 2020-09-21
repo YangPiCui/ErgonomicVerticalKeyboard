@@ -1,4 +1,5 @@
 # The Design and Making of an Ergonomic Vertical Keyboard (EVK)
+Based on EVK v1.20
 
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  

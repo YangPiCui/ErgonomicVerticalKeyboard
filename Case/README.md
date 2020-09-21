@@ -7,8 +7,7 @@ A 3D modelling software is required to design the case. I have tried many but on
 "./NX_ErgonomicVerticalKeyboard/" constains Siemens NX12 source files for the EVK.
 "./PastVersions/" cotains all past versions in compressed .rar format.  
 
-## Siemens NX Modelling
-This guide is based on the EVK version 1.2.  
+## Siemens NX Modelling 
 I parametrically modelled the case after my own hand. The current size should fit others, as I am 1.7m tall, which is the world's average according to Google.
 3D printing tolerances have been modelled into the parts. See "ToleranceAndClearance.prt".  
 
@@ -57,7 +56,7 @@ See "ASM_Case_LeftHand.prt":
 ## 3D Printing the Case
 My 3D printer tunning is documented [here] (https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA).  
 Make sure to update "ToleranceAndClearance.prt" for your own print parameters.  
-"./NX_ErgonomicVerticalKeyboard_v1.2/STL Files" constains Cura project files.  
+"./NX_ErgonomicVerticalKeyboard/STL Files" constains Cura project files.  
 I have modelled the case to be printed vertically and added tear-drop shaped M3 self-tapping pilot holes to do away with some supports:  
 <img src="./Images/ASM_Case_LeftHand3.png"> 
 
