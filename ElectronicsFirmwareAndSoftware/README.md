@@ -1,7 +1,7 @@
 # ElectronicsFirmwareAndSoftware
 This guide is Based on The [Dactyl Keyboard QMK Guide] (https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide) (with content credits).
 
-## Part List 
+## 0. Part List 
 From https://www.ergodox.io/  
 1. 56x Cherry Mechanical Switch <- 樱桃银轴
 2. [1x Teensy 2.0 USB Board <- 开发板](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7d1f2e8depIv8w&id=537590679522&_u=b1t8kl8uaf14)
@@ -17,8 +17,8 @@ From https://www.ergodox.io/
 12. 1x TRRS Cable <- 4节3.5mm公对公音频线(>0.5m)  
 13. 30AWG wrapping wire <- 0.5mm 直焊型漆包线免刮漆
 
-## Wiring up the Keyboard Matrix
-
+## 1. Wiring up the Keyboard Matrix
+Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting))  
 Wiring of the key switches depends on the firmware and keymap setup. Here's what the matrix code for the Ergodox-EZ in QMK firmware looks like:  
 
 ```c
@@ -62,7 +62,7 @@ Both parts:
 <img src="./Images/BothHandMatrices.jpg"> 
 
 
-## Wiring up the electronics
+## 2. Wiring up the electronics
 <img src="./Images/dactyl-circuit-diagram.png">  
  
 <img src="./Images/FullWiring.jpg"> 
@@ -71,15 +71,19 @@ Now that I know how it's wired up, I will redesign the case to use a single cont
 
 
 
-## Keymap and Flashing the QMK firmware
+## 3. QMK Firmware & Custom Keymap 
+
+### Keymap
 I emperically created a keymap using [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.
 <img src="./Images/TemporaryKeymap.PNG"> 
 
+### QMK
 Use the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load the Ergodox_EZ keymap, modify it and generate the .hex file:  
 
 
 Note: if manually preparing the build environment for QMK on the PC instead, Follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
 
+### Flashing
 Use the [Teensy Loader App](https://www.pjrc.com/teensy/loader.html) to flash the generated .hex file onto the teensy.  
 
 
@@ -90,7 +94,7 @@ Use the [Teensy Loader App](https://www.pjrc.com/teensy/loader.html) to flash th
 
 
 ## This Keyboard is made possible thanks to these online resources
-Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting))  
+
 [Ergodox](https://www.ergodox.io/)  
 [Dactyl Keyboard Wiring](https://github.com/adereth/dactyl-keyboard/blob/master/guide/README.org#wiring)   
 [Ergo-Dox keyboard assembly](https://www.youtube.com/watch?v=x1irVrAl3Ts)  
