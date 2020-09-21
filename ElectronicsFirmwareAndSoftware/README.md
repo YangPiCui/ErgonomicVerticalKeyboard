@@ -72,7 +72,7 @@ Now that I know how it's wired up, I will redesign the case to use a single cont
 
 
 ## Keymap and Flashing the QMK firmware
-I emperically created a keymap with the [letter] (https://norvig.com/mayzner.html) and [character] (http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.
+I emperically created a keymap with the [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.
 <img src="./Images/TemporaryKeymap.PNG"> 
 
 Use the [QMK Corfigurator] (https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load the Ergodox_EZ keymap, modify it and generate the .hex file:  
