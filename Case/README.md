@@ -4,7 +4,7 @@ A 3D modelling software is required to design the case. I have tried many but on
 ## Folder Layout
 "./GeneralAnthropometricData/" contains anthropometric data for the world's population.   
 "./Images/MeasurementMethods/" constains photos illustrating how I took my own anthropometric data.  
-"./NX_ErgonomicVerticalKeyboard_v1.2/" constains Siemens NX12 source files for the EVK version 1.2.
+"./NX_ErgonomicVerticalKeyboard/" constains Siemens NX12 source files for the EVK.
 "./PastVersions/" cotains all past versions in compressed .rar format.  
 
 ## Siemens NX Modelling
@@ -61,12 +61,17 @@ Make sure to update "ToleranceAndClearance.prt" for your own print parameters.
 I have modelled the case to be printed vertically and added tear-drop shaped M3 self-tapping pilot holes to do away with some supports:  
 <img src="./Images/ASM_Case_LeftHand3.png"> 
 
+Back of the left front case:  
+<img src="./Images/3DPrintedCase0.jpg">  
 
-Front case with press-fit keycaps and hot-glued switches:  
+Both front cases with press-fit keycaps and hot-glued switches:  
 <img src="./Images/CaseFront.jpg"> 
 
-How the keyboand will be used:   
+Without backplates:   
 <img src="./Images/LeftHandPositioning.jpg"> 
 
-Back of the left hand part:  
-<img src="./Images/3DPrintedCase0.jpg">  
+Front and back cases without connector rods and hand rests. I ran out of blue filaments, so I printed half of the right backplate with white filaments and glued it onto the existing part.  
+<img src="./Images/LeftRightCases0.jpg"> 
+<img src="./Images/LeftRightCases1.jpg"> 
+<img src="./Images/LeftRightCases2.jpg"> 
+
