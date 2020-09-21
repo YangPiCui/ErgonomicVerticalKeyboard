@@ -1,5 +1,5 @@
 # ElectronicsFirmwareAndSoftware
-This guide is Based on The [Dactyl Keyboard QMK Guide] (https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide) (with content credits) for the EVK v1.2.    
+This guide is Based on The [Dactyl Keyboard QMK Guide] (https://github.com/adereth/dactyl-keyboard/tree/master/qmk-guide) (with content credits).
 
 ## Part List 
 From https://www.ergodox.io/  
@@ -44,7 +44,7 @@ Wiring of the key switches depends on the firmware and keymap setup. Here's what
 Physically, it looks like this for the Dactyl Keyboard:  
 <img src="./Images/dactyl-keymapping.png"> 
 
-For EVK v1.2, it looks like this:
+For EVK, it looks like this:
 <img src="./Images/EVKv1.2_Keymapping.jpg"> 
 
 ### Rows
@@ -72,7 +72,7 @@ Now that I know how it's wired up, I will redesign the case to use a single cont
 
 
 ## Keymap and Flashing the QMK firmware
-Based on [letter] ((https://norvig.com/mayzner.html)) and [character] (http://xahlee.info/comp/computer_language_char_distribution.html) frequencies, I emperically optimized a keymap for the EVK v1.2:  
+I considered [letter] ((https://norvig.com/mayzner.html)) and [character] (http://xahlee.info/comp/computer_language_char_distribution.html) frequencies and optimized a keymap emperically.
 <img src="./Images/TemporaryKeymap.PNG"> 
 
 Use the [QMK Corfigurator] (https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load the Ergodox_EZ keymap, modify it and generate the .hex file:  
