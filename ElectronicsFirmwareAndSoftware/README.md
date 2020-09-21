@@ -75,12 +75,12 @@ Now that I know how it's wired up, I will redesign the case to use a single cont
 I emperically created a keymap using [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.
 <img src="./Images/TemporaryKeymap.PNG"> 
 
-Use the [QMK Corfigurator] (https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load the Ergodox_EZ keymap, modify it and generate the .hex file:  
+Use the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load the Ergodox_EZ keymap, modify it and generate the .hex file:  
 
 
 Note: if manually preparing the build environment for QMK on the PC instead, Follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
 
-Use the [Teensy Loader App] (https://www.pjrc.com/teensy/loader.html) to flash the generated .hex file onto the teensy.  
+Use the [Teensy Loader App](https://www.pjrc.com/teensy/loader.html) to flash the generated .hex file onto the teensy.  
 
 
 
