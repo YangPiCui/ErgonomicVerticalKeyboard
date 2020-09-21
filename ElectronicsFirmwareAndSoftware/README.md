@@ -64,11 +64,10 @@ Both parts:
 
 ## Wiring up the electronics
 <img src="./Images/dactyl-circuit-diagram.png">  
-
-My wiring is very messy. I will have to modify the backplates in EVK v1.2 to house the electronics.  
+ 
 <img src="./Images/FullWiring.jpg"> 
 
-Now that I know how it's wired up, I will redesign the case to use a single controller (maybe Teensy 2.0++) to drive both parts.
+Now that I know how it's wired up, I will redesign the case to use a single controller (maybe with the Teensy 2.0++) to drive both parts.
 
 
 
