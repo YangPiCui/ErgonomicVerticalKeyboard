@@ -13,13 +13,13 @@ A vertical keyboard that lets you type with palms facing each other will fix you
 EVK combines as much as possible the existing ergonomic features on the market:
 - The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
 - Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
-- Shift little fingers' extra columns to the index fingers to alleviate sore pinkies and to allow both hands to rest on the desk.
-- Use an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
-- Minimize the total number of keys for compactness and to save cost.   
+- Little fingers' extra columns have been reassigned to the index fingers for eliminating sore pinkies.
+- The use of an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
+- The case minimizes the total number of keys for compactness and cost-saving.   
 
 
 ## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
-- Use of mechanical switches. EVK v1.2 uses Cherry Silver switches.
+- EVK v1.2 uses Cherry Mechanical Switches.
 [currently working on the wiring]
 
 ## [Keymap](Keymap)
