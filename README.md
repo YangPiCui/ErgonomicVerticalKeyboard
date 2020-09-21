@@ -1,14 +1,13 @@
 # The Design and Making of an Ergonomic Vertical Keyboard (EVK)
-Based on EVK v1.20
 
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
 The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated. This in turn stresses our neck.  
 Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?  
-A vertical keyboard that lets you type with palms facing each other will fix your unattractive broken posture. 
+A vertical keyboard that lets you type with palms facing each other will fix your unattractive broken posture.  
 
-## Reddit Threads
-[Main Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/)    
+(This guide is based on the EVK v1.20) [Main Reddit Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) 
+
 
 ## [Case](Case) 
 EVK combines as much as possible the existing ergonomic features on the market:
