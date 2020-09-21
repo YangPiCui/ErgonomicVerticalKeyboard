@@ -39,4 +39,4 @@ Design Objectives:
 
 
 
-###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free and no use with patents)
+###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
