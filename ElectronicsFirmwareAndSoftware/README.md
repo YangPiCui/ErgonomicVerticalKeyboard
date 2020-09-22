@@ -93,18 +93,7 @@ Use the [Teensy Loader App](https://www.pjrc.com/teensy/loader.html) to flash th
 
 
 
-## This Keyboard is made possible thanks to these online resources
 
-[Ergodox](https://www.ergodox.io/)  
-[Dactyl Keyboard Wiring](https://github.com/adereth/dactyl-keyboard/blob/master/guide/README.org#wiring)   
-[Ergo-Dox keyboard assembly](https://www.youtube.com/watch?v=x1irVrAl3Ts)  
-[Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide)   
-[GMK Carbon Original Ergodox build log](https://imgur.com/a/3riAB)  
-[Dactyl Manuform Mini DIY Ergonomic Mechanical Keyboard Build Log](https://www.beekeeb.com/dactyl-manuform-mini-mechanical-keyboard-build-log/)   
-[Detailed guide to making a custom keyboard](https://www.reddit.com/r/MechanicalKeyboards/comments/4l0p41/guide_detailed_guide_to_making_a_custom_keyboard/?utm_source=amp&utm_medium=&utm_content=post_body)  
-[Building your own keyboard (from scratch)](https://medium.com/@monkeytypewritr/building-your-own-keyboard-from-scratch-bd0638c40850)  
-
-[Windows 10 Key Mapping software](https://thegeekpage.com/top-10-best-free-key-mapping-software-for-windows-10/)&nbsp;| [SharpKeys](https://github.com/randyrants/sharpkeys/releases)
 
 
 
