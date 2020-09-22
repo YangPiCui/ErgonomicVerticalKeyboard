@@ -74,8 +74,9 @@ Now that I know how it's wired up, I will redesign the case to use a single cont
 ## 3. QMK Firmware & Custom Keymap 
 
 ### Keymap
-I emperically created a keymap using [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.
-<img src="./Images/TemporaryKeymap.PNG"> 
+I emperically created a keymap based on [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.
+<img src="./Images/Layer0.PNG"> 
+<img src="./Images/Layer1.PNG"> 
 
 ### QMK
 Use the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load the Ergodox_EZ keymap, modify it and generate the .hex file:  
