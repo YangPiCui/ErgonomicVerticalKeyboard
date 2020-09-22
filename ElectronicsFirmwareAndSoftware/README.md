@@ -85,16 +85,4 @@ Note: if manually preparing the build environment for QMK on the PC instead, Fol
 
 ### Flashing
 Use the [Teensy Loader App](https://www.pjrc.com/teensy/loader.html) to flash the generated .hex file onto the teensy.  
-
-
-
-
-
-
-
-
-
-
-
-
  
