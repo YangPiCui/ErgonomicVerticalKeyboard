@@ -23,7 +23,7 @@ EVK combines as much as possible the existing ergonomic features on the market:
 EVK v1.2 uses the Teensy 2.0 micro-controller and Cherry Mechanical Switches.
 
 ## [Computerized Keymap](ComputerizedKeymap)
-Next step: algorithmically optimize the key map.  
+Next step: algorithmically optimize the key map.   
 
 ## Helpful Resources
 [reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)  
