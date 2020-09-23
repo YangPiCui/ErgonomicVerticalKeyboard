@@ -1,11 +1,17 @@
 # Keyboard Case
-A 3D modelling software is required to design the case. I have tried many but only Siemens NX12 cuts it. Do not ask me whether I bought this great piece of software. Instead of answering that question, I will share with you, in addition to the NX12 source files and the 3D printable .stl files, the design process.  
+
 
 ## Folder Layout
 "./GeneralAnthropometricData/" contains anthropometric data for the world's population.   
 "./Images/MeasurementMethods/" constains photos illustrating how I took my own anthropometric data.  
 "./NX_ErgonomicVerticalKeyboard/" constains Siemens NX12 source files for the EVK.
-"./PastVersions/" cotains all past versions in compressed .rar format.  
+
+
+## Requirements
+0. A 3D modelling software is required to design the case. I have tried many but only Siemens NX12 cuts it. Do not ask me whether I bought this great piece of software. Instead of answering that question, I will share with you, in addition to the NX12 source files and the 3D printable .stl files, the design process.  
+2. 16 M3x8 self-tap screws.  
+3. 8 M5x16 screws and nuts.
+
 
 ## Siemens NX Modelling 
 I parametrically modelled the case after my own hand. The current size should fit others, as I am 1.7m tall, which is the world's average according to Google.
@@ -54,7 +60,7 @@ See "ASM_Case_LeftHand.prt":
 
 
 ## 3D Printing the Case
-My 3D printer tunning is documented [here] (https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA).  
+My 3D printer parameters are documented [here] (https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA).  
 Make sure to update "ToleranceAndClearance.prt" for your own print parameters.  
 "./NX_ErgonomicVerticalKeyboard/STL Files" constains Cura project files.  
 I have modelled the case to be printed vertically and added tear-drop shaped M3 self-tapping pilot holes to do away with some supports:  
