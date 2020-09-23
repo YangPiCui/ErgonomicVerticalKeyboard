@@ -1,0 +1,2 @@
+C:\Users\Yang\Desktop\YangsFiles\Projects\ErgonomicVerticalKeyboard\CharacterLayout\CharacterLayoutOptimizerC++\Debug\CharacterLayoutOptimizerC++.exe
+C:\Users\Yang\Desktop\YangsFiles\Projects\ErgonomicVerticalKeyboard\CharacterLayout\CharacterLayoutOptimizerC++\Debug\CharacterLayoutOptimizerC++.pdb

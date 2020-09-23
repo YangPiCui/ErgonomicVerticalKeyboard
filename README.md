@@ -22,14 +22,11 @@ EVK combines as much as possible the existing ergonomic features on the market:
 - EVK v1.2 uses Cherry Mechanical Switches.
 [currently working on the wiring]
 
-## [Keymap](Keymap)
+## [Computerized Keymap](ComputerizedKeymap)
 Design Objectives:  
 0. Optimized key layout to further reduce typing fatigue. No more Qwerty layout.  
 
-## [Manufacturing Requests](ManufacturingRequests)
-  
-
-## Online Resources
+## Helpful Resources
 [reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)  
 [https://geekhack.org/](https://geekhack.org/)  
 [Xah Keyboard Guide](http://Xah%20Keyboard%20Guide)  
