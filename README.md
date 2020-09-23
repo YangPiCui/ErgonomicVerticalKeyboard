@@ -1,4 +1,4 @@
-# The Design and Making of an Ergonomic Vertical Keyboard (EVK)
+# Ergonomic Vertical Keyboard version 1.2 (EVK_v1.2)
 
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
@@ -6,7 +6,7 @@ The keyboard and the mouse are the culprits. They force our hands to lay flat on
 Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?  
 A vertical keyboard that lets you type with palms facing each other will fix your unattractive broken posture.  
 
-(This guide is based on the EVK v1.20) [Main Reddit Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) 
+[Main Reddit Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) 
 
 
 ## [Case](Case) 
@@ -16,15 +16,14 @@ EVK combines as much as possible the existing ergonomic features on the market:
 - Little fingers' extra columns have been reassigned to the index fingers for eliminating sore pinkies.
 - The use of an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
 - The case minimizes the total number of keys for compactness and cost-saving.   
-<img src="EVK_v1.20.PNG">  
+<img src="EVK_v1.20_Design.PNG">  
+<img src="EVK_v1.20_3DPrinted.jpg"> 
 
 ## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
-- EVK v1.2 uses Cherry Mechanical Switches.
-[currently working on the wiring]
+EVK v1.2 uses the Teensy 2.0 micro-controller and Cherry Mechanical Switches.
 
 ## [Computerized Keymap](ComputerizedKeymap)
-Design Objectives:  
-0. Optimized key layout to further reduce typing fatigue. No more Qwerty layout.  
+Next step: algorithmically optimize the key map.  
 
 ## Helpful Resources
 [reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)  
