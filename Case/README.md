@@ -9,8 +9,9 @@
 
 ## Requirements
 0. A 3D modelling software is required to design the case. I have tried many but only Siemens NX12 cuts it. Do not ask me whether I bought this great piece of software. Instead of answering that question, I will share with you, in addition to the NX12 source files and the 3D printable .stl files, the design process.  
-2. 16 M3x8 self-tap screws.  
-3. 8 M5x16 screws and nuts.
+1. 16 M3x8 self-tap screws.  
+2. 8 M5x16 screws and nuts.
+3. 8mm diameter x 3mm deep silicon rubber sticking dome feets.
 
 
 ## Siemens NX Modelling 
