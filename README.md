@@ -17,8 +17,7 @@ EVK combines as much as possible the existing ergonomic features on the market:
 - The use of an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
 - The case minimizes the total number of keys for compactness and cost-saving.
 ![](EVK_v1.2_Design.PNG)
-<img src="./EVK_v1.2_Design.PNG">  
-<img src="./EVK_v1.2_3DPrinted.jpg">   
+![](EVK_v1.2_3DPrinted.jpg)
 
 ## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
 EVK v1.2 uses the Teensy 2.0 micro-controller and Cherry Mechanical Switches.
