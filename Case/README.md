@@ -59,7 +59,6 @@ Use "Change Reference Part" in NX to display the mounts:
 See "ASM_Case_LeftHand.prt":   
 <img src="./Images/ASM_Case_LeftHand2.png">  
 
-
 ## 3D Printing the Case
 My 3D printer parameters are documented [here] (https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA).  
 Make sure to update "ToleranceAndClearance.prt" for your own print parameters.  
