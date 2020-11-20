@@ -5,7 +5,7 @@ Do you get a sore neck and stiff fingers from typing? Have you developed a stret
 The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated. This in turn stresses our neck.  
 Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?    
 
-The Ergonomic Vertical Keyboard (EVK) lets you do exactly that and it also includes other ergonomic features.
+The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also includes additional ergonomic features.
 - The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
 - Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
 - Little fingers' extra columns have been reassigned to the index fingers for eliminating sore pinkies.
