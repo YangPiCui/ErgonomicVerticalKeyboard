@@ -50,3 +50,5 @@ finger class
 Next step:
 1. ~~Break down the problem into smaller parts for C++.~~
 2. Figure out how to do simulated annealling. 
+
+###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)

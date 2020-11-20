@@ -77,3 +77,4 @@ Front and back cases without connector rods and hand rests. I ran out of blue fi
 <img src="./Images/LeftRightCases1.jpg"> 
 <img src="./Images/LeftRightCases2.jpg"> 
 
+###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)

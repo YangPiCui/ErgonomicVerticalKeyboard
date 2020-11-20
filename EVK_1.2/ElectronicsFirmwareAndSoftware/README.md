@@ -85,4 +85,5 @@ If manually preparing the build environment for QMK on the PC instead, Follow [t
 
 ### Flashing
 Use the [Teensy Loader App](https://www.pjrc.com/teensy/loader.html) to flash the generated .hex file onto the Teensy 2.0 micro controller.  
- 
+
+###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
