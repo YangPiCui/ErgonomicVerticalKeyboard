@@ -1,16 +1,10 @@
-# Ergonomic Vertical Keyboard version 1.2 (EVK_v1.2)
+# Ergonomic Vertical Keyboard (EVK)
 
-## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
 The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated. This in turn stresses our neck.  
-Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?  
-A vertical keyboard that lets you type with palms facing each other will fix your unattractive broken posture.  
+Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?    
 
-[Main Reddit Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/) 
-
-
-## [Case](Case) 
-EVK combines as much as possible the existing ergonomic features on the market:
+The EVK lets you do exactly that with additional ergonomic features.
 - The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
 - Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
 - Little fingers' extra columns have been reassigned to the index fingers for eliminating sore pinkies.
@@ -19,13 +13,17 @@ EVK combines as much as possible the existing ergonomic features on the market:
 ![](EVK_v1.2_Design.PNG)
 ![](EVK_v1.2_3DPrinted.jpg)
 
-## [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
-EVK v1.2 uses the Teensy 2.0 micro-controller and Cherry Mechanical Switches.
+## [EVK_1.3](EVK_1.3) - Work in Progress  
+1. Add palm rest  
+2. Add more keys at the top  
+3. Improve layout and ergonomics   
+4. Use full sized keycaps  
 
-## [Computerized Keymap](ComputerizedKeymap)
-Next step: algorithmically optimize the key map.   
+## [EVK_1.2](EVK_1.2) 
 
-## Helpful Resources
+## Other Resources
+[Main Reddit Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/)  
+
 [reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)  
 [https://geekhack.org/](https://geekhack.org/)  
 [Xah Keyboard Guide](http://Xah%20Keyboard%20Guide)  
