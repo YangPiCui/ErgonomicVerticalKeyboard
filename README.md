@@ -11,8 +11,8 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 - Little fingers' extra columns have been reassigned to the index fingers for eliminating sore pinkies.
 - The use of an adustable, two part, split design to suit different individuals and to save desk space for other computer peripherals.
 - The case minimizes the total number of keys for compactness and cost-saving.
-![](EVK_v1.2_Design.PNG)
-![](EVK_v1.2_3DPrinted.jpg)
+![](LatestProductionVersionDesigned.PNG)
+![](LatestProductionVersionManufactured.jpg)
 
 ## [EVK_1.3](EVK_1.3) - Work in Progress  
 1. Add palm rest  
