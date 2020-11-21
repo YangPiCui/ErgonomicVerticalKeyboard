@@ -1,7 +1,7 @@
 # [Case](Case) 
 ![](InProgress.jpg)
 
-# [Keymap](Keymapn) 
+# [Keymap](Keymap) 
 
 # [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
 
