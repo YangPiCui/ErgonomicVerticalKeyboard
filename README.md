@@ -17,10 +17,11 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 ## [EVK_1.3](EVK_1.3) - Work in Progress  
 1. Add palm rest  
 2. Add more keys at the top  
-3. Improve layout and ergonomics   
+3. Improve layout and ergonomics  
 4. Use full sized keycaps  
 
 ## [EVK_1.2](EVK_1.2) 
+Based on the Dactyl Keyboard with Teensy 2.0.  
 
 ## Other Resources
 [Main Reddit Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/)  
