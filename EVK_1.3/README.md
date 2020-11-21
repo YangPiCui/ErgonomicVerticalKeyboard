@@ -1,9 +1,9 @@
-# [Case](Case) 
+# [0. Case](Case) 
 ![](InProgress.jpg)
 
-# [Keymap](Keymap) 
+# [1. Keymap](Keymap) 
 
-# [Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
+# [2. Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
