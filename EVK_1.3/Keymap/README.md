@@ -1,4 +1,4 @@
-# Keymap Optimization  
+# Keymap  
 Prioritize ergonomics and comfort over typing speed.
 
 
