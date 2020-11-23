@@ -18,18 +18,21 @@ During Windows setup, follow [this](https://stackoverflow.com/questions/41932407
 [Keep the forked repository and the local copy up-to-date](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/)  
 Local QMK Repository Path: C:\Users\<UserName>\qmk_firmware  
 
-### 1.2 Copy /keyboards/handwired/dactyl_left Into /keyboards/handwired/evk and Modify Its Contents
+### 1.2 Write Custom Codes
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
-[Change the Folder Structure and Update the Files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming) in /handwired/evk/1_3/:   
+Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify the files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming) in /handwired/evk/1_3/:   
 * readme.md - no change  
 * info.json - no change  
 * rules.mk - no change  
 * 1_3.c - no change  
 * config.h  
   * change matrix size from 6x6 to 6(rows) x 16(cols)  
-  * define the matrix row and col pins on Teensy 2.0  
+  * define the matrix row and col pins for [Teensy 2.0](https://www.pjrc.com/teensy/pinout.html)  
 * 1_3_h    
-  * 
+  * [define the matrix to physical layout map](https://docs.qmk.fm/#/reference_configurator_support). ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
+
+### 1.3 Build the JSON file
+
 
 
 

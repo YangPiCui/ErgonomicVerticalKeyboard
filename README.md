@@ -14,7 +14,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 ![](LatestProductionVersionDesigned.PNG)
 ![](LatestProductionVersionManufactured.jpg)
 
-## [EVK_1.3](EVK_1.3) - Work in Progress  
+## [EVK_1.3](EVK_1.3) (Under Development)
 1. Add palm rest  
 2. Add more keys at the top  
 3. Improve layout and ergonomics  
