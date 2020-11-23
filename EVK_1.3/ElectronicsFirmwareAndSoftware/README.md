@@ -28,7 +28,14 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 * 1_3.c - no change  
 * config.h  
   * change matrix size from 6x6 to 6(rows) x 16(cols)  
-  * define the matrix row and col pins for [Teensy 2.0](https://www.pjrc.com/teensy/pinout.html)  
+  * define the matrix row and col pins for the [Teensy 2.0](https://www.pjrc.com/teensy/pinout.html)
+```c
+#define MATRIX_ROW_PINS \
+    { B0, B1, B2, B3, B7, D0 }
+#define MATRIX_COL_PINS \
+    { D1, D2, D3, C6, C7, F0, F1, F4, F5, F6, F7, B6, B5, B4, D7, D6 }
+```  
+
 * 1_3_h    
   * [define the matrix to physical layout map](https://docs.qmk.fm/#/reference_configurator_support). ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
 * [info.json](https://docs.qmk.fm/#/reference_configurator_support)
