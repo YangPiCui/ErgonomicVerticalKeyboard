@@ -47,13 +47,14 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 * [info.json](https://docs.qmk.fm/#/reference_configurator_support)
   * Build the [keymap](../Keymap) in the Keyboard Layout Editor
   * Convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
-  * Update the .json file
+  * Save the converted content to a info.json file
 
 /handwired/evk/1_3/keymaps/default
 * readme.md - update
 * config.h - no change
 * keymap.c 
-  * [Customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking)
+  * In QMK Configurator https://config.qmk.fm/ [press Ctrl+Shift+I (in that order)] (https://www.reddit.com/r/olkb/comments/aumb7i/how_do_you_manage_to_convert_keyboardlayoutjson/)to upload your info.json file to QMK Configurator to test the key display.
+  * Or, look up the [default keycodes[(https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
 
 
 ## 1. Wire up the Keyboard Matrix  
