@@ -54,7 +54,6 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 * config.h - no change
 * keymap.c 
   * Look up the [default keycodes[(https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
-  * Or, in [QMK Configurator](https://config.qmk.fm/) press Ctrl+Shift+I to upload the info.json file to QMK Configurator to test the key display.
 ```c
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(/* Base */
@@ -67,6 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 				 ),
 };
 ```
+  * Or, in [QMK Configurator](https://config.qmk.fm/) press Ctrl+Shift+I to upload the info.json file to QMK Configurator to test the key display.
 
 ## 1. Wire up the Keyboard Matrix  
 The QMK keyboard matrix for the EVK v1.3 in /handwired/evk/1_3/1_3.h   
