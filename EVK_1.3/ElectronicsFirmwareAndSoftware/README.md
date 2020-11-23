@@ -20,8 +20,7 @@ Local QMK Repository Path: C:\Users\<UserName>\qmk_firmware
 
 ### 1.2 Copy /keyboards/handwired/dactyl_left Into /keyboards/handwired/evk and Modify Its Contents
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
-[Change the Folder Structure and Update the Files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming)  
-/handwired/evk/1_3/  
+[Change the Folder Structure and Update the Files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming) in /handwired/evk/1_3/:   
 * readme.md - no change  
 * info.json - no change  
 * rules.mk - no change  
