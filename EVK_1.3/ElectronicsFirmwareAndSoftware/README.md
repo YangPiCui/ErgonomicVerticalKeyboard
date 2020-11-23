@@ -30,8 +30,11 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
   * define the matrix row and col pins for [Teensy 2.0](https://www.pjrc.com/teensy/pinout.html)  
 * 1_3_h    
   * [define the matrix to physical layout map](https://docs.qmk.fm/#/reference_configurator_support). ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
+* [info.json](https://docs.qmk.fm/#/reference_configurator_support)
+  * Build the [keymap](../Keymap) in the Keyboard Layout Editor
+  * Convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
+  * Update the .json file
 
-### 1.3 Build the JSON file
 
 
 
