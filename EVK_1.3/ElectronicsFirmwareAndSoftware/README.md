@@ -53,7 +53,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 * readme.md - update
 * config.h - no change
 * keymap.c 
-  * In QMK Configurator https://config.qmk.fm/ [press Ctrl+Shift+I (in that order)] (https://www.reddit.com/r/olkb/comments/aumb7i/how_do_you_manage_to_convert_keyboardlayoutjson/)to upload your info.json file to QMK Configurator to test the key display.
+  * In [QMK Configurator](https://config.qmk.fm/) [press Ctrl+Shift+I] (https://www.reddit.com/r/olkb/comments/aumb7i/how_do_you_manage_to_convert_keyboardlayoutjson/) to upload your info.json file to QMK Configurator to test the key display.
   * Or, look up the [default keycodes[(https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
 
 
