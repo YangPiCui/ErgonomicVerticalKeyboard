@@ -37,13 +37,11 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
   * Update the .json file
 
 
-## 1. Wire up the Keyboard Matrix
-
-Wiring of the key switches depends on the firmware and keymap setup.  
-The QMK matrix code for the EVK v1.3:  
+## 1. Wire up the Keyboard Matrix  
+The QMK keyboard matrix for the EVK v1.3 in /handwired/evk/1_3/1_3.h   
 
 ```c
-// keyboard matrix in /handwired/evk/1_3/1_3.h
+// 
 { \
     { k0A, k0B, k0C, k0D, k0E, k0F,    k0G, k0H, k0I, k0J,    k0K, k0L, k0M, k0N, k0O, k0P }, \
     { k1A, k1B, k1C, k1D, k1E, k1F,    k1G, k1H, k1I, k1J,    k1K, k1L, k1M, k1N, k1O, k1P }, \
