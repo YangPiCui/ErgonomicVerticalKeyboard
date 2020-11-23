@@ -22,9 +22,14 @@ If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up corr
 ### 1.2 Write Custom Codes
 Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)).  
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
-Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify the files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming) in /handwired/evk/1_3/:   
-* readme.md - no change  
-* info.json - no change  
+Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify the files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming)  
+/handwired/evk/
+* readme.md - update   
+* info.json - update 
+
+/handwired/evk/1_3/    
+* readme.md - update    
+* info.json - update    
 * rules.mk - no change  
 * 1_3.c - no change  
 * config.h  
@@ -36,13 +41,18 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 #define MATRIX_COL_PINS \
     { D1, D2, D3, C6, C7, F0, F1, F4, F5, F6, F7, B6, B5, B4, D7, D6 }
 ```  
-
 * 1_3_h    
   * [define the matrix to physical layout map](https://docs.qmk.fm/#/reference_configurator_support). ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
 * [info.json](https://docs.qmk.fm/#/reference_configurator_support)
   * Build the [keymap](../Keymap) in the Keyboard Layout Editor
   * Convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
   * Update the .json file
+
+/handwired/evk/1_3/keymaps/default
+* readme.md - update
+* config.h - no change
+* keymap.c 
+  * [Customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking)
 
 
 ## 1. Wire up the Keyboard Matrix  
