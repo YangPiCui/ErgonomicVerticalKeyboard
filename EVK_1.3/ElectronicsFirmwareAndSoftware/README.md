@@ -19,6 +19,7 @@ During Windows setup, follow [this](https://stackoverflow.com/questions/41932407
 Local QMK Repository Path: C:\Users\<UserName>\qmk_firmware  
 
 ### 1.2 Write Custom Codes
+Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)).  
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
 Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify the files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming) in /handwired/evk/1_3/:   
 * readme.md - no change  
@@ -36,33 +37,22 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
   * Update the .json file
 
 
+## 1. Wire up the Keyboard Matrix
 
-
-
-## 1. Wiring up the Keyboard Matrix
-Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting))  
 Wiring of the key switches depends on the firmware and keymap setup.  
 The QMK matrix code for the EVK v1.3:  
 
 ```c
-// matrix positions
-{   // MCP23018
- { k00, k10, k20,   k30, k40,   KC_NO },                     \
- { k01, k11, k21,   k31, k41,   k51   },                     \
- { k02, k12, k22,   k32, k42,   k52   },                     \
- { k03, k13, k23,   k33, k43,   k53   },                     \
- { k04, k14, k24,   k34, k44,   k54   },                     \
- { k05, k15, k25,   k35, KC_NO, k55   },                     \
- { k06, k16, KC_NO, k36, KC_NO, k56   },                     \
-    // Teensy
- { k07, k17, KC_NO, k37, KC_NO, k57   },                     \
- { k08, k18, k28,   k38, KC_NO, k58   },                     \
- { k09, k19, k29,   k39, k49,   k59   },                     \
- { k0A, k1A, k2A,   k3A, k4A,   k5A   },                     \
- { k0B, k1B, k2B,   k3B, k4B,   k5B   },                     \
- { k0C, k1C, k2C,   k3C, k4C,   k5C   },                     \
- { k0D, k1D, k2D,   k3D, k4D,   KC_NO }                      \
+// keyboard matrix in /handwired/evk/1_3/1_3.h
+{ \
+    { k0A, k0B, k0C, k0D, k0E, k0F,    k0G, k0H, k0I, k0J,    k0K, k0L, k0M, k0N, k0O, k0P }, \
+    { k1A, k1B, k1C, k1D, k1E, k1F,    k1G, k1H, k1I, k1J,    k1K, k1L, k1M, k1N, k1O, k1P }, \
+    { k2A, k2B, k2C, k2D, k2E, k2F,    k2G, k2H, k2I, k2J,    k2K, k2L, k2M, k2N, k2O, k2P }, \
+    { k3A, k3B, k3C, k3D, k3E,  k3F,   k3G, k3H, k3I, k3J,   k3K,  k3L, k3M, k3N, k3O, k3P }, \
+    { k4A, k4B, k4C, k4D,  k4E, k4F,   k4G, k4H, k4I, k4J,   k4K, k4L,  k4M, k4N, k4O, k4P }, \
+	{ XXX, XXX, k5B, k5C, XXX,  XXX,   k5G, k5H, k5I, k5J,    XXX, XXX, XXX, k5M, k5N, XXX }, \
 }
+
 ``` 
 
 It looks like this physically:  
