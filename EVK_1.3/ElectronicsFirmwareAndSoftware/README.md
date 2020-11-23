@@ -10,7 +10,7 @@
 7. 3x 220 Ω resistors, or match to LED. (red, red, brown) （电阻）  
 8. 30AWG sillicon wire （0.5mm 硅胶线）  
 
-## 1. Design Custom QMK Firmware for the EVK
+## 1. Build Custom QMK Firmware for the EVK
 ### 1.0 [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
 During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.
 
@@ -23,6 +23,7 @@ If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up corr
 Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)).  
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
 Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify the files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming)  
+  
 /handwired/evk/
 * readme.md - update   
 * info.json - update 
