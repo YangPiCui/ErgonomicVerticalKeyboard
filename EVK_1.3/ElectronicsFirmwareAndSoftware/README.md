@@ -17,6 +17,7 @@ During Windows setup, follow [this](https://stackoverflow.com/questions/41932407
 ### 1.1 Fork https://github.com/qmk/qmk_firmware on Github
 [Keep the forked repository and the local copy up-to-date](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/)  
 Local QMK Repository Path: C:\Users\<UserName>\qmk_firmware  
+If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", [run "python3 -m pip install pygments" in MSYS2](https://github.com/qmk/qmk_firmware/issues/10602).
 
 ### 1.2 Write Custom Codes
 Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)).  
