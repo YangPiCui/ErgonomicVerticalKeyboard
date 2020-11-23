@@ -11,16 +11,26 @@
 8. 30AWG sillicon wire （0.5mm 硅胶线）  
 
 ## 1. Design Custom QMK Firmware for the EVK
-### [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
+### 1.0 [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
 During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.
 
-### Fork https://github.com/qmk/qmk_firmware on Github
+### 1.1 Fork https://github.com/qmk/qmk_firmware on Github
 [Keep the forked repository and the local copy up-to-date](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/)  
-Local Repository Path: C:\Users\<UserName>\qmk_firmware  
+Local QMK Repository Path: C:\Users\<UserName>\qmk_firmware  
 
-### Copy /keyboards/handwired/dactyl_left Into /keyboards/handwired/evk
-[Change the Folder Structure and Rewrite the Files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming)  
-
+### 1.2 Copy /keyboards/handwired/dactyl_left Into /keyboards/handwired/evk and Modify Its Contents
+[Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
+[Change the Folder Structure and Update the Files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming)  
+/handwired/evk/1_3/  
+* readme.md - no change  
+* info.json - no change  
+* rules.mk - no change  
+* 1_3.c - no change  
+* config.h  
+  * change matrix size from 6x6 to 6(rows) x 16(cols)  
+  * define the matrix row and col pins on Teensy 2.0  
+* 1_3_h    
+  * 
 
 
 
