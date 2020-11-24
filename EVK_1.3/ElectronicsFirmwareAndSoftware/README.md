@@ -54,7 +54,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 * readme.md - update
 * config.h - no change
 * keymap.c 
-  * Look up the [default keycodes[(https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
+  * Look up the [default keycodes](https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
   * Or, in [QMK Configurator](https://config.qmk.fm/) press Ctrl+Shift+I to upload the info.json file to QMK Configurator to test the key display.
 
 ### 1.3 Compile
