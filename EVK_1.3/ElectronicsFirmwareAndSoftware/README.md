@@ -35,7 +35,8 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 * rules.mk - no change  
 * v1_3.c - update  
 * config.h  
-  * change matrix size from 6x6 to 6(rows) x 16(cols)  
+  * change matrix size from 6x6 to 6(rows) x 16(cols) 
+  * #define DIODE_DIRECTION ROW2COL // the current flows into the rows and then out of the columns  
   * define the matrix row and col pins for the [Teensy 2.0](https://www.pjrc.com/teensy/pinout.html)
 ```c
 #define MATRIX_ROW_PINS \
