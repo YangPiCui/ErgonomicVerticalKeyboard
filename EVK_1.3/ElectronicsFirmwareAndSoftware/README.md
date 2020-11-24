@@ -43,6 +43,8 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 #define MATRIX_COL_PINS \
     { D1, D2, D3, C6, C7, F0, F1, F4, F5, F6, F7, B6, B5, B4, D7, D6 }
 ```  
+![Teensy 2.0 Pinout in C Language](Images/pinout2a.png)
+
 * v1_3_h    
   * [define the matrix to physical layout map](https://docs.qmk.fm/#/reference_configurator_support). ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
 * [info.json](https://docs.qmk.fm/#/reference_configurator_support)
@@ -57,12 +59,13 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
   * Look up the [default keycodes](https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
   * Or, in [QMK Configurator](https://config.qmk.fm/) press Ctrl+Shift+I to upload the info.json file to QMK Configurator to test the key display.
 
-### 1.3 Compile
+### 1.3 Compile and Flash Firmware Onto the Micro-controller
 In MSYS2
 ```c
 qmk compile -kb handwired/evk/v1_3 -km default
 ```
 The .hex file is located in /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.
+Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the .hex file onto the Teensy 2.0.
 
 
 
