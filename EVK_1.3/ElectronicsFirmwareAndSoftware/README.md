@@ -12,7 +12,8 @@
 
 ## 1. Build Custom QMK Firmware for the EVK
 ### 1.0 [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
-During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.
+During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
+Open up C:\MSYS64\home\(username)\qmk_utils\activate_msys2.sh, and add cd ~/qmk_firmware, or whatever the path is. That way, when you open up MSYS, it will automatically start in the qmk directory.
 
 ### 1.1 Fork https://github.com/qmk/qmk_firmware on Github
 [Keep the forked repository and the local copy up-to-date](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/)  
@@ -28,11 +29,11 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 * readme.md - update   
 * info.json - update 
 
-/handwired/evk/1_3/    
+/handwired/evk/v1_3/    
 * readme.md - update    
 * info.json - update    
 * rules.mk - no change  
-* 1_3.c - no change  
+* v1_3.c - update  
 * config.h  
   * change matrix size from 6x6 to 6(rows) x 16(cols)  
   * define the matrix row and col pins for the [Teensy 2.0](https://www.pjrc.com/teensy/pinout.html)
@@ -42,7 +43,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
 #define MATRIX_COL_PINS \
     { D1, D2, D3, C6, C7, F0, F1, F4, F5, F6, F7, B6, B5, B4, D7, D6 }
 ```  
-* 1_3_h    
+* v1_3_h    
   * [define the matrix to physical layout map](https://docs.qmk.fm/#/reference_configurator_support). ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
 * [info.json](https://docs.qmk.fm/#/reference_configurator_support)
   * Build the [keymap](../Keymap) in the Keyboard Layout Editor
@@ -56,6 +57,15 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
   * Look up the [default keycodes[(https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
   * Or, in [QMK Configurator](https://config.qmk.fm/) press Ctrl+Shift+I to upload the info.json file to QMK Configurator to test the key display.
 
+### 1.3 Compile
+In MSYS2
+```c
+qmk compile -kb handwired/evk/v1_3 -km default
+```
+The .hex file is located in /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.
+
+
+
 ## 1. Wire up the Keyboard Matrix  
 The QMK keyboard matrix for the EVK v1.3 in /handwired/evk/1_3/1_3.h   
 
@@ -66,7 +76,7 @@ The QMK keyboard matrix for the EVK v1.3 in /handwired/evk/1_3/1_3.h
     { k2A, k2B, k2C, k2D, k2E, k2F,    k2G, k2H, k2I, k2J,    k2K, k2L, k2M, k2N, k2O, k2P }, \
     { k3A, k3B, k3C, k3D, k3E,  k3F,   k3G, k3H, k3I, k3J,   k3K,  k3L, k3M, k3N, k3O, k3P }, \
     { k4A, k4B, k4C, k4D,  k4E, k4F,   k4G, k4H, k4I, k4J,   k4K, k4L,  k4M, k4N, k4O, k4P }, \
-    { XXX, XXX, k5B, k5C, XXX, XXX,   k5G, k5H, k5I, k5J,    XXX, XXX, XXX, k5M, k5N, XXX }, \
+    { XXX, XXX, k5B, k5C, XXX, XXX,   k5G, k5H, k5I, k5J,    XXX, XXX, XXX, k5M, k5N, XXX } \
 }
 
 ``` 
