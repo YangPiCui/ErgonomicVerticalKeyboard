@@ -60,17 +60,23 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify 
   * Look up the [default keycodes](https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
   * Or, in [QMK Configurator](https://config.qmk.fm/) press Ctrl+Shift+I to upload the info.json file to QMK Configurator to test the key display.
 
-### 1.3 Compile and Flash Firmware Onto the Micro-controller
+### 1.3 Compile the Firmware 
 In MSYS2
 ```c
 qmk compile -kb handwired/evk/v1_3 -km default
 ```
 The .hex file is located in /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.
+
+### 1.4 Flash Firmware Onto the Micro-controller
 Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the .hex file onto the Teensy 2.0.
 
+### 1.5 Use QMK Configurator to Build a Custom Keymap for the EVK (Optional)
+Use the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load /handwired/evk/v1_2 
+Modify the keymap, compile, and generate the .hex file  
+  
 
 
-## 1. Wire up the Keyboard Matrix  
+## 2. Wire up the Keyboard Matrix  
 The QMK keyboard matrix for the EVK v1.3 in /handwired/evk/1_3/1_3.h   
 
 ```c
@@ -112,16 +118,7 @@ Both parts:
 
 
 
-## 3. QMK Firmware & Custom Keymap 
 
-
-
-### QMK
-Use the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load the Ergodox_EZ keymap, modify it and generate the .hex file:  
-
-
-
-### Flashing
-Use the [Teensy Loader App](https://www.pjrc.com/teensy/loader.html) to flash the generated .hex file onto the Teensy 2.0 micro controller.  
+  
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
