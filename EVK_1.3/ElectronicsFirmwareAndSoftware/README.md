@@ -71,7 +71,7 @@ The .hex file is located in /qmk_firmware/.build/handwired_evk_v1_3_default.hex 
 Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the .hex file onto the Teensy 2.0.
 
 ### 1.5 Use QMK Configurator to Build a Custom Keymap for the EVK (Optional)
-Use the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load /handwired/evk/v1_2 
+Use the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load /handwired/evk/v1_3 
 Modify the keymap, compile, and generate the .hex file  
   
 
