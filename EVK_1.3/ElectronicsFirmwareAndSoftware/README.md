@@ -5,10 +5,10 @@
 2. [1x Teensy 2.0 USB Board （开发板）](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7d1f2e8depIv8w&id=537590679522&_u=b1t8kl8uaf14)  
 3. Teensy header pins <- [单排针1*40双排排针2*40圆2.54mm间距](https://detail.tmall.com/item.htm?id=13700799942&spm=a1z09.2.0.0.7d1f2e8depIv8w&_u=b1t8kl8ud5aa)  
 4. [100x 1N4148 （开关二极管）](https://detail.tmall.com/item.htm?id=15641176828&spm=a1z09.2.0.0.7d1f2e8depIv8w&_u=b1t8kl8u798e)  
-5. 2x 2.2kΩ resistors (red, red, red) （电阻 ）  
 6. 3x 3mm T1 LEDs （发光二极管）  
 7. 3x 220 Ω resistors, or match to LED. (red, red, brown) （电阻）  
-8. 30AWG sillicon wire （0.5mm 硅胶线）  
+8. 30AWG sillicon wire （0.5mm 硅胶线） 
+9. Hot glue for gluing the keyswitches. 
 
 ## 1. Build Custom QMK Firmware for the EVK
 ### 1.0 [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
@@ -21,9 +21,10 @@ Local QMK Repository Path: C:\Users\<UserName>\qmk_firmware
 If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", [run "python3 -m pip install pygments" in MSYS2](https://github.com/qmk/qmk_firmware/issues/10602).
 
 ### 1.2 Write Custom Codes
-Understand the keyboard matrix ([reference](https://www.dribin.org/dave/keyboard/one_html/) | [reference](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)).  
+[Understand the keyboard matrix](https://www.dribin.org/dave/keyboard/one_html/)  
+[Rollover, blocking and ghosting](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting))  
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
-Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and [modify the files](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming)  
+Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify the files with [these guidelines](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming).  
   
 /handwired/evk/
 * readme.md - update   
