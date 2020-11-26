@@ -34,7 +34,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify t
 * rules.mk - no change 
 * readme.md - update   
 * v1_3.c
-  * Add the codes to control status LEDs [setPinOutput(D4);](https://beta.docs.qmk.fm/developing-qmk/c-development/internals_gpio_control#functions-id-functions) [writePin(D4, led_state.caps_lock);](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_led_indicators#example-led_update_kb-implementation) [Layer Change Code](https://docs.qmk.fm/#/custom_quantum_functions?id=layer-change-code)
+  * Add the codes to control status LEDs ([setPinOutput(D4);](https://beta.docs.qmk.fm/developing-qmk/c-development/internals_gpio_control#functions-id-functions) | [writePin(D4, led_state.caps_lock);](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_led_indicators#example-led_update_kb-implementation) | [Layer Change Code](https://docs.qmk.fm/#/custom_quantum_functions?id=layer-change-code))
 * config.h  
   * change matrix size to 6(rows) x 16(cols) 
   * #define DIODE_DIRECTION ROW2COL // the current flows into the rows and then out of the columns  
