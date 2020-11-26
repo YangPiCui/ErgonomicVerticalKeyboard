@@ -47,7 +47,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify t
 ![Teensy 2.0 Pinout in C Language](Images/pinout2a.png)
 
 * v1_3_h    
-  * Map the matrix to physical layout ([https://docs.qmk.fm/#/reference_configurator_support?id=how-the-configurator-understands-keyboards](https://docs.qmk.fm/#/reference_configurator_support)) | ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
+  * Map the matrix to physical layout ([How the Configurator Understands Keyboards](https://docs.qmk.fm/#/reference_configurator_support?id=how-the-configurator-understands-keyboards) | [the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
 * info.json ([Supporting Your Keyboard in QMK Configurator](https://docs.qmk.fm/#/reference_configurator_support))
   * Build the [keymap](../Keymap) in the Keyboard Layout Editor
   * Convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
