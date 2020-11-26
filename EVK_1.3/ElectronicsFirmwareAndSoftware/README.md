@@ -31,12 +31,11 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify t
 * info.json - update 
 
 /handwired/evk/v1_3/    
-* readme.md - update    
-* info.json - update    
-* rules.mk - no change  
+* rules.mk - no change 
+* readme.md - update   
 * v1_3.c - update  
 * config.h  
-  * change matrix size from 6x6 to 6(rows) x 16(cols) 
+  * change matrix size to 6(rows) x 16(cols) 
   * #define DIODE_DIRECTION ROW2COL // the current flows into the rows and then out of the columns  
   * define the matrix row and col pins for the [Teensy 2.0](https://www.pjrc.com/teensy/pinout.html)
 ```c
@@ -48,8 +47,8 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify t
 ![Teensy 2.0 Pinout in C Language](Images/pinout2a.png)
 
 * v1_3_h    
-  * [define the matrix to physical layout map](https://docs.qmk.fm/#/reference_configurator_support). ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
-* [info.json](https://docs.qmk.fm/#/reference_configurator_support)
+  * Map the matrix to physical layout ([https://docs.qmk.fm/#/reference_configurator_support?id=how-the-configurator-understands-keyboards](https://docs.qmk.fm/#/reference_configurator_support)) | ([the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
+* info.json ([Supporting Your Keyboard in QMK Configurator](https://docs.qmk.fm/#/reference_configurator_support))
   * Build the [keymap](../Keymap) in the Keyboard Layout Editor
   * Convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
   * Save the converted content to a info.json file
