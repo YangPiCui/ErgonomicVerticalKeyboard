@@ -51,7 +51,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify t
 * info.json ([Supporting Your Keyboard in QMK Configurator](https://docs.qmk.fm/#/reference_configurator_support))
   * Build the [keymap](../Keymap) in the Keyboard Layout Editor
   * Convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
-  * Save the converted content to a info.json file
+  * Override the info.json file with the converted contents 
 
 /handwired/evk/1_3/keymaps/default
 * readme.md - update
