@@ -1,5 +1,5 @@
 # Keymap  
-Prioritize ergonomics and comfort over typing speed.
+Prefer comfort over typing-speed.
 
 
 ## 0. Manual Optimization
