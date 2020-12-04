@@ -26,11 +26,11 @@ If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up corr
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
 Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify the files according to [these guidelines](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming).  
   
-/handwired/evk/
+**/handwired/evk/**
 * readme.md - update   
 * info.json - update 
 
-/handwired/evk/v1_3/    
+**/handwired/evk/v1_3/**    
 * readme.md - update   
 * rules.mk - no change  
 * config.h  
