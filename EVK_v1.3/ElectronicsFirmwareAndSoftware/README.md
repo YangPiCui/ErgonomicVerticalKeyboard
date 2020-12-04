@@ -100,7 +100,7 @@ bool led_update_kb(led_t led_state) {
   * Convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
   * Override the existing contents of info.json with the converted contents 
 
-/handwired/evk/1_3/keymaps/default
+**/handwired/evk/1_3/keymaps/default**
 * readme.md - update
 * config.h - no change
 * keymap.c 
