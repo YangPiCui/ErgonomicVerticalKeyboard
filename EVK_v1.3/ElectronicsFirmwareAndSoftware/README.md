@@ -112,7 +112,7 @@ In MSYS2 type
 ```c
 qmk compile -kb handwired/evk/v1_3 -km default
 ```
-The .hex file is located in /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.
+The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.
 
 ### 1.4 Flash Firmware Onto the Micro-controller
 Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the .hex file onto the Teensy 2.0.
