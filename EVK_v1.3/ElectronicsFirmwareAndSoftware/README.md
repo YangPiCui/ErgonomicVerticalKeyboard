@@ -24,8 +24,8 @@ If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up corr
 [Understand the keyboard matrix](https://www.dribin.org/dave/keyboard/one_html/)  
 [Rollover, blocking and ghosting](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)  
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
-Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify the files according to [these guidelines](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming).  
   
+Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify the files according to [these guidelines](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming).  
 **/handwired/evk/**
 * readme.md - update   
 * info.json - update 
