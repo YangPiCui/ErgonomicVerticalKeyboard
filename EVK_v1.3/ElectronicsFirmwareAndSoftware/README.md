@@ -76,7 +76,7 @@ bool led_update_kb(led_t led_state) {
 ```
 
 * v1_3_h    
-  * Map the matrix to physical layout ([How the Configurator Understands Keyboards](https://docs.qmk.fm/#/reference_configurator_support?id=how-the-configurator-understands-keyboards) | [the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
+  * map the matrix to physical layout ([How the Configurator Understands Keyboards](https://docs.qmk.fm/#/reference_configurator_support?id=how-the-configurator-understands-keyboards) | [the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
 ```c
 #define LAYOUT(\
     k0A, k0B, k0C, k0D, k0E, k0F,    k0G, k0H, k0I, k0J,    k0K, k0L, k0M, k0N, k0O, k0P, \
@@ -96,34 +96,32 @@ bool led_update_kb(led_t led_state) {
 ```
 
 * info.json ([Supporting Your Keyboard in QMK Configurator](https://docs.qmk.fm/#/reference_configurator_support))
-  * Build the [keymap](../Keymap) in the Keyboard Layout Editor
-  * Convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
-  * Override the existing contents of info.json with the converted contents 
+  * build the [keymap](../Keymap) in the Keyboard Layout Editor
+  * convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
+  * override the existing contents of info.json with the converted contents 
+  * in [QMK Configurator](https://config.qmk.fm/), press Ctrl+Shift+I to upload the new info.json file and check if it's correct.
 
 **/handwired/evk/1_3/keymaps/default**
 * readme.md - update
 * config.h - no change
 * keymap.c 
-  * Look up the [default keycodes](https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
-  * Or, in [QMK Configurator](https://config.qmk.fm/) press Ctrl+Shift+I to upload the info.json file to QMK Configurator to test the key display.
+  * look up the [default keycodes](https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
 
 ### 1.3 Compile the Firmware 
-In MSYS2 type
+In MSYS2, type
 ```c
 qmk compile -kb handwired/evk/v1_3 -km default
 ```
-The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.
+The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.   
 
-### 1.4 Flash Firmware Onto the Micro-controller
+Alternatively, open the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v1_3, modify the keymap, compile, and generate the .hex file.     
+
+
+## 2. Flash Firmware Onto the Micro-controller
 Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the .hex file onto the Teensy 2.0.
 
-### 1.5 Use QMK Configurator to Build a Custom Keymap for the EVK (Optional)
-Use the [QMK Corfigurator](https://docs.qmk.fm/#/newbs_building_firmware_configurator) to load /handwired/evk/v1_3 
-Modify the keymap, compile, and generate the .hex file  
   
-
-
-## 2. Wire up the Keyboard Matrix  
+## 3. Wire up the Keyboard Matrix  
 The QMK keyboard matrix for the EVK v1.3 in /handwired/evk/1_3/1_3.h   
 
 ```c
