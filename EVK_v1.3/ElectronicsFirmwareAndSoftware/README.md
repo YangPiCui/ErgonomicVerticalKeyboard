@@ -22,31 +22,58 @@ If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up corr
 
 ### 1.2 Write Custom Codes
 [Understand the keyboard matrix](https://www.dribin.org/dave/keyboard/one_html/)  
-[Rollover, blocking and ghosting](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting))  
+[Rollover, blocking and ghosting](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)  
 [Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
-Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify the files with [these guidelines](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming).  
+Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify the files according to [these guidelines](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming).  
   
 /handwired/evk/
 * readme.md - update   
 * info.json - update 
 
 /handwired/evk/v1_3/    
-* rules.mk - no change 
 * readme.md - update   
-* v1_3.c
-  * Add the codes to control status LEDs ([setPinOutput(D4);](https://beta.docs.qmk.fm/developing-qmk/c-development/internals_gpio_control#functions-id-functions) | [writePin(D4, led_state.caps_lock);](https://beta.docs.qmk.fm/using-qmk/hardware-features/feature_led_indicators#example-led_update_kb-implementation) | [Layer Change Code](https://docs.qmk.fm/#/custom_quantum_functions?id=layer-change-code))
+* rules.mk - no change  
 * config.h  
-  * [define status LEDs](https://docs.qmk.fm/#/feature_led_indicators?id=configuration-options)
   * change matrix size to 6(rows) x 16(cols) 
-  * #define DIODE_DIRECTION ROW2COL // the current flows into the rows and then out of the columns  
   * define the matrix row and col pins for the [Teensy 2.0](https://www.pjrc.com/teensy/pinout.html)
+  * #define DIODE_DIRECTION ROW2COL // the current flows into the rows and then out of the columns  
+  * [define status LEDs](https://docs.qmk.fm/#/feature_led_indicators?id=configuration-options)
 ```c
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 16
 #define MATRIX_ROW_PINS \
     { B0, B1, B2, B3, B7, D0 }
 #define MATRIX_COL_PINS \
     { D1, D2, D3, C6, C7, F0, F1, F4, F5, F6, F7, B6, B5, B4, D7, D6 }
+#define DIODE_DIRECTION ROW2COL
+#define LED_CAPS_LOCK_PIN D4  //This same pin is used in v1_3.c to switch the LED on/off
 ```  
 ![Teensy 2.0 Pinout in C Language](Images/pinout2a.png)
+
+* v1_3.c
+  * Add the codes to control status LEDs ([Layer Change Code](https://docs.qmk.fm/#/custom_quantum_functions?id=layer-change-code))
+```c
+void matrix_init_kb(void) {
+    // Set the LEDs pins
+    setPinOutput(D5); // Layer 1 Status LED
+
+    matrix_init_user();
+}
+
+__attribute__((weak)) layer_state_t layer_state_set_user(layer_state_t state) {
+    writePin(D5, layer_state_cmd(state, 1));
+    return state;
+}
+
+bool led_update_kb(led_t led_state) {
+    bool res = led_update_user(led_state);
+    if (res) {
+        // writePin sets the pin high for 1 and low for 0.
+        writePin(D4, led_state.caps_lock);
+    }
+    return res;
+}
+```
 
 * v1_3_h    
   * Map the matrix to physical layout ([How the Configurator Understands Keyboards](https://docs.qmk.fm/#/reference_configurator_support?id=how-the-configurator-understands-keyboards) | [the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
