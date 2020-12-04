@@ -108,7 +108,7 @@ bool led_update_kb(led_t led_state) {
   * Or, in [QMK Configurator](https://config.qmk.fm/) press Ctrl+Shift+I to upload the info.json file to QMK Configurator to test the key display.
 
 ### 1.3 Compile the Firmware 
-In MSYS2
+In MSYS2 type
 ```c
 qmk compile -kb handwired/evk/v1_3 -km default
 ```
