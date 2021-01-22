@@ -1,6 +1,7 @@
 # Keyboard Case
-![](Case0.JPG)
 Please visit [v1.2](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.2/Case#siemens-nx-modelling) for how the keyboard is designed.  
+![](Case0.JPG)
+![](Case1.JPG)
 
 ## 0. 3D Printing the Components
 Before 3D printing the parts, make sure to fully calibrate your printer. [This is how I did it.](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA) 
