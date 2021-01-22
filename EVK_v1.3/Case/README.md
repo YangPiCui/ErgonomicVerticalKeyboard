@@ -4,8 +4,8 @@ Please visit [v1.2](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/
 ![](Case1.JPG)
 
 ## 0. 3D Printing the Components
-Before 3D printing the parts, make sure to fully calibrate your printer. [This is how I did it.](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA) 
 "./STLFiles/" constains the .stl files of the various parts. Modelling uncertainty for part clearance = +/-0.25mm (tolerance 0.5mm)  
+Before 3D printing the parts, make sure to fully calibrate your printer. [This is how I did it.](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA)  
 "./CuraSettings/" contains my Cura print settings  
   
 ### 0. Keycaps
@@ -31,7 +31,8 @@ Print these parts in this orientation to minimize support:
 ![](HandPlateOrientation.JPG)
 
 ## 1. Pre-assemble the Components
-Hot-glue Cherry Switches onto the plates  
+Be patient in removing the print supports.  
+Hot-glue Cherry Switches onto the plates:  
 ![](Hot-glueSwitches.JPG)  
 
 
