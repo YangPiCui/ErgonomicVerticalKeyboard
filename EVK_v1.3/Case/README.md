@@ -1,4 +1,5 @@
 # Keyboard Case
+![](Case0.JPG)
 
 ## 0. 3D Printing the Components
 Please refer to [v1.2](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.2/Case#siemens-nx-modelling) for how the keyboard is designed.  
@@ -8,17 +9,23 @@ Modelling uncertainty for part clearance: +/-0.25mm (tolerance 0.5mm)
 [My 3D printer parameters] (https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA)  
 
 ### Keycaps
-Layer Height = 0.16mm  
-KeycapHome X 12  
-KeycapThumb X 4  
-KeycapNormal X 74
+Layer Height = 0.16mm (See the settings in "./CuraSettings/Vega PLA ND=0.3 LH=0.16.curaprofile")  
+I have designed the keycaps for a press-fit on the Cherry Switches, but you may have to fine tune your own print settings to achieve this result. Once you have fully calibrated your printer, play with the Horizontal Expansion setting in Cura.
 
-Orientate them like this:
-![](KeycapOrientation.JPG)
+KeycapHome x 12 (8 for the home row and 4 for the most bottom row) 
+KeycapThumb x 4  
+KeycapNormal x 74  
+  
+Print the keycaps in this orientation for a smooth finish:  
+![](KeycapOrientation.JPG)  
 
-
-### Walls
-
+### Other parts
+Layer Height = 0.24mm (See the settings in "./CuraSettings/Vega PLA ND=0.3 LH=0.24.curaprofile")  
+  
+LeftHandPlate X 1  
+RightHandPlate X 1 (just mirror the LeftHandPlate.stl in Cura)  
+TopWall x 1  
+... x 1  
 
 
 ## 1. Assemble the Components
