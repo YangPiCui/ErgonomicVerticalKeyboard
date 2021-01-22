@@ -3,7 +3,7 @@ Part List:
 1. 94x Cherry Mechanical Switch （樱桃银轴）
 2. 16 M3x8 flat tip self-tap screws.
 3. 8mm diameter x 3mm deep silicon dome sticker feet.
-![](InProgress.jpg)
+![](Case0.JPG)
 
 # [1. Keymap](Keymap) 
 
