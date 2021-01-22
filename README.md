@@ -15,7 +15,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 ![](LatestProductionVersionManufactured.jpg)
 
 ## Versions
-### [EVK_v1.3](EVK_v1.3) (Under Development - currently acquiring a legal copy of Siemens NX in China...)
+### [EVK_v1.3](EVK_v1.3) (Under Development)
 1. Add palm rest  
 2. Add more keys at the top  
 3. Improve layout and ergonomics  
