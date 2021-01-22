@@ -21,8 +21,8 @@ Print the keycaps in this orientation for a smooth finish:
 ### 1. Other parts
 Layer Height = 0.24mm (See the settings in "./CuraSettings/Vega PLA ND=0.3 LH=0.24.curaprofile")  
   
-LeftHandPlate X 1  
-RightHandPlate X 1 (just mirror the LeftHandPlate.stl in Cura)  
+LeftHandPlate x 1  
+RightHandPlate x 1 (just mirror the LeftHandPlate.stl in Cura)  
 TopWall x 1  
 ... x 1  
 
