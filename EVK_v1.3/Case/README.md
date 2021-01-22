@@ -29,15 +29,9 @@ TopWall x 1
 Print these parts in this orientation to minimize support:
 ![](HandPlateOrientation.JPG)
 
-## 1. Assemble the Components
-### 0. Hot-glue Cherry Switches onto the plates
-
-
-
-
-
-
-
+## 1. Pre-assemble the Components
+Hot-glue Cherry Switches onto the plates  
+![](Hot-glueSwitches.JPG)  
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
