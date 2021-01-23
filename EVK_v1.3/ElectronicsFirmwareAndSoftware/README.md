@@ -5,7 +5,6 @@ Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), 
 [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator)
 
 ## 1. [Alternatively] Build Custom QMK Firmware for the EVK From Scratch
-Skip if following section 0.  
 ### 1.0 [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
 During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
 Open up C:\MSYS64\home\(username)\qmk_utils\activate_msys2.sh, and add cd ~/qmk_firmware, or whatever the path is. That way, when you open up MSYS, it will automatically start in the qmk directory.
