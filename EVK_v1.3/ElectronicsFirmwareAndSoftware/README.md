@@ -130,7 +130,7 @@ The QMK keyboard matrix for the EVK v1.3 in /handwired/evk/1_3/1_3.h
 
 ``` 
 
-It looks like this physically:  
+The corresponding rows and columns on the keyboard:  
 <img src="./Images/EVKv1.2_Keymapping.jpg"> 
 
 ### Rows

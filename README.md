@@ -16,10 +16,10 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 
 ## Versions
 ### [EVK_v1.3](EVK_v1.3) (Under Development)
-1. Add palm rest  
-2. Add more keys at the top  
+1. Add palm grip and thumb rest   
+2. Add more keys  
 3. Improve layout and ergonomics  
-4. Use full sized keycaps  
+4. Deploy full-sized keycaps  
 
 ### [EVK_v1.2](EVK_v1.2) 
 Based on the Dactyl Keyboard with Teensy 2.0.  
