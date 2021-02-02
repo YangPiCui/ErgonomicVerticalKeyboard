@@ -96,6 +96,24 @@ bool led_update_kb(led_t led_state) {
   * convert its raw data into .json format with the [QMK KLE-JSON Converter](https://qmk.fm/converter/) 
   * override the existing contents of info.json with the converted contents 
   * in [QMK Configurator](https://config.qmk.fm/), press Ctrl+Shift+I to upload the new info.json file and check if it's correct.
+```
+{
+    "width": 22.75,
+    "height": 7.5,
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"k0A", "x":0, "y":0.5, "w":1.25, "h":1.25},
+                {"label":"k0B", "x":1.25, "y":0.25, "w":1.25, "h":1.25},
+                {"label":"k0C", "x":2.5, "y":0, "w":1.25, "h":1.25},
+
+                {"label":"k5N", "x":19, "y":6.25, "w":1.25, "h":1.25},
+                {"label":"k5O", "x":20.25, "y":6.5, "w":1.25, "h":1.25}
+            ]
+        }
+    }
+}
+```
 
 #### 1.2.2 "/handwired/evk/1_3/keymaps/default"
 * readme.md - update

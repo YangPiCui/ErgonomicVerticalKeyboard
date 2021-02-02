@@ -6,8 +6,6 @@ I manually designed a keymap based on English [letter](https://norvig.com/mayzne
 [Access this keymap on the Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/22fd1367d74f0ee4a891c60fcb62eb59)  
 <img src="./Layer0.JPG">  
 
-One needs the raw output from the Keyboard Layout Editor to create the info.json file to be used in the QMK firmware [later.](../ElectronicsFirmwareAndSoftware#12-write-custom-codes)
-
 
 
 ## 1. Algorithmic Optimization (Under Development)
