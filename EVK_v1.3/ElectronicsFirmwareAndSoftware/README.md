@@ -10,15 +10,15 @@ During Windows setup, follow [this](https://stackoverflow.com/questions/41932407
 Open up C:\MSYS64\home\(username)\qmk_utils\activate_msys2.sh, and add cd ~/qmk_firmware, or whatever the path is. That way, when you open up MSYS, it will automatically start in the qmk directory.
 
 ### 1.1 Fork https://github.com/qmk/qmk_firmware on Github
-[Step-by-step guide to contributing on GitHub](https://www.dataschool.io/how-to-contribute-on-github/)
-[Keep the forked repository and the local copy up-to-date](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/)  
+[Step-by-step guide to contributing on GitHub](https://www.dataschool.io/how-to-contribute-on-github/)  
+[Keep the forked repository and the local copy up-to-date](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/)   
 Local QMK Repository Path: C:\Users\<UserName>\qmk_firmware  
 If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", [run "python3 -m pip install pygments" in MSYS2](https://github.com/qmk/qmk_firmware/issues/10602).
 
 ### 1.2 Write Custom Codes
-[Understand the keyboard matrix](https://www.dribin.org/dave/keyboard/one_html/)  
-[Rollover, blocking and ghosting](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)  
-[Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)  
+[Understand the keyboard matrix](https://www.dribin.org/dave/keyboard/one_html/)   
+[Rollover, blocking and ghosting](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)   
+[Understanding QMK’s Code](https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map)   
   
 Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify the files according to [these guidelines](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming).  
   
