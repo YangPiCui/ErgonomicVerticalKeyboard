@@ -22,11 +22,11 @@ If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up corr
   
 Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify the files according to [these guidelines](https://docs.qmk.fm/#/hardware_keyboard_guidelines?id=custom-keyboard-programming).  
   
-#### 1.2.0 /handwired/evk/
+#### 1.2.0 "/handwired/evk/"
 * readme.md - update   
 * info.json - update 
 
-#### 1.2.1 /handwired/evk/v1_3/    
+#### 1.2.1 "/handwired/evk/v1_3/"    
 * readme.md - update   
 * rules.mk - no change  
 * config.h  
@@ -97,7 +97,7 @@ bool led_update_kb(led_t led_state) {
   * override the existing contents of info.json with the converted contents 
   * in [QMK Configurator](https://config.qmk.fm/), press Ctrl+Shift+I to upload the new info.json file and check if it's correct.
 
-#### 1.2.2 /handwired/evk/1_3/keymaps/default**
+#### 1.2.2 "/handwired/evk/1_3/keymaps/default"
 * readme.md - update
 * config.h - no change
 * keymap.c 
