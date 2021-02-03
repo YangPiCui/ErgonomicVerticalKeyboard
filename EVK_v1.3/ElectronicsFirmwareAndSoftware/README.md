@@ -13,7 +13,6 @@ Open up C:\MSYS64\home\(username)\qmk_utils\activate_msys2.sh, and add cd ~/qmk_
 [Step-by-step guide to contributing on GitHub](https://www.dataschool.io/how-to-contribute-on-github/)  
 [Keep the forked repository and the local copy up-to-date](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/github-collaboration/update-github-repositories-with-changes-by-others/)   
 Local QMK Repository Path: C:\Users\<UserName>\qmk_firmware  
-If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", [run "python3 -m pip install pygments" in MSYS2](https://github.com/qmk/qmk_firmware/issues/10602).
 
 ### 1.2 Write Custom Codes
 [Understand the keyboard matrix](https://www.dribin.org/dave/keyboard/one_html/)   
@@ -127,7 +126,7 @@ In MSYS2, type
 qmk compile -kb handwired/evk/v1_3 -km default
 ```
 The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.   
-
+If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", run ["python3 -m pip install pygments"](https://github.com/qmk/qmk_firmware/issues/10602) and ["python3 -m pip install -U qmk"](https://github.com/qmk/qmk_firmware/issues/10602) in MSYS2.  
   
 
 ## 2. Flash Firmware Onto the Micro-controller
