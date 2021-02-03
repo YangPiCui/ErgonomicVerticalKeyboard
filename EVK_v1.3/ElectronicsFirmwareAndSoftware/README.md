@@ -1,10 +1,6 @@
 # ElectronicsFirmwareAndSoftware
 
-## 0. Compile the Firmware with the QMK Corfigurator 
-Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), follow the [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v1_3, modify the keymap to your liking, compile, and generate the .hex file for section 2.
-
-
-## 1. [Alternatively] Build Custom QMK Firmware for the EVK From Scratch
+## 0. Code the QMK Firmware for EVK
 ### 1.0 [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
 During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
 Open up C:\MSYS64\home\(username)\qmk_utils\activate_msys2.sh, and add cd ~/qmk_firmware, or whatever the path is. That way, when you open up MSYS, it will automatically start in the qmk directory.
@@ -128,15 +124,20 @@ qmk compile -kb handwired/evk/v1_3 -km default
 The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.   
 If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", run ["python3 -m pip install pygments"](https://github.com/qmk/qmk_firmware/issues/10602) and ["python3 -m pip install -U qmk"](https://github.com/qmk/qmk_firmware/issues/10602) in MSYS2.  
   
+  
+## 0. [Alternatively] Compile the Firmware in the QMK Corfigurator 
+Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), follow the [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v1_3, modify the keymap to your liking, compile, and generate the .hex file for section 2.
+
 
 ## 2. Flash Firmware Onto the Micro-controller
 Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the .hex file onto the Teensy 2.0.
 
-  
-  
+    
 ## 3. Wire up the Keyboard Matrix  
 The corresponding matrix rows and columns:  
 <img src="./Images/Keymapping.jpg"> 
+I won't draw a circuit diagram for the Teensy 2.0. Please see [1.2.1 "/handwired/evk/v1_3/"](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.3/ElectronicsFirmwareAndSoftware#121-handwiredevkv1_3).  
+Note that pin D5 on the Teensy is used for the layer switch indicator LED.
 
 ### Rows
 You don't have to decide how to connect the rows to the Teensy or MCP yet. Just worry about getting the matrix right.  
