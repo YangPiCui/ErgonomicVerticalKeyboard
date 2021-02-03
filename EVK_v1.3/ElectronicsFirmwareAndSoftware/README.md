@@ -74,19 +74,19 @@ bool led_update_kb(led_t led_state) {
   * map the matrix to physical layout ([How the Configurator Understands Keyboards](https://docs.qmk.fm/#/reference_configurator_support?id=how-the-configurator-understands-keyboards) | [the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
 ```c
 #define LAYOUT(\
-    k0A, k0B, k0C, k0D, k0E, k0F,    k0G, k0H, k0I, k0J,    k0K, k0L, k0M, k0N, k0O, k0P, \
-    k1A, k1B, k1C, k1D, k1E, k1F,    k1G, k1H, k1I, k1J,    k1K, k1L, k1M, k1N, k1O, k1P, \
-    k2A, k2B, k2C, k2D, k2E, k2F,    k2G, k2H, k2I, k2J,    k2K, k2L, k2M, k2N, k2O, k2P, \
-    k3A, k3B, k3C, k3D, k3E,         k3G, k3H, k3I, k3J,         k3L, k3M, k3N, k3O, k3P, \
-    k4A, k4B, k4C, k4D, k4E,  k4F,   k4G, k4H, k4I, k4J,   k4K,  k4L, k4M, k4N, k4O, k4P, \
-	     k5B, k5C,       k5E, k5F,   k5G, k5H, k5I, k5J,   k5k, k5L,       k5N, k5O      \
+      k0A, k0B, k0C, k0D, k0E, k0F,    k0G, k0H, k0I, k0J,    k0K, k0L, k0M, k0N, k0O, k0P, \
+      k1A, k1B, k1C, k1D, k1E, k1F,    k1G, k1H, k1I, k1J,    k1K, k1L, k1M, k1N, k1O, k1P, \
+      k2A, k2B, k2C, k2D, k2E, k2F,    k2G, k2H, k2I, k2J,    k2K, k2L, k2M, k2N, k2O, k2P, \
+      k3A, k3B, k3C, k3D, k3E,         k3G, k3H, k3I, k3J,         k3L, k3M, k3N, k3O, k3P, \
+      k4A, k4B, k4C, k4D, k4E,  k4F,   k4G, k4H, k4I, k4J,   k4K,  k4L, k4M, k4N, k4O, k4P, \
+           k5B, k5C,       k5E, k5F,   k5G, k5H, k5I, k5J,   k5k, k5L,       k5N, k5O       \
 ) { \
     { k0A, k0B, k0C, k0D, k0E, k0F,    k0G, k0H, k0I, k0J,    k0K, k0L, k0M, k0N, k0O, k0P }, \
     { k1A, k1B, k1C, k1D, k1E, k1F,    k1G, k1H, k1I, k1J,    k1K, k1L, k1M, k1N, k1O, k1P }, \
     { k2A, k2B, k2C, k2D, k2E, k2F,    k2G, k2H, k2I, k2J,    k2K, k2L, k2M, k2N, k2O, k2P }, \
     { k3A, k3B, k3C, k3D, k3E,  XXX,   k3G, k3H, k3I, k3J,   XXX,  k3L, k3M, k3N, k3O, k3P }, \
     { k4A, k4B, k4C, k4D, k4E,  k4F,   k4G, k4H, k4I, k4J,   k4K,  k4L, k4M, k4N, k4O, k4P }, \
-    { XXX, k5B, k5C, XXX,  k5E, k5F,    k5G, k5H, k5I, k5J,  k5k, k5L,  XXX, k5N, k5O, XXX } \
+    { XXX, k5B, k5C, XXX,  k5E, k5F,   k5G, k5H, k5I, k5J,   k5k, k5L,  XXX, k5N, k5O, XXX }  \
 }
 ```
 
@@ -135,22 +135,8 @@ Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash 
   
   
 ## 3. Wire up the Keyboard Matrix  
-The QMK keyboard matrix for the EVK v1.3 in /handwired/evk/1_3/1_3.h   
-
-```c
-{ \
-    { k0A, k0B, k0C, k0D, k0E, k0F,    k0G, k0H, k0I, k0J,    k0K, k0L, k0M, k0N, k0O, k0P }, \
-    { k1A, k1B, k1C, k1D, k1E, k1F,    k1G, k1H, k1I, k1J,    k1K, k1L, k1M, k1N, k1O, k1P }, \
-    { k2A, k2B, k2C, k2D, k2E, k2F,    k2G, k2H, k2I, k2J,    k2K, k2L, k2M, k2N, k2O, k2P }, \
-    { k3A, k3B, k3C, k3D, k3E,  k3F,   k3G, k3H, k3I, k3J,   k3K,  k3L, k3M, k3N, k3O, k3P }, \
-    { k4A, k4B, k4C, k4D,  k4E, k4F,   k4G, k4H, k4I, k4J,   k4K, k4L,  k4M, k4N, k4O, k4P }, \
-    { XXX, k5B, k5C, XXX, XXX, XXX,    k5G, k5H, k5I, k5J,    XXX, XXX, XXX, k5N, k5O, XXX } \
-}
-
-``` 
-
-The corresponding rows and columns on the keyboard:  
-<img src="./Images/EVKv1.2_Keymapping.jpg"> 
+The corresponding matrix rows and columns on the keyboard:  
+<img src="./Images/Keymapping.jpg"> 
 
 ### Rows
 You don't have to decide how to connect the rows to the Teensy or MCP yet. Just worry about getting the matrix right.  
