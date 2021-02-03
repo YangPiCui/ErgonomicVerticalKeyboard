@@ -134,10 +134,11 @@ Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash 
 
     
 ## 3. Wire up the Keyboard Matrix  
+<img src="./Images/KeymappingRAW.jpg">    
 The corresponding matrix rows and columns:  
-<img src="./Images/Keymapping.jpg"> 
+<img src="./Images/Keymapping.jpg">  
 I won't draw a circuit diagram for the Teensy 2.0. Please see [1.2.1 "/handwired/evk/v1_3/"](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.3/ElectronicsFirmwareAndSoftware#121-handwiredevkv1_3).  
-Note that pin D5 on the Teensy is used for the layer switch indicator LED.
+Note that pin D5 on the Teensy is used for the layer switch indicator LED.  
 
 ### Rows
 You don't have to decide how to connect the rows to the Teensy or MCP yet. Just worry about getting the matrix right.  
