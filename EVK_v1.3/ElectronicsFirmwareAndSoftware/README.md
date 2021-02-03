@@ -135,7 +135,7 @@ Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash 
   
   
 ## 3. Wire up the Keyboard Matrix  
-The corresponding matrix rows and columns on the keyboard:  
+The corresponding matrix rows and columns:  
 <img src="./Images/Keymapping.jpg"> 
 
 ### Rows
