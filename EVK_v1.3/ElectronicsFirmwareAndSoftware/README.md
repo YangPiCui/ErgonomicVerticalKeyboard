@@ -137,7 +137,7 @@ Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash 
 <img src="./Images/KeymappingRAW.jpg">    
 The corresponding matrix rows and columns:  
 <img src="./Images/Keymapping.jpg">  
-I won't draw a circuit diagram for the Teensy 2.0. Please see [1.2.1 "/handwired/evk/v1_3/"](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.3/ElectronicsFirmwareAndSoftware#121-handwiredevkv1_3).  
+I won't draw a circuit diagram for the Teensy 2.0. Please see [Section 1.2.1](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.3/ElectronicsFirmwareAndSoftware#121-handwiredevkv1_3).  
 Note that pin D5 on the Teensy is used for the layer switch indicator LED.  
 
 ### Rows
