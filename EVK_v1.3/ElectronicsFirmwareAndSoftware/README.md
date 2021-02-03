@@ -139,7 +139,7 @@ Rows and columns on the physical keyboard:
 Note in config.h #define DIODE_DIRECTION ROW2COL. Current flows from the Teensy pins into the rows and out of the columns to the ground.
 
 ### 0. Rows  
-I used a naked wire to connect the row switches together. I used hot glue for insulation against diodes.
+I used a naked wire to connect the switches on each row together. I used hot glue for insulation against diodes.
 <img src="./Images/RightHandRowWiring.jpg"> 
 
 ### 1. Columns
