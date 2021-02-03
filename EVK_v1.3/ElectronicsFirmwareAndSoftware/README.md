@@ -134,16 +134,15 @@ Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash 
 
     
 ## 3. Wire up the Keyboard Matrix  
-<img src="./Images/KeymappingRAW.jpg">
-The corresponding matrix rows and columns on the physical keyboard:  
+Rows and columns on the physical keyboard:  
 <img src="./Images/Keymapping.jpg">  
- 
-### Rows
-Row 5 is the thumb cluster, so just wire them together and imagine they're in a row instead of it being more like a circle.  
-For the right hand part:  
+Note in config.h #define DIODE_DIRECTION ROW2COL. Current flows from the Teensy pins into the rows and out of the columns to the ground.
+
+### 0. Rows  
+I used a naked wire to connect the row switches together. I used hot glue for insulation against diodes.
 <img src="./Images/RightHandRowWiring.jpg"> 
 
-### Columns
+### 1. Columns
 The diodes need the black bar facing away from the key.  
 For the right hand part:  
 <img src="./Images/RightHandMatrix.jpg"> 
@@ -153,7 +152,7 @@ Both parts:
 
 
 
-## 2. Wire up the Micro Controller
+## 4. Wire up the Micro Controller
 <img src="./Images/dactyl-circuit-diagram.png">  
  
 <img src="./Images/FullWiring.jpg"> 
