@@ -13,7 +13,7 @@ Print the keycaps in this orientation for a smooth finish:
 Layer Height = 0.16mm  
 Brim & Support Brim = off (turn brims off so that they don't stick to the keycaps)  
 See Cura settings in "./CuraSettings/Vega PLA ND=0.3 LH=0.16.curaprofile"   
-I have designed the keycaps for a press-fit on the Cherry Switches, but you may have to fine tune your own print settings to achieve this result. Once you have fully calibrated your printer, play with the Horizontal Expansion setting in Cura.  
+I have designed the keycaps for a press-fit on the Cherry Switches, but you may have to calibrate your own printer to achieve this result.  
 
 KeycapHome x 12 (8 for the home row and 4 for the most bottom row)  
 KeycapThumb x 4  

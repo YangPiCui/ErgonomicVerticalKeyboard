@@ -136,10 +136,10 @@ Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash 
 ## 3. Wire up the Keyboard Matrix  
 Rows and columns on the physical keyboard:  
 <img src="./Images/Keymapping.jpg">  
-Note in config.h #define DIODE_DIRECTION ROW2COL. Current flows from the Teensy pins into the rows and out of the columns to the ground.
+Note #define DIODE_DIRECTION ROW2COL in config.h -- current flows from the Teensy pins into the rows and out of the columns to the ground.  
 
 ### 0. Rows  
-I used a naked wire to connect the switches on each row together. I used hot glue for insulation against diodes.
+I used a naked wire to connect the switches on each row together. I used hot glue for insulation against diodes.  
 <img src="./Images/RightHandRowWiring.jpg"> 
 
 ### 1. Columns
