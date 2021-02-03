@@ -125,7 +125,7 @@ The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v1_3_de
 If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", run ["python3 -m pip install pygments"](https://github.com/qmk/qmk_firmware/issues/10602) and ["python3 -m pip install -U qmk"](https://github.com/qmk/qmk_firmware/issues/10602) in MSYS2.  
   
   
-## 0. [Alternatively] Compile the Firmware in the QMK Corfigurator 
+## 1. [Alternatively] Compile the Firmware in the QMK Corfigurator 
 Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), follow the [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v1_3, modify the keymap to your liking, compile, and generate the .hex file for section 2.
 
 
