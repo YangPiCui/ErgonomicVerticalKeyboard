@@ -141,14 +141,10 @@ Note #define DIODE_DIRECTION ROW2COL in config.h -- current flows from the posit
 
 ### 0. Rows  
 I used a naked wire to connect the switches on each row together. I used hot glue for insulation against diodes.  
-<img src="./Images/RightHandRowWiring.jpg"> 
+<img src="./Images/WireUpRows.jpg"> 
 
 ### 1. Columns
-The diodes need the black bar facing away from the key.  
-For the right hand part:  
-<img src="./Images/RightHandMatrix.jpg"> 
-
-Both parts:  
+The diodes need the black bar facing away from the key. The diode's black bar indicates its negative terminal.
 <img src="./Images/BothHandMatrices.jpg"> 
 
 
