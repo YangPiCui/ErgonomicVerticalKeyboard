@@ -140,11 +140,12 @@ Rows and columns on the physical keyboard:
 Note #define DIODE_DIRECTION ROW2COL in config.h -- current flows from the positive Teensy pins into the matrix rows and out of the columns to the ground pin.  
 
 ### 0. Rows  
-I used a naked wire to connect the switches on each row together. I used hot glue for insulation against diodes.  
+I used a naked wire to connect the switches on each row together. 
 <img src="./Images/WireUpRows.jpg"> 
 
 ### 1. Columns
-The diodes need the black bar facing away from the key. The diode's black bar indicates its negative terminal.
+The diodes need the black bar facing away from the key. The diode's black bar indicates its negative terminal.  
+I used hot glue for insulation against naked wires.  
 <img src="./Images/BothHandMatrices.jpg"> 
 
 
