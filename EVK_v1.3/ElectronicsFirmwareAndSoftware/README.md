@@ -144,9 +144,15 @@ I used a naked wire to connect the switches on each row together.
 <img src="./Images/WireUpRows.jpg"> 
 
 ### 1. Columns
-The diodes need the black bar facing away from the key. The diode's black bar indicates its negative terminal.  
-I used hot glue for insulation against naked wires.  
-<img src="./Images/BothHandMatrices.jpg"> 
+First solder the diodes. The diodes need the black bar facing away from the key. The diode's black bar indicates its negative terminal.  
+<img src="./Images/SolderDiodes.jpg">  
+  
+Wire up the columns. One can use hot glue for insulation against naked wires.   
+<img src="./Images/WireUpColumns.jpg">  
+  
+Connect the rows.  
+<img src="./Images/ConnectRows.jpg">  
+
 
 
 

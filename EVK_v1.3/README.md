@@ -1,8 +1,10 @@
 # [0. Case](Case) 
 Part List:  
-1. 94x Cherry Mechanical Switch （樱桃银轴）
-2. 16 M3x8 flat tip self-tap screws.
-3. 8mm diameter x 3mm deep silicon dome sticker feet.
+0. 94x Cherry Mechanical Switch （樱桃银轴）
+1. 16 M3x8 flat tip self-tap screws.
+2. 8mm diameter x 3mm deep silicon dome sticker feet.
+3. 0.6mm (wire diameter) tin-coated naked wire
+4. 0.6mm (wire diameter) sillicon wire
 ![](Case0.JPG)
 
 # [1. Keymap](Keymap) 
