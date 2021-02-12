@@ -159,13 +159,15 @@ Connect the rows.
 ## 4. Wire up the Micro Controller
 See [Section 1.2.1](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.3/ElectronicsFirmwareAndSoftware#121-handwiredevkv1_3) for which Teensy pins corresponds to the rows and columns and LEDs.  
 Note that pin D5 on the Teensy is used for the layer switch indicator LED.  
-![](WireTeensy.jpg)  
+<img src="./Images/WireTeensy.jpg">  
   
 LEDsAndResetButton  
-![](LEDsAndResetButton.jpg)  
+<img src="./Images/LEDsAndResetButton.jpg">  
+
   
 PutOnSilliconRubberFeet  
-![](PutOnSilliconRubberFeet.jpg)  
+<img src="./Images/PutOnSilliconRubberFeet.jpg">  
+
 
 
 
