@@ -34,10 +34,10 @@ TopWall x 1
 
 ## 1. Assembly
 ### 0. Hot-glue Cherry Key Switches
-I put some hot glue on the four corners of each keyswitch:  
+I put some hot glue on the four corners of each keyswitch to secure it on the plates. 
 ![](Hot-glueSwitches.JPG)  
 ### 1. Press-fit Keycaps
-Use a soldering iron and a knife to smooth and trim the edges of the printed keycaps. They should be press-fit onto the keyswitches.
+First use a soldering iron and a knife to smooth and trim the edges of the printed keycaps. Then press-fit the keycaps onto the keyswitches.
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
