@@ -1,6 +1,6 @@
 # Keymap 
 
-## 0. Manual Optimization (comfort over typing-speed)
+## 0. Manual Optimization
 I manually designed a keymap based on English [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.  
 [Access this keymap on the Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/22fd1367d74f0ee4a891c60fcb62eb59)  
 [It fares OK against other traidtional layouts according to the Keyboard Layout Analyzer.](http://patorjk.com/keyboard-layout-analyzer/#/load/hqrGn4NG)  
