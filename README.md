@@ -1,6 +1,6 @@
 # Ergonomic Vertical Keyboard (EVK)
-![](LatestProductionVersionDesigned.JPG)
-![](LatestProductionVersionManufactured.jpg)
+![](LatestDesigned.JPG)
+![](LatestManufactured.jpg)
 
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
@@ -15,8 +15,10 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 
 
 ## Versions
-### EVK_v1.31 (under development)
-* Improve Ergonomics
+### EVK_v1.4 (under development)
+* Increase row reparation
+* Enlarge keycaps
+* Improve ergonomics
 
 ### [EVK_v1.3](EVK_v1.3)
 * Add palm grip and thumb rest   
