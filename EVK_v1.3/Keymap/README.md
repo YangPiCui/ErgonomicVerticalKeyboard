@@ -7,7 +7,7 @@ I manually designed a keymap based on English [letter](https://norvig.com/mayzne
 [It fares OK against other traidtional layouts according to the Keyboard Layout Analyzer.](http://patorjk.com/keyboard-layout-analyzer/#/load/hqrGn4NG)  
 
 
-## 1. Algorithmic Optimization (Under Development)
+## 1. Algorithmic Optimization (Under Development - can use some help)
 The layout should accommodate world's languages according to their usage.
 
 ### 1. Preparation
