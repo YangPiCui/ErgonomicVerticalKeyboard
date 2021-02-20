@@ -15,8 +15,8 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 
 
 ## Versions
-### EVK_v1.4 (under development)
-* Increase row reparation
+### EVK_v1.31 (under development)
+* Increase row separation
 * Enlarge keycaps
 * Improve ergonomics
 
