@@ -126,7 +126,7 @@ I have included a copy of the .hex file in the current GitHub folder.
 If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", run ["python3 -m pip install pygments"](https://github.com/qmk/qmk_firmware/issues/10602) and ["python3 -m pip install -U qmk"](https://github.com/qmk/qmk_firmware/issues/10602) in MSYS2.  
   
   
-## 1. [Alternatively] Compile the Firmware in the QMK Corfigurator 
+## 1. [Alternatively] Compile the Firmware in the QMK Configurator 
 Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), follow the [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v1_3, modify the keymap to your liking, compile, and generate the .hex file.  
 Default keymaps for the Configurator are added here: https://github.com/qmk/qmk_configurator/tree/master/public/keymaps  
 It does not use the default keymap.c from the qmk_firmware repo.  
