@@ -133,7 +133,7 @@ It does not use the default keymap.c from the qmk_firmware repo.
 
 
 ## 2. Flash Firmware Onto the Micro-controller
-Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the .hex file onto the Teensy 2.0.
+Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the handwired_evk_v1_3_default.hex file onto the Teensy 2.0 microcontroller.
 
     
 ## 3. Wire up the Keyboard Matrix  
