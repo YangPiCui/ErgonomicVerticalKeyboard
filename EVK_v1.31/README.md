@@ -1,18 +1,15 @@
+Please refer to the same sections in EVK_v1.3.  
 # 0. Part List  
-Same parts used as of EVK_v1.3.  
 
-# 1. Case
-Please refer to the same section for EVK_v1.3.  
-![](Case0.JPG)
+# 1. Case  
 Updated files are in folder 3DPrinterFiles and CuraSlicerSettings.  
+![](Case0.JPG)
 
-# 2. Keymap
-Please refer to the same section for EVK_v1.3. 
+# 2. Keymap 
 ![](KeyMapLayer0.JPG)
 [Access the keymap on the Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/2fc38dca845ec5f253bac7c052df82da) 
 
-# 3. Electronics, Firmware and Software
-Please refer to the same section for EVK_v1.3. 
+# 3. Electronics, Firmware and Software 
 Updated files are in folder 
 
 
