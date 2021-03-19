@@ -12,7 +12,7 @@ Updated files are in folder 3DPrinterFiles and CuraSlicerSettings.
 [Access this keymap on the Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/2fc38dca845ec5f253bac7c052df82da) 
 
 # 3. Electronics, Firmware and Software 
-I have included the updated .hex file in this Github folder.
+Please flash the updated .hex file.
 
 
 
