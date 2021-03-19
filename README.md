@@ -15,10 +15,11 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 
 
 ## Versions
-### EVK_v1.31 (under development)
+### EVK_v1.31
 * Increase row separation
-* Enlarge keycaps
-* Improve ergonomics
+* Flatten keywell
+* Enlarge keycaps and improve their fit
+* Rotate thumbkeys 
 
 ### [EVK_v1.3](EVK_v1.3)
 * Add palm grip and thumb rest   
@@ -29,7 +30,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 ### [EVK_v1.2](EVK_v1.2) 
 Based on the Dactyl Keyboard with Teensy 2.0.  
 
-## Other Resources
+## Resources
 [Main Reddit Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/)  
 
 [reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)  

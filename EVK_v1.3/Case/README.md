@@ -3,9 +3,9 @@ Please visit [v1.2](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/
 ![](Case1.JPG)
 
 ## 0. 3D Printing the Components
-"./STLFiles/" constains the .stl files of the various parts. Modelling uncertainty for part clearance = +/-0.25mm (tolerance 0.5mm)  
-Before 3D printing the parts, make sure to fully calibrate your printer. [This is how I did it.](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/tree/master/DoogellVegaWithPLA)  
-"./CuraSettings/" contains my Cura print settings  
+"./3DPrinterFiles/" constains the .stl files of the various parts. Modelling uncertainty for part clearance = +/-0.25mm (tolerance 0.5mm)  
+Before 3D printing the parts, make sure to fully calibrate your printer. [This is what I did.](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/)  
+"./CuraSlicerSettings/" contains my Cura print settings  
   
 ### 0. Keycaps
 Print the keycaps in this orientation for a smooth finish:  

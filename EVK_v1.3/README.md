@@ -1,3 +1,4 @@
+![](Keyboard0.jpg)
 # 0. Part List  
 * 1x Teensy 2.0 USB Board （开发板）
 * Teensy header pins (单排针1*40双排排针2*40圆2.54mm间距)  
