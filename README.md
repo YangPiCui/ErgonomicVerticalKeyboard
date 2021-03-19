@@ -16,7 +16,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 
 
 ## Versions
-### EVK_v1.31
+### [EVK_v1.31](EVK_v1.31)
 * Increase row separation
 * Flatten keywell
 * Enlarge keycaps and improve their fit
@@ -29,7 +29,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 * Deploy full-sized keycaps  
 
 ### [EVK_v1.2](EVK_v1.2) 
-Based on the Dactyl Keyboard with Teensy 2.0. 
+* Based on the Dactyl Keyboard with Teensy 2.0. 
 
 
 ## Algorithmic Keymap Optimization (Under Development - can use some help)
