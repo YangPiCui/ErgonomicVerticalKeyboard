@@ -5,8 +5,8 @@ Same parts used as for EVK_v1.3.
 
 # 1. Case  
 Updated files are in 3DPrinterFiles and CuraSlicerSettings folders.    
-![](Case0.JPG)
-![](Case1.JPG)
+![](Case0.jpg)
+![](Case1.jpg)
 
 # 2. Keymap 
 [Access the updated keymap on the Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/2fc38dca845ec5f253bac7c052df82da) 
