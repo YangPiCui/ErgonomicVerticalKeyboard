@@ -18,9 +18,11 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 ## Versions
 ### [EVK_v1.31](EVK_v1.31)
 * Increase row separation
-* Flatten keywell
+* Flatten keywell slightly
 * Enlarge keycaps and improve their fit
 * Rotate thumbkeys  
+* Enlarge the palm rest
+* Fillet the palm grip
 
 ### [EVK_v1.3](EVK_v1.3)
 * Add palm grip and thumb rest   

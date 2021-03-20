@@ -1,4 +1,4 @@
-Please refer to the same sections in EVK_v1.3.  
+Please follow the instructions for EVK_v1.3.
 ![](Keyboard1.jpg)  
 # 0. Part List  
 
@@ -12,7 +12,7 @@ Updated files are in folder 3DPrinterFiles and CuraSlicerSettings.
 [Access this keymap on the Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/2fc38dca845ec5f253bac7c052df82da) 
 
 # 3. Electronics, Firmware and Software 
-Please flash the updated .hex file.
+Updated .hex file included.
 
 
 
