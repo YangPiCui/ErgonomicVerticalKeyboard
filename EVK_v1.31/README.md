@@ -13,9 +13,9 @@ Updated files are in 3DPrinterFiles and CuraSlicerSettings folders.
 ![](KeyMapLayer0.JPG)
 
 # 3. Electronics, Firmware and Software 
-The wiring is nearly identical to that of the EVK_v1.3.  
+The wiring is nearly identical to that of EVK_v1.3.  
 Modify EVK_v1.3's default keymap on the QMK Configurator and generate the .hex file.  
-Flash handwired_evk_v1_31_default.hex.  
+Flash handwired_evk_v1_31_default.hex onto Teensy 2.0.  
 
 
 
