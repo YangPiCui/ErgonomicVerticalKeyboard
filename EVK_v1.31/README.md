@@ -1,10 +1,10 @@
 ![](Keyboard1.jpg)  
-Please refer to the same sections for the EVK_v1.3.
+Please refer to the same sections in EVK_v1.3.
 # 0. Part List  
-Same parts used as for the EVK_v1.3.
+Same parts used as for EVK_v1.3.
 
 # 1. Case  
-Visit 3DPrinterFiles and CuraSlicerSettings folders for updated files.  
+Updated files are in 3DPrinterFiles and CuraSlicerSettings folders.    
 ![](Case0.JPG)
 ![](Case1.JPG)
 
@@ -14,8 +14,8 @@ Visit 3DPrinterFiles and CuraSlicerSettings folders for updated files.
 
 # 3. Electronics, Firmware and Software 
 The wiring is almost identical to that of the EVK_v1.3.  
-Simply Modify EVK_v1.3's keymap on the QMK Configurator and generate the .hex file.  
-Updated .hex file is also included.  
+Modify EVK_v1.3's default keymap on the QMK Configurator and generate the .hex file.  
+Updated .hex file is included.  
 
 
 
