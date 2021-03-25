@@ -16,6 +16,9 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 
 
 ## Versions
+
+### [EVK_v1.32](EVK_v1.32) (Under Development)
+
 ### [EVK_v1.31](EVK_v1.31)
 * Increase row separation
 * Flatten keywell slightly
@@ -34,7 +37,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 * Based on the Dactyl Keyboard with Teensy 2.0. 
 
 
-## Algorithmic Keymap Optimization (Under Development)
+## Algorithmically Optimized Keymap (Under Development)
 The layout should accommodate world's languages according to their usage.
 ### 0. Preparation
 [The Carpalx Layout - simulated annealing](http://mkweb.bcgsc.ca/carpalx/?simulated_annealing) | [white_keyboard_layout](https://github.com/mw8/white_keyboard_layout) | [ThinQu Layout](https://microexploitation.com/2018/06/04/thinqu/)  
