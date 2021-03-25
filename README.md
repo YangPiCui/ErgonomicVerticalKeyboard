@@ -1,6 +1,6 @@
 # Ergonomic Vertical Keyboard (EVK)
-![](LatestDesigned.jpg)
-![](LatestManufactured.jpg)
+![](./EVK_v1.31/Case0.jpg)
+![](./EVK_v1.31/Keyboard1.jpg)
 
 
 ## Introduction
