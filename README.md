@@ -12,7 +12,8 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 - The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
 - Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
 - Little fingers' extra columns have been reassigned to the index fingers to alleviate sore pinkies.
-- Better keymap than the QWERTY layout!
+- Better keymap than the QWERTY layout.
+- I have included guides for you to build this keyboard yourself!
 
 
 ## Versions
