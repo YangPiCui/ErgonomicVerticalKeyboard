@@ -1,5 +1,5 @@
 # Ergonomic Vertical Keyboard (EVK)
-![](LatestDesigned.JPG)
+![](LatestDesigned.jpg)
 ![](LatestManufactured.jpg)
 
 
