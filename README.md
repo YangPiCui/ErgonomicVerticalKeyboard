@@ -34,7 +34,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 * Based on the Dactyl Keyboard with Teensy 2.0. 
 
 
-## Algorithmic Keymap Optimization (Under Development - can use some help)
+## Algorithmic Keymap Optimization (Under Development)
 The layout should accommodate world's languages according to their usage.
 ### 0. Preparation
 [The Carpalx Layout - simulated annealing](http://mkweb.bcgsc.ca/carpalx/?simulated_annealing) | [white_keyboard_layout](https://github.com/mw8/white_keyboard_layout) | [ThinQu Layout](https://microexploitation.com/2018/06/04/thinqu/)  
