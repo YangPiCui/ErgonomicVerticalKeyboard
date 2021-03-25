@@ -1,3 +1,4 @@
+![](Keyboard0.jpg) 
 ![](Keyboard1.jpg)  
 Please refer to the same sections in EVK_v1.3.
 # 0. Part List  
