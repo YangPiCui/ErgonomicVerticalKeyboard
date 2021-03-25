@@ -13,7 +13,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 - Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
 - Little fingers' extra columns have been reassigned to the index fingers to alleviate sore pinkies.
 - Better keymap than the QWERTY layout.
-- I have included guides for you to build this keyboard yourself!
+- Custom order of $700 upon email request. However, I have included all the necessary instructions for you to build this keyboard yourself! 
 
 
 ## Versions
