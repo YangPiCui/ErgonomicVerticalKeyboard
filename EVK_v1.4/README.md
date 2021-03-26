@@ -5,7 +5,7 @@ Please refer to the same sections in EVK_v1.3.
 Same parts used as for EVK_v1.3.
 
 # 1. Case  
-Updated files are in 3DPrinterFiles and CuraSlicerSettings folders.    
+Updated files are in folders named 3DPrinterFiles and CuraSlicerSettings.    
 ![](Case0.jpg)
 ![](Case1.jpg)
 
@@ -16,7 +16,7 @@ Updated files are in 3DPrinterFiles and CuraSlicerSettings folders.
 # 3. Electronics, Firmware and Software 
 The wiring is nearly identical to that of EVK_v1.3.  
 Modify EVK_v1.3's default keymap on the QMK Configurator and generate the .hex file.  
-Flash handwired_evk_v1_31_default.hex onto Teensy 2.0.  
+Flash handwired_evk_v1_4_default.hex onto Teensy 2.0.  
 
 
 
