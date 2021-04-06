@@ -18,7 +18,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 
 ## Versions
 
-### [EVK_v1.5](EVK_v1.5) (Under Development)
+### EVK_v1.5 (Under Development)
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
 * Reduce keycap support area. Keycaps can now be printed without supports.
