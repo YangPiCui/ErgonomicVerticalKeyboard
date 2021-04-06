@@ -17,6 +17,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also incl
 
 
 ## [Versions](Versions)
+Full Build Guides Included.
 
 
 ## [Algorithmically Optimized Keymap](AlgorithmicallyOptimizedKeymap) (Under Development)
