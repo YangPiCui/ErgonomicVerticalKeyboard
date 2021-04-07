@@ -15,14 +15,12 @@
 * Thicken top plate
 * Adjust Thumbgrip to better fit the palm
 * Move enter key closer to space key
-Thicken screw mounting holes  
-Front plate thicken, not extrude  
-Print with a better 3D printer  
-Round sharp edges on the thumb grip  
+* Thicken screw mounting holes  
+* Front plate thicken, not extrude  
+* Adjust the angle and height of the hand rests  
+* Enlarge the back of the hand rests  
+* Print with a better 3D printer  
 Add QWERTY keymap  
-search for standard keycaps  
-Adjust the angle of the thumb rest  
-Enlarge the back of the thumb rest  
 
 ## [EVK_v1.4](EVK_v1.4)
 * Increase row separation
