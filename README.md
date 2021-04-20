@@ -1,5 +1,5 @@
 # Ergonomic Vertical Keyboard (EVK)
-![](./Versions/EVK_v1.5/Keyboard0.jpg)
+![](./Versions/EVK_v1.5/Keyboard0.JPG)
 ![](./Versions/EVK_v1.5/Keyboard1.JPG)
 
 
