@@ -1,9 +1,9 @@
 # Versions
 
-## EVK_v1.6 (Under Development)  
-Make key switches snap fit onto the side plates instead of using hotglues  
-Reshape the keycap stems so they don't get stuck on the switches  
-Make keywell slightly steeper
+## EVK_v1.6 (Under Development)    
+Chamfer the keycap stems so they don't get caught on the switches  
+Thin the keycap walls slightly
+Reduce keywell radius from 87 to 80mm
 Move up the enter key slightly
 Tilt control and windows keys slightly
 Reduce size of hand grip so it does not hinder hands' forward movement
