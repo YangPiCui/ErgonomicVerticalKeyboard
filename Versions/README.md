@@ -1,6 +1,16 @@
 # Versions
 
-## EVK_v1.5 (Under Development)
+## EVK_v1.6 (Under Development)  
+Make key switches snap fit onto the side plates instead of using hotglues  
+Reshape the keycap stems so they don't get stuck on the switches  
+Make keywell slightly steeper
+Move up the enter key slightly
+Tilt control and windows keys slightly
+Reduce size of hand grip so it does not hinder hands' forward movement
+Increase LED clearance hole diameter.
+Add QWERTY keymap  
+
+## [EVK_v1.5](EVK_v1.5)
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
 * Reduce keycap support area. Keycaps can now be printed without supports.
@@ -20,7 +30,6 @@
 * Adjust the angle and height of the hand rests  
 * Enlarge the back of the hand rests  
 * Print with a better 3D printer  
-Add QWERTY keymap  
 
 ## [EVK_v1.4](EVK_v1.4)
 * Increase row separation
