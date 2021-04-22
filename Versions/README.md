@@ -1,14 +1,19 @@
 # Versions
 
-## EVK_v1.6 (Under Development)    
-Chamfer the keycap stems so they don't get caught on the switches  
-Thin the keycap walls slightly
-Reduce keywell radius from 87 to 80mm
-Move up the enter key slightly
-Tilt control and windows keys slightly
-Reduce size of hand grip so it does not hinder hands' forward movement
-Increase LED clearance hole diameter.
+Tighten switch mount tolerance for the top plates so the keys don't wiggle side to side
 Add QWERTY keymap  
+
+## EVK_v1.6 (Under Development)    
+* Chamfer the keycap stems so they don't get caught on the switches  
+* Thin the keycap walls slightly
+* Reduce keywell radius from 87 to 80mm
+* Reduce pinkey finger's row separation from 17 to 15.3; mid's from 21 to 19.5.
+* Move enter key away from space key slightly.
+* Tilt control and windows keys slightly
+* Redesign handgrip into a palm rest
+* Increase LED clearance hole diameter.
+* Fix bug and thin walls from 1.8 to 1.5
+* Reduce Text Height
 
 ## [EVK_v1.5](EVK_v1.5)
 * Use normal keycaps for thumbkeys
