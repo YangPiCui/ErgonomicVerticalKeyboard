@@ -3,7 +3,7 @@
 Tighten switch mount tolerance for the top plates so the keys don't wiggle side to side
 Add QWERTY keymap  
 
-## EVK_v1.6 (Under Development)    
+## EVK_v1.4 (Under Development)    
 * Chamfer the keycap stems so they don't get caught on the switches  
 * Thin the keycap walls slightly
 * Reduce keywell radius from 87 to 80mm
@@ -15,7 +15,7 @@ Add QWERTY keymap
 * Fix bug and thin walls from 1.8 to 1.5
 * Reduce Text Height
 
-## [EVK_v1.5](EVK_v1.5)
+## [EVK_v1.32](EVK_v1.32)
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
 * Reduce keycap support area. Keycaps can now be printed without supports.
@@ -36,7 +36,7 @@ Add QWERTY keymap
 * Enlarge the back of the hand rests  
 * Print with a better 3D printer  
 
-## [EVK_v1.4](EVK_v1.4)
+## [EVK_v1.31](EVK_v1.31)  
 * Increase row separation
 * Flatten keywell slightly
 * Enlarge keycaps and improve their fit
@@ -45,10 +45,12 @@ Add QWERTY keymap
 * Fillet the palm grip
 
 ## [EVK_v1.3](EVK_v1.3)
+One-piece design.  
 * Add palm grip and thumb rest   
 * Add more keys  
 * Improve layout and ergonomics  
 * Deploy full-sized keycaps  
 
 ## [EVK_v1.2](EVK_v1.2) 
-* Based on the Dactyl Keyboard with Teensy 2.0. 
+Split design.  
+Based on the Dactyl Keyboard with Teensy 2.0.  
