@@ -1,9 +1,6 @@
 # Versions
 
-Tighten switch mount tolerance for the top plates so the keys don't wiggle side to side
-Add QWERTY keymap  
-
-## EVK_v1.4 (Under Development)    
+## EVK_v0.21 (Putting Together)    
 * Chamfer the keycap stems so they don't get caught on the switches  
 * Thin the keycap walls slightly
 * Reduce keywell radius from 87 to 80mm
@@ -11,11 +8,18 @@ Add QWERTY keymap
 * Move enter key away from space key slightly.
 * Tilt control and windows keys slightly
 * Redesign handgrip into a palm rest
+* Tighten switch mount tolerance for the top plates so the keys don't wiggle side to side
 * Increase LED clearance hole diameter.
-* Fix bug and thin walls from 1.8 to 1.5
-* Reduce Text Height
+* Fix bug and thin walls from 1.8 to 1.5 
+* Reduce Text Height  
+Add QWERTY keymap   
+Update Versioning  
+  Keyboard Layout Editor   
+  EVK's QMK Github  
+  Github links  
+CSDN博客 翻译中文  
 
-## [EVK_v1.32](EVK_v1.32)
+## [EVK_v0.2](EVK_v0.2)
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
 * Reduce keycap support area. Keycaps can now be printed without supports.
@@ -36,7 +40,7 @@ Add QWERTY keymap
 * Enlarge the back of the hand rests  
 * Print with a better 3D printer  
 
-## [EVK_v1.31](EVK_v1.31)  
+## [EVK_v0.11](EVK_v0.11)  
 * Increase row separation
 * Flatten keywell slightly
 * Enlarge keycaps and improve their fit
@@ -44,13 +48,13 @@ Add QWERTY keymap
 * Enlarge the palm rest
 * Fillet the palm grip
 
-## [EVK_v1.3](EVK_v1.3)
+## [EVK_v0.1](EVK_v0.1)
 One-piece design.  
 * Add palm grip and thumb rest   
 * Add more keys  
 * Improve layout and ergonomics  
 * Deploy full-sized keycaps  
 
-## [EVK_v1.2](EVK_v1.2) 
+## [EVK_v0.0](EVK_v0.0) 
 Split design.  
 Based on the Dactyl Keyboard with Teensy 2.0.  
