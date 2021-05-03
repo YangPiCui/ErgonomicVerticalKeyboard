@@ -1,6 +1,19 @@
 # Versions
 
-## EVK_v0.21 (Putting Together)    
+## EVK_v0.22 (Under Development) 
+* Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm
+
+Thicken wall from 1.5mm to 1.62mm  
+Lower Text Height from 0.6mm to 0.3mm
+Enlarge LED clearance hole
+Add QWERTY keymap   
+Update Versioning  
+  * Keyboard Layout Editor   
+  * Github links  
+  QMK Github  
+CSDN博客 翻译中文  
+
+## EVK_v0.21 (Under Development)    
 * Chamfer the keycap stems so they don't get caught on the switches  
 * Thin the keycap walls slightly
 * Reduce keywell radius from 87 to 80mm
@@ -8,16 +21,10 @@
 * Move enter key away from space key slightly.
 * Tilt control and windows keys slightly
 * Redesign handgrip into a palm rest
-* Tighten switch mount tolerance for the top plates so the keys don't wiggle side to side
+* Tighten switch mount tolerance so the keys don't wiggle side to side
 * Increase LED clearance hole diameter.
 * Fix bug and thin walls from 1.8 to 1.5 
 * Reduce Text Height  
-Add QWERTY keymap   
-Update Versioning  
-  Keyboard Layout Editor   
-  EVK's QMK Github  
-  Github links  
-CSDN博客 翻译中文  
 
 ## [EVK_v0.2](EVK_v0.2)
 * Use normal keycaps for thumbkeys
@@ -50,6 +57,7 @@ CSDN博客 翻译中文
 
 ## [EVK_v0.1](EVK_v0.1)
 One-piece design.  
+90 keys.  
 * Add palm grip and thumb rest   
 * Add more keys  
 * Improve layout and ergonomics  
