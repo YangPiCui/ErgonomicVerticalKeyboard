@@ -1,11 +1,6 @@
 # Versions
-
-## EVK_v0.22 (Under Development) 
-* Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm
-
-Thicken wall from 1.5mm to 1.62mm  
-Lower Text Height from 0.6mm to 0.3mm
-Enlarge LED clearance hole
+To dos:  
+Create embosses for keys so they can be better felt by the tip of the fingers.
 Add QWERTY keymap   
 Update Versioning  
   * Keyboard Layout Editor   
@@ -13,20 +8,43 @@ Update Versioning
   QMK Github  
 CSDN博客 翻译中文  
 
-## EVK_v0.21 (Under Development)    
+
+
+## EVK_v0.1.4 (Under Development)  
+Integrated Handrest  
+* Draw the handplate surfaces altogether for a smoother finish  
+* Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm  
+* Thicken switch mount wall from 1.5mm to 1.65mm  
+* Enter key offset -x 2mm
+* handSeparation 220->230
+* thicknessTopPlate 2.7 -> 2.5mm
+* Enlarge LED clearance holes
+* thicknessText .6mm
+* topPlate keySpacingX keySpacingY 19.5 -> 19 -> 19.5
+* Reduce base keywell radius 80 -> 60
+* midFingerColumn keySpacing 19.5 -> 19 -> 19.5
+* knuckleRadiusXZPlane 400 -> 100 -> 170 -> 200
+* knuckleRadiusYZPlane 420 -> 500
+* angleIndexToMidXY 3 -> 0 -> 2 -> 3
+* Bottom Rest Z -52 -> -51 -> -49
+* Palm Rest x 40->30->28; y -65->-40; 
+* Palm Rest upper radius 75->18
+
+## [EVK_v0.1.3](EVK_v0.1.3)    
+Glue-on palmrest
 * Chamfer the keycap stems so they don't get caught on the switches  
 * Thin the keycap walls slightly
 * Reduce keywell radius from 87 to 80mm
 * Reduce pinkey finger's row separation from 17 to 15.3; mid's from 21 to 19.5.
 * Move enter key away from space key slightly.
 * Tilt control and windows keys slightly
-* Redesign handgrip into a palm rest
+* Redesign handgrip into a glue-on palm rest
 * Tighten switch mount tolerance so the keys don't wiggle side to side
 * Increase LED clearance hole diameter.
 * Fix bug and thin walls from 1.8 to 1.5 
-* Reduce Text Height  
+* Reduce Text Thickness  
 
-## [EVK_v0.2](EVK_v0.2)
+## [EVK_v0.1.2](EVK_v0.1.2)
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
 * Reduce keycap support area. Keycaps can now be printed without supports.
@@ -47,7 +65,7 @@ CSDN博客 翻译中文
 * Enlarge the back of the hand rests  
 * Print with a better 3D printer  
 
-## [EVK_v0.11](EVK_v0.11)  
+## [EVK_v0.1.1](EVK_v0.1.1)  
 * Increase row separation
 * Flatten keywell slightly
 * Enlarge keycaps and improve their fit
@@ -55,9 +73,10 @@ CSDN博客 翻译中文
 * Enlarge the palm rest
 * Fillet the palm grip
 
-## [EVK_v0.1](EVK_v0.1)
+## [EVK_v0.1.0](EVK_v0.1.0)
 One-piece design.  
 90 keys.  
+Integrated handrest  
 * Add palm grip and thumb rest   
 * Add more keys  
 * Improve layout and ergonomics  
