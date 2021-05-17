@@ -9,7 +9,6 @@ Update Versioning
 CSDN博客 翻译中文  
 
 
-
 ## EVK_v0.1.4 (Under Development)  
 Integrated Handrest  
 * Draw the handplate surfaces altogether for a smoother finish  

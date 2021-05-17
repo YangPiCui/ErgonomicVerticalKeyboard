@@ -14,14 +14,14 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that.
 ![](./Versions/EVK_v1.5/Keyboard1.JPG)  
 I testify that the Book of Mormon is the word of God. You should read it, repent and be baptized into the Church of Jesus Christ of Latter-day Saints for a remission of your sins.
 
-## [Versions](Versions) 
+## [EVK Versions](EVKVersions) 
 All necessary build instructions for each keyboard version included! It takes a persion about a week to build a keyboard.  
-If you are rich, I accept custom email order of $1,500 per keyboard.   
+I accept custom email order of $1,500 per keyboard.   
 
 ## [Algorithmically Optimized Keymap](AlgorithmicallyOptimizedKeymap) (Under Development)
 
 
-## Resources
+## External Resources
 [Main Reddit Thread](https://www.reddit.com/r/ErgoMechKeyboards/comments/g28c2i/ergonomicverticalkeyboard_thread/) | [Old](https://www.reddit.com/r/ErgoMechKeyboards/comments/fvxuw1/need_help_combining_all_of_the_good_features_from/) | [Older](https://www.reddit.com/r/MechanicalKeyboards/comments/fumlvb/possible_to_absorb_and_combine_all_of_the_good/)  
 
 [reddit.com/r/MechanicalKeyboards/](http://reddit.com/r/MechanicalKeyboards/)&nbsp;|&nbsp;[https://www.reddit.com/r/ErgoMechKeyboards/](https://www.reddit.com/r/ErgoMechKeyboards/)  
