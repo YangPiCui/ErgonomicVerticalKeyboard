@@ -1,27 +1,23 @@
 # Ergonomic Vertical Keyboard (EVK)
-![](./Versions/EVK_v1.5/Keyboard0.JPG)
-![](./Versions/EVK_v1.5/Keyboard1.JPG)
-
 
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
 The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated. This in turn stresses our neck.  
 Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?    
+The Ergonomic Vertical Keyboard (EVK) lets you do exactly that.
+- The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Project](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
+- Concave design accomodate fingers' natural paths. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
+- Compact design to save desk space for the mouse.
+- An efficient, customizable keymap layout. Little fingers' extra columns have been reassigned to the index fingers to alleviate sore pinkies.
 
-The Ergonomic Vertical Keyboard (EVK) lets you do exactly that, and it also includes additional ergonomic features.
-- The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Idea](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
-- Concave design for more natural finger movements. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
-- Little fingers' extra columns have been reassigned to the index fingers to alleviate sore pinkies.
-- Better keymap than the QWERTY layout.
-- Custom order of $700 upon email request. However, I have included all the necessary instructions for you to build this keyboard yourself! 
+![](./Versions/EVK_v1.5/Keyboard0.JPG)  
+![](./Versions/EVK_v1.5/Keyboard1.JPG)  
+I testify that the Book of Mormon is the word of God. You should read it, repent and be baptized into the Church of Jesus Christ of Latter-day Saints for a remission of your sins.
 
-
-## [Versions](Versions)
-Includes detailed instructions to build your own EVK.
-
+## [Versions](Versions) (All necessary build instructions for each keyboard version included for free :))
+If you are rich, I accept custom email order of $1,500 per keyboard. It takes me a week to hand-make one. 
 
 ## [Algorithmically Optimized Keymap](AlgorithmicallyOptimizedKeymap) (Under Development)
-A layout which accommodates world's languages.
 
 
 ## Resources
