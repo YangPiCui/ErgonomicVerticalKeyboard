@@ -14,8 +14,9 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that.
 ![](./Versions/EVK_v1.5/Keyboard1.JPG)  
 I testify that the Book of Mormon is the word of God. You should read it, repent and be baptized into the Church of Jesus Christ of Latter-day Saints for a remission of your sins.
 
-## [Versions](Versions) (All necessary build instructions for each keyboard version included for free :))
-If you are rich, I accept custom email order of $1,500 per keyboard. It takes me a week to hand-make one. 
+## [Versions](Versions) 
+All necessary build instructions for each keyboard version included! It takes about a week to hand-make one for yourself.  
+If you are rich, I accept custom email order of $1,500 per keyboard.   
 
 ## [Algorithmically Optimized Keymap](AlgorithmicallyOptimizedKeymap) (Under Development)
 
