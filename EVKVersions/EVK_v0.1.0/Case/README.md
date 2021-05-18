@@ -4,10 +4,14 @@ I have previously outlined the [design process](https://github.com/YangPiCui/Erg
 * A thumbrest is unnecessary. A free thumb is a more comfortable thumb.
 Below summary is based on EVK v0.1.2  
 
+### Set the Tolerances
+![](ToleranceAndClearance0.jpg)
+
 ### Design the Keycaps
+![](ASM_Key0.jpg)
 
-
-### Oriente the Keys for the Middle Finger 
+### Oriente the Keys for the Middle Finger
+ASM_MASTER_MidFingerColumn.prt  
 ![](ASM_MASTER_MidFingerColumn0.jpg)  
 
 ### Position the KeyMounts
