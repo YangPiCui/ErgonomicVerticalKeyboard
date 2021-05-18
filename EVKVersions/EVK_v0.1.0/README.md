@@ -20,8 +20,6 @@
 # [1. Case Design](CaseDesign) 
 ![](Case0.jpg)
 ![](Case1.jpg)
-![](Keyboard0.jpg)
-![](Keyboard1.jpg)
 
 # 2. Keymap 
 I manually designed a keymap based on English [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.  
@@ -66,7 +64,7 @@ Use a knife to trim the excess edges of the printed keycaps.
 ## 5. Assembly
 
 ### Hot-glue Cherry Key Switches
-Put some hot glue on the four corners of each keyswitch to secure it on the plates. Do it on the inside for a nicer finish on the outside.  
+Put some hot glue on the four corners of each keyswitch to secure it on the plates. Do it on the inside for a nicer outer finish.
 ![](Hot-glueSwitches.JPG)  
 
 ### Wire up the Keyboard Matrix  
@@ -82,15 +80,15 @@ I used a naked wire to connect the switches on each row together.
 First solder the diodes. The diodes need the black bar facing away from the key. The diode's black bar indicates its negative terminal.  
 <img src="./SolderDiodes.jpg">  
   
-Wire up the columns. One can use hot glue for insulation against naked wires.   
+Wire up the columns.  
 <img src="./WireUpColumns.jpg">  
   
 Connect the rows.  
 <img src="./ConnectRows.jpg">  
 
 ### Wire up the Micro Controller
-See [Section 1.2.1](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.3/ElectronicsFirmwareAndSoftware#121-handwiredevkv1_3) for which Teensy pins corresponds to the rows and columns and LEDs.  
-Note that pin D5 on the Teensy is used for the layer switch indicator LED.  
+Refer to the [3. Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware) section for Teensy pinouts.
+Capslock LED on pin D4 and layer switch indictation on pin D5.    
 <img src="./WireTeensy.jpg">  
   
 LEDsAndResetButton  
@@ -100,6 +98,8 @@ LEDsAndResetButton
 <img src="./PutOnSilliconRubberFeet.jpg">  
 
 ### Smile
+![](Keyboard0.jpg)
+![](Keyboard1.jpg)
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
