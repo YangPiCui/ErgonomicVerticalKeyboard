@@ -7,7 +7,7 @@
 * 90 1N4148 diode.（开关二极管）One diode for each key switch.
 * 2x 3mm T1 LEDs. （发光二极管）  
 * 2x 1kΩ resistors to connect in series with the LEDs.（电阻）
-![](DiodeLEDResistor.jpg)
+![](DiodeLEDResistors.jpg)
 * 0.6mm (wire diameter) tin-coated naked wire.
 ![](TinCoatedNakedWire.jpg)
 * 20cm long, 0.6mm (core diameter) sillicon wrapped wire. Get these pre-soldered ones to save time.
