@@ -1,7 +1,7 @@
 # Case Design 
 I have previously outlined the [design process](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVKVersions/EVK_v0.0/Case#siemens-nx-modelling) with Siemens NX in EVK v0.0. Since then, I have found that
-* A circular keywell works better. Our hands, not just our fingers, should move during typing.
-* A thumbrest is unnecessary. A free thumb is a more comfortable thumb.
+* A circular keywell works better. Our hands, not just our fingers, should also move while typing.
+* A thumbrest is unnecessary. A free thumb is a more comfortable thumb.  
 Below summary is based on EVK v0.1.2  
 
 ### Set the Tolerances
@@ -29,10 +29,26 @@ Oriente the thumb keys with respect to the middle finger.
 ![](ASM_Case3.jpg) 
 
 
-# 3D Printing the Components
-"./3DPrinterFiles/" constains the .stl files of the various parts. Modelling uncertainty for part clearance = +/-0.25mm (tolerance 0.5mm)  
-Before 3D printing the parts, make sure to fully calibrate your printer. [This is what I did.](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/)  
-"./CuraSlicerSettings/" contains my Cura print settings  
+# 3D Print
+"./3DPrintFiles/"  
+"./CuraSlicerSettings/" 
+The parts are of high precision. The fits are transitional clearance. [Calibrate](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/) your 3D printer accurately and follow the instructions closely. 
+
+### Left and Right
+* Nozzle Diameter 0.3mm
+* Layer Height 0.24mm
+* Line Width 0.54mm
+* Tree Support Top Distance is 0.48mm, or twice the layer height. IMPORTANT. Do NOT set this value greater than what I have specified, otherwise the keyswitch might not fit. 
+* Support Line Width 0.24mm for easy support removal  
+Print the Left and Right as if they would normally stand on the build plate.
+![](LeftRight0.jpg)  
+![](LeftRight1.jpg)  
+
+
+### Top Bottom Front and Back
+
+If switches do not fit. Try adjusting the Horizontal Expansion in Cura. 
+  
   
 ### 0. Keycaps
 Print the keycaps in this orientation for a smooth finish:  
@@ -47,16 +63,6 @@ KeycapThumb x 4
 KeycapNormal x 74  
   
 
-### 1. Other parts
-There will be much support structure. Be patient in removing it.  
-Print these parts in this orientation to minimize support:
-![](HandPlateOrientation.JPG)  
-Layer Height = 0.24mm (See the settings in "./CuraSettings/Vega PLA ND=0.3 LH=0.24.curaprofile")  
-  
-LeftHandPlate x 1  
-RightHandPlate x 1 (just mirror the LeftHandPlate.stl in Cura)  
-TopWall x 1  
-... x 1  
 
 
 ## 1. Assembly

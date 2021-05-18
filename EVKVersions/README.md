@@ -8,19 +8,24 @@ Update Versioning
   QMK Github  
 CSDN博客 翻译中文  
 
-
 ## EVK_v0.1.2 (Under Development)  
 I redesigned the Handrest to let hands move more freely.
+* Redesign handrest so I can glue it on before integrating it.
+* Chamfer the keycap stems so they don't get caught on the switches  
+* Tighten switch mount tolerance so the keys don't wiggle side to side
+* Thin the keycap walls slightly
 * Draw the handplate surfaces altogether for a smoother finish  
+* Pinkey finger's row separation 17 -> 15.3; mid's 21 -> 19.5.
 * Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm  
-* Thicken switch mount wall from 1.5mm to 1.65mm  
+* Switch mount wall and other walls' thickness 1.8 -> 1.5 -> 1.65
+* Tilt control and windows keys slightly
 * Enter key offset -x 2mm
 * handSeparation 220->230
 * thicknessTopPlate 2.7 -> 2.5mm
 * Enlarge LED clearance holes
 * thicknessText .6mm
 * topPlate keySpacingX keySpacingY 19.5 -> 19 -> 19.5
-* Reduce base keywell radius 80 -> 60
+* Reduce base keywell radius 87 -> 80 -> 60
 * midFingerColumn keySpacing 19.5 -> 19 -> 19.5
 * knuckleRadiusXZPlane 400 -> 100 -> 170 -> 200
 * knuckleRadiusYZPlane 420 -> 500
@@ -28,18 +33,7 @@ I redesigned the Handrest to let hands move more freely.
 * Bottom Rest Z -52 -> -51 -> -49
 * Palm Rest x 40->30->28; y -65->-40; 
 * Palm Rest upper radius 75->18
-
-* Chamfer the keycap stems so they don't get caught on the switches  
-* Thin the keycap walls slightly
-* Reduce keywell radius from 87 to 80mm
-* Pinkey finger's row separation 17->15.3; mid's 21->19.5.
-* Move enter key away from space key slightly.
-* Tilt control and windows keys slightly
-* Redesign handgrip into a glue-on palm rest
-* Tighten switch mount tolerance so the keys don't wiggle side to side
 * Increase LED clearance hole diameter.
-* Fix bug and thin walls from 1.8 to 1.5 
-* Reduce Text Thickness  
 
 ## [EVK_v0.1.1](EVK_v0.1.1)
 I removed the step like pattern for the rows to let fingers move more freely.

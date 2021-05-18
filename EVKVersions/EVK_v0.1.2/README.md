@@ -1,5 +1,7 @@
-![](Keyboard0.JPG) 
-![](Keyboard1.JPG)   
+![](Case0.jpg)  
+![](Case1.jpg)  
+![](Keyboard0.jpg) 
+![](Keyboard1.jpg)   
   
 Please refer to the same sections in EVK_v0.1.1  
 
