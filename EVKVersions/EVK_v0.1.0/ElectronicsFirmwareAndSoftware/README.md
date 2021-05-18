@@ -136,39 +136,7 @@ It does not use the default keymap.c from the qmk_firmware repo.
 Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the handwired_evk_v1_3_default.hex file onto the Teensy 2.0 microcontroller.
 
     
-## 3. Wire up the Keyboard Matrix  
-Rows and columns on the physical keyboard:  
-<img src="./Keymapping.jpg">  
-Note #define DIODE_DIRECTION ROW2COL in config.h -- current flows from the positive Teensy pins into the matrix rows and out of the columns to the ground pin.  
 
-### 0. Rows  
-I used a naked wire to connect the switches on each row together. 
-<img src="./WireUpRows.jpg"> 
-
-### 1. Columns
-First solder the diodes. The diodes need the black bar facing away from the key. The diode's black bar indicates its negative terminal.  
-<img src="./SolderDiodes.jpg">  
-  
-Wire up the columns. One can use hot glue for insulation against naked wires.   
-<img src="./WireUpColumns.jpg">  
-  
-Connect the rows.  
-<img src="./ConnectRows.jpg">  
-
-
-
-
-## 4. Wire up the Micro Controller
-See [Section 1.2.1](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.3/ElectronicsFirmwareAndSoftware#121-handwiredevkv1_3) for which Teensy pins corresponds to the rows and columns and LEDs.  
-Note that pin D5 on the Teensy is used for the layer switch indicator LED.  
-<img src="./WireTeensy.jpg">  
-  
-LEDsAndResetButton  
-<img src="./LEDsAndResetButton.jpg">  
-
-  
-PutOnSilliconRubberFeet  
-<img src="./PutOnSilliconRubberFeet.jpg">  
 
 
 
