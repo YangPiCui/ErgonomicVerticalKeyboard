@@ -34,7 +34,7 @@ Glue-on palmrest
 * Chamfer the keycap stems so they don't get caught on the switches  
 * Thin the keycap walls slightly
 * Reduce keywell radius from 87 to 80mm
-* Reduce pinkey finger's row separation from 17 to 15.3; mid's from 21 to 19.5.
+* Pinkey finger's row separation 17->15.3; mid's 21->19.5.
 * Move enter key away from space key slightly.
 * Tilt control and windows keys slightly
 * Redesign handgrip into a glue-on palm rest
@@ -44,6 +44,7 @@ Glue-on palmrest
 * Reduce Text Thickness  
 
 ## [EVK_v0.1.2](EVK_v0.1.2)
+
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
 * Reduce keycap support area. Keycaps can now be printed without supports.
@@ -65,6 +66,7 @@ Glue-on palmrest
 * Print with a better 3D printer  
 
 ## [EVK_v0.1.1](EVK_v0.1.1)  
+A minor upgrade to the previous version.  
 * Increase row separation
 * Flatten keywell slightly
 * Enlarge keycaps and improve their fit
@@ -73,14 +75,9 @@ Glue-on palmrest
 * Fillet the palm grip
 
 ## [EVK_v0.1.0](EVK_v0.1.0)
-One-piece design.  
-90 keys.  
-Integrated handrest  
-* Add palm grip and thumb rest   
-* Add more keys  
+I opted for a one-piece design with 90 keys. This simplifies the electronics, and uses all of the pins on the Teensy 2.0.  
 * Improve layout and ergonomics  
 * Deploy full-sized keycaps  
 
 ## [EVK_v0.0](EVK_v0.0) 
-Split design.  
-Based on the Dactyl Keyboard with Teensy 2.0.  
+This is the first working prototype. It uses a split design. The firmware is based on the Dactyl Keyboard running on Teensy 2.0.  
