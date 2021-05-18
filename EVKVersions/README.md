@@ -65,19 +65,11 @@ Glue-on palmrest
 * Enlarge the back of the hand rests  
 * Print with a better 3D printer  
 
-## [EVK_v0.1.1](EVK_v0.1.1)  
-A minor upgrade to the previous version.  
+## [EVK_v0.1.0](EVK_v0.1.0)
+I opted for a one-piece design with 90 keys. This simplifies the electronics, and uses all of Teensy 2.0's pins.   
+* Deploy full-sized keycaps  
 * Increase row separation
 * Flatten keywell slightly
-* Enlarge keycaps and improve their fit
-* Rotate thumbkeys  
-* Enlarge the palm rest
-* Fillet the palm grip
-
-## [EVK_v0.1.0](EVK_v0.1.0)
-I opted for a one-piece design with 90 keys. This simplifies the electronics, and uses all of the pins on the Teensy 2.0.  
-* Improve layout and ergonomics  
-* Deploy full-sized keycaps  
 
 ## [EVK_v0.0](EVK_v0.0) 
 This is the first working prototype. It uses a split design. The firmware is based on the Dactyl Keyboard running on Teensy 2.0.  
