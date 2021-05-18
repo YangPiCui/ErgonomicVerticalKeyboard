@@ -1,4 +1,16 @@
-## 0. 3D Printing the Components
+# Case Design 
+I have previously outlined the [design process](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVKVersions/EVK_v0.0/Case#siemens-nx-modelling) with Siemens NX in EVK v0.0. Since then, I have found that
+* A circular keywell works better. Our hands, not just our fingers, should move during typing.
+* A thumbrest is unnecessary. A free thumb is a more comfortable thumb.
+Below summary based on the EVK v0.1.2
+
+## Case Design - 0.Oriente the Keys for the Middle Finger
+ASM_MASTER_MidFingerColumn.prt  
+![](ASM_MASTER_MidFingerColumn0.jpg)
+
+
+
+# 3D Printing the Components
 "./3DPrinterFiles/" constains the .stl files of the various parts. Modelling uncertainty for part clearance = +/-0.25mm (tolerance 0.5mm)  
 Before 3D printing the parts, make sure to fully calibrate your printer. [This is what I did.](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/)  
 "./CuraSlicerSettings/" contains my Cura print settings  

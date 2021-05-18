@@ -9,7 +9,7 @@ Update Versioning
 CSDN博客 翻译中文  
 
 
-## EVK_v0.1.4 (Under Development)  
+## EVK_v0.1.2 (Under Development)  
 I redesigned the Handrest to let hands move more freely.
 * Draw the handplate surfaces altogether for a smoother finish  
 * Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm  
@@ -41,7 +41,7 @@ I redesigned the Handrest to let hands move more freely.
 * Fix bug and thin walls from 1.8 to 1.5 
 * Reduce Text Thickness  
 
-## [EVK_v0.1.2](EVK_v0.1.2)
+## [EVK_v0.1.1](EVK_v0.1.1)
 I removed the step like pattern for the rows to let fingers move more freely.
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
