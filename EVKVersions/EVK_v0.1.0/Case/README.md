@@ -34,7 +34,7 @@ Oriente the thumb keys with respect to the middle finger.
 "./CuraSlicerSettings/" 
 The parts are of high precision. The fits are transitional clearance. [Calibrate](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/) your 3D printer accurately and follow the instructions closely. 
 
-### Left and Right
+### Left Right and Front  
 * Nozzle Diameter 0.3mm
 * Layer Height 0.24mm
 * Line Width 0.54mm
@@ -47,21 +47,18 @@ Print the Left Right and Front as if they would normally stand on the build plat
 ### Top Bottom and Back
 If switches do not fit on the Top Plate. Try adjusting the Horizontal Expansion in Cura. 
   
-### 0. Keycaps
+### Keycaps
 The keycaps are a press-fit onto the Cherry Switches!  
 * Layer Height = 0.16mm 
 * Support still needed in this version. No support necessary after v0.1.1. 
-* Brim & Support Brim = off; They are painful to remove. 
-Print the keycaps as if they would sit on the build plate. 
-KeycapHome x 12 (8 for the home row and 4 for the most bottom row)  
-KeycapThumb x 4  
-KeycapNormal x 74  
+* Brim & Support Brim = off; They are painful to remove.  
+Print the keycaps as if they would sit on the build plate.  
+KeycapHome x 12 (8 for the home row and 4 for the most bottom row)   
+KeycapThumb x 4   
+KeycapNormal x 74   
 ![](Keycap0.jpg)   
 
   
-
-
-
 ## 1. Assembly
 ### 0. Hot-glue Cherry Key Switches
 I put some hot glue on the four corners of each keyswitch to secure it on the plates. 

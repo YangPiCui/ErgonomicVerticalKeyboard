@@ -39,7 +39,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify t
 #define DIODE_DIRECTION ROW2COL
 #define LED_CAPS_LOCK_PIN D4  //This same pin is used in v1_3.c to switch the LED on/off
 ```  
-![Teensy 2.0 Pinout in C Language](Images/pinout2a.png)
+![Teensy 2.0 Pinout in C Language](pinout2a.png)
 
 * v1_3.c
   * Add the codes to control status LEDs ([Layer Change Code](https://docs.qmk.fm/#/custom_quantum_functions?id=layer-change-code))
@@ -138,22 +138,22 @@ Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash 
     
 ## 3. Wire up the Keyboard Matrix  
 Rows and columns on the physical keyboard:  
-<img src="./Images/Keymapping.jpg">  
+<img src="./Keymapping.jpg">  
 Note #define DIODE_DIRECTION ROW2COL in config.h -- current flows from the positive Teensy pins into the matrix rows and out of the columns to the ground pin.  
 
 ### 0. Rows  
 I used a naked wire to connect the switches on each row together. 
-<img src="./Images/WireUpRows.jpg"> 
+<img src="./WireUpRows.jpg"> 
 
 ### 1. Columns
 First solder the diodes. The diodes need the black bar facing away from the key. The diode's black bar indicates its negative terminal.  
-<img src="./Images/SolderDiodes.jpg">  
+<img src="./SolderDiodes.jpg">  
   
 Wire up the columns. One can use hot glue for insulation against naked wires.   
-<img src="./Images/WireUpColumns.jpg">  
+<img src="./WireUpColumns.jpg">  
   
 Connect the rows.  
-<img src="./Images/ConnectRows.jpg">  
+<img src="./ConnectRows.jpg">  
 
 
 
@@ -161,14 +161,14 @@ Connect the rows.
 ## 4. Wire up the Micro Controller
 See [Section 1.2.1](https://github.com/YangPiCui/ErgonomicVerticalKeyboard/tree/master/EVK_v1.3/ElectronicsFirmwareAndSoftware#121-handwiredevkv1_3) for which Teensy pins corresponds to the rows and columns and LEDs.  
 Note that pin D5 on the Teensy is used for the layer switch indicator LED.  
-<img src="./Images/WireTeensy.jpg">  
+<img src="./WireTeensy.jpg">  
   
 LEDsAndResetButton  
-<img src="./Images/LEDsAndResetButton.jpg">  
+<img src="./LEDsAndResetButton.jpg">  
 
   
 PutOnSilliconRubberFeet  
-<img src="./Images/PutOnSilliconRubberFeet.jpg">  
+<img src="./PutOnSilliconRubberFeet.jpg">  
 
 
 
