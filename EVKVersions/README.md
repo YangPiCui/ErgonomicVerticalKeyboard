@@ -8,7 +8,7 @@ Update Versioning
   QMK Github  
 CSDN博客 翻译中文  
 
-## EVK_v0.1.2 (Under Development)  
+## [EVK_v0.1.2]((EVK_v0.1.2)) (Under Development)  
 I redesigned the Handrest to let hands move more freely.
 * Redesign handrest so I can glue it on before integrating it.
 * Chamfer the keycap stems so they don't get caught on the switches  
