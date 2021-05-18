@@ -3,7 +3,7 @@
 ![](Keyboard0.jpg) 
 ![](Keyboard1.jpg)   
   
-Please refer to the same sections in EVK_v0.1.1  
+Please refer to EVK_v0.1.1  
   
 Test print SwitchMountLeftRight.3mf and SwitchMountTop.3mf to check switch fit.  
 ![](SwitchMountLeftRightTop.jpg)
