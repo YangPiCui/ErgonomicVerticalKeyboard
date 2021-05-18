@@ -18,7 +18,7 @@
 * Soldering Iron and Hot Glue Gun.
 
 # [1. Case](Case) 
-![](Case.jpg)
+![](Case0.jpg)
 ![](Case1.jpg)
 ![](Keyboard0.jpg)
 ![](Keyboard1.jpg)
