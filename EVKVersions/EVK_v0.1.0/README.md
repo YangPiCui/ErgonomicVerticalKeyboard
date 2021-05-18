@@ -18,12 +18,12 @@
 * Soldering Iron and Hot Glue Gun.
 
 # [1. Case](Case) 
-![](Case0.JPG)
-![](Case1.JPG)
+![](Case0.jpg)
+![](Case1.jpg)
 ![](Keyboard0.jpg)
 ![](Keyboard1.jpg)
 
-# [2. Keymap](Keymap) 
+# 2. Keymap 
 I manually designed a keymap based on English [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.  
 [Access this keymap on the Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/22fd1367d74f0ee4a891c60fcb62eb59)  
 ![](KeymapLayer0.jpg)  
