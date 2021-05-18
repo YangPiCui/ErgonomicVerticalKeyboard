@@ -36,7 +36,7 @@ I redesigned the Handrest to let hands move more freely.
 * Increase LED clearance hole diameter.
 
 ## [EVK_v0.1.1](EVK_v0.1.1)
-I removed the step like pattern for the rows to let fingers move more freely.
+I removed the row steps to let fingers move more freely.
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
 * Reduce keycap support area. Keycaps can now be printed without supports.
