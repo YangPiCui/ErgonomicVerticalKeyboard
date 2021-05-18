@@ -39,8 +39,8 @@ The parts are of high precision. The fits are transitional clearance. [Calibrate
 * Nozzle Diameter 0.3mm
 * Layer Height 0.24mm
 * Line Width 0.54mm
-* Tree Support Top Distance is 0.48mm, or twice the layer height. IMPORTANT. Do NOT set this value greater than what I have specified, otherwise the keyswitch might not fit. 
 * Support Line Width 0.24mm for easy support removal   
+* Tree Support Top Distance is 0.48mm, or twice the layer height. IMPORTANT. Do NOT set this value greater than what I have specified, otherwise the keyswitch might not fit. 
 Print the Left Right and Front as if they would normally stand on the build plate. Set brim distance to 0mm for Front but not for Left or Right.  
 ![](LeftRight0.jpg)  
 ![](LeftRight1.jpg)  
@@ -50,8 +50,9 @@ If switches do not fit on the Top Plate. Try adjusting the Horizontal Expansion 
   
 ### Keycaps
 The keycaps are a press-fit onto the Cherry Switches!  
+* Nozzle Diameter 0.3mm
 * Layer Height = 0.16mm 
-* Support still needed in this version. No support necessary after v0.1.1. 
+* Support still needed in this version. No support necessary starting at v0.1.1. 
 * Brim & Support Brim = off; They are painful to remove.  
 Print the keycaps as if they would sit on the build plate.  
 KeycapHome x 12 (8 for the home row and 4 for the most bottom row)   
