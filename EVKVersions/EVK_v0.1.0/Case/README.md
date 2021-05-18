@@ -39,28 +39,25 @@ The parts are of high precision. The fits are transitional clearance. [Calibrate
 * Layer Height 0.24mm
 * Line Width 0.54mm
 * Tree Support Top Distance is 0.48mm, or twice the layer height. IMPORTANT. Do NOT set this value greater than what I have specified, otherwise the keyswitch might not fit. 
-* Support Line Width 0.24mm for easy support removal  
-Print the Left and Right as if they would normally stand on the build plate.
+* Support Line Width 0.24mm for easy support removal   
+Print the Left Right and Front as if they would normally stand on the build plate. Set brim distance to 0mm for Front but not for Left or Right.  
 ![](LeftRight0.jpg)  
 ![](LeftRight1.jpg)  
-
-
-### Top Bottom Front and Back
-
-If switches do not fit. Try adjusting the Horizontal Expansion in Cura. 
   
+### Top Bottom and Back
+If switches do not fit on the Top Plate. Try adjusting the Horizontal Expansion in Cura. 
   
 ### 0. Keycaps
-Print the keycaps in this orientation for a smooth finish:  
-![](KeycapOrientation.JPG)  
-Layer Height = 0.16mm  
-Brim & Support Brim = off (turn brims off so that they don't stick to the keycaps)  
-See Cura settings in "./CuraSettings/Vega PLA ND=0.3 LH=0.16.curaprofile"   
-I have designed the keycaps for a press-fit on the Cherry Switches, but you may have to calibrate your own printer to achieve this result.  
-
+The keycaps are a press-fit onto the Cherry Switches!  
+* Layer Height = 0.16mm 
+* Support still needed in this version. No support necessary after v0.1.1. 
+* Brim & Support Brim = off; They are painful to remove. 
+Print the keycaps as if they would sit on the build plate. 
 KeycapHome x 12 (8 for the home row and 4 for the most bottom row)  
 KeycapThumb x 4  
 KeycapNormal x 74  
+![](Keycap0.jpg)   
+
   
 
 
