@@ -1,4 +1,4 @@
-# ElectronicsFirmwareAndSoftware
+# Electronics Firmware And Software
 
 ## 0. Code the QMK Firmware for EVK
 ### 1.0 [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
