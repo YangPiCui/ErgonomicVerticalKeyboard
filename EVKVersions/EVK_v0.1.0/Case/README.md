@@ -1,6 +1,3 @@
-# Keyboard Case
-![](Case1.JPG)  
-
 ## 0. 3D Printing the Components
 "./3DPrinterFiles/" constains the .stl files of the various parts. Modelling uncertainty for part clearance = +/-0.25mm (tolerance 0.5mm)  
 Before 3D printing the parts, make sure to fully calibrate your printer. [This is what I did.](https://github.com/YangPiCui/3DPrinterCalibrationAndTuning/)  

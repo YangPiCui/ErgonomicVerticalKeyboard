@@ -10,7 +10,7 @@ CSDN博客 翻译中文
 
 
 ## EVK_v0.1.4 (Under Development)  
-Integrated Handrest  
+I redesigned the Handrest to let hands move more freely.
 * Draw the handplate surfaces altogether for a smoother finish  
 * Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm  
 * Thicken switch mount wall from 1.5mm to 1.65mm  
@@ -29,8 +29,6 @@ Integrated Handrest
 * Palm Rest x 40->30->28; y -65->-40; 
 * Palm Rest upper radius 75->18
 
-## [EVK_v0.1.3](EVK_v0.1.3)    
-Glue-on palmrest
 * Chamfer the keycap stems so they don't get caught on the switches  
 * Thin the keycap walls slightly
 * Reduce keywell radius from 87 to 80mm
@@ -44,7 +42,7 @@ Glue-on palmrest
 * Reduce Text Thickness  
 
 ## [EVK_v0.1.2](EVK_v0.1.2)
-
+I removed the step like pattern for the rows to let fingers move more freely.
 * Use normal keycaps for thumbkeys
 * Reduce keycap height
 * Reduce keycap support area. Keycaps can now be printed without supports.
@@ -66,7 +64,7 @@ Glue-on palmrest
 * Print with a better 3D printer  
 
 ## [EVK_v0.1.0](EVK_v0.1.0)
-I opted for a one-piece design with 90 keys. This simplifies the electronics, and uses all of Teensy 2.0's pins.   
+I deployed a 90 key one-piece design. This simplifies the electronics, and uses all of Teensy 2.0's pins.   
 * Deploy full-sized keycaps  
 * Increase row separation
 * Flatten keywell slightly
