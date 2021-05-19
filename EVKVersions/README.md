@@ -19,6 +19,7 @@ I redesigned the Handrest to let hands move more freely.
 * Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm  
 * Switch mount wall and other walls' thickness 1.8 -> 1.5 -> 1.65
 * Tilt control and windows keys slightly
+* Increase LED clearance hole diameter.
 * Enter key offset -x 2mm
 * handSeparation 220->230
 * thicknessTopPlate 2.7 -> 2.5mm
@@ -30,10 +31,9 @@ I redesigned the Handrest to let hands move more freely.
 * knuckleRadiusXZPlane 400 -> 100 -> 170 -> 200
 * knuckleRadiusYZPlane 420 -> 500
 * angleIndexToMidXY 3 -> 0 -> 2 -> 3
-* Bottom Rest Z -52 -> -51 -> -49
-* Palm Rest x 40->30->28; y -65->-40; 
-* Palm Rest upper radius 75->18
-* Increase LED clearance hole diameter.
+
+* Bottom Rest Z -52 -> -51 -> -49 -> -50; outward extension 10 -> 15
+* Palm Rest x 40 -> 30 -> 28, y -65 -> -40, z -20 -> -10; upper radius 75 -> 18 -> 26
 
 ## [EVK_v0.1.1](EVK_v0.1.1)
 I removed the row steps to let fingers move more freely.
