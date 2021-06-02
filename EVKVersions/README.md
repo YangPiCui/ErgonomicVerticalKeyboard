@@ -1,6 +1,4 @@
 # Versions
-To dos:  
-Create embosses for keys so they can be better felt by the tip of the fingers.
 Add QWERTY keymap   
 Update Versioning  
   * Keyboard Layout Editor   
@@ -11,10 +9,13 @@ CSDN博客 翻译中文
 ## [EVK_v0.1.2](EVK_v0.1.2) (Under Development)  
 I redesigned the Handrest to let hands move more freely.
 * Redesign handrest so I can glue it on before integrating it.
+Reduce keystem diameter so they won't be caught by the switches.
 * Chamfer the keycap stems so they don't get caught on the switches  
 * Tighten switch mount tolerance so the keys don't wiggle side to side
 * Thin the keycap walls slightly
+Create embosses for keys so they can be better felt by the tip of the fingers.
 * Draw the handplate surfaces altogether for a smoother finish  
+Fix thin walls
 * Pinkey finger's row separation 17 -> 15.3; mid's 21 -> 19.5.
 * Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm  
 * Switch mount wall and other walls' thickness 1.8 -> 1.5 -> 1.65
@@ -26,14 +27,16 @@ I redesigned the Handrest to let hands move more freely.
 * Enlarge LED clearance holes
 * thicknessText .6mm
 * topPlate keySpacingX keySpacingY 19.5 -> 19 -> 19.5
-* Reduce base keywell radius 87 -> 80 -> 60
+* base keywell radius 87 -> 80 -> 60
 * midFingerColumn keySpacing 19.5 -> 19 -> 19.5
 * knuckleRadiusXZPlane 400 -> 100 -> 170 -> 200
 * knuckleRadiusYZPlane 420 -> 500
 * angleIndexToMidXY 3 -> 0 -> 2 -> 3
 
-* Bottom Rest Z -52 -> -51 -> -49 -> -50; outward extension 10 -> 15
-* Palm Rest x 40 -> 30 -> 28, y -65 -> -40, z -20 -> -10; upper radius 75 -> 18 -> 26
+* Palm Rest x 40->30->28->23->29->28->26, y -65 -> -40, z -20 -> -10;  angle 8->9;  
+move palm rest x 2 mm out
+* Bottom Rest Z -52 -> -51 -> -49 -> -50 -> -45 -> -52 -> -50 -> -49; side extension 10 -> 15; front offset 6->13->10->8
+fix thin walls
 
 ## [EVK_v0.1.1](EVK_v0.1.1)
 I removed the row steps to let fingers move more freely.
