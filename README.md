@@ -10,8 +10,8 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that.
 - Compact design to save desk space for the mouse.
 - An efficient, customizable keymap layout. Little fingers' extra columns have been reassigned to other fingers to alleviate sore pinkies.
 
-![](./Versions/EVK_v1.5/Keyboard0.JPG)  
-![](./Versions/EVK_v1.5/Keyboard1.JPG)  
+![](Keyboard0.jpg)  
+![](Keyboard1.jpg)  
 I testify that the Book of Mormon is the word of God. You should read it, repent and be baptized into the Church of Jesus Christ of Latter-day Saints for a remission of your sins.
 
 ## [EVK Versions](EVKVersions)  
