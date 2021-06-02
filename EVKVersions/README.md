@@ -22,6 +22,7 @@ Fix thin walls
 * Tilt control and windows keys slightly
 * Increase LED clearance hole diameter.
 * Enter key offset -x 2mm
+Move the Enter key closer to the space key.
 * handSeparation 220->230
 * thicknessTopPlate 2.7 -> 2.5mm
 * Enlarge LED clearance holes
