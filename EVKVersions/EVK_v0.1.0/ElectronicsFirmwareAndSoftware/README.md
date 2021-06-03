@@ -126,13 +126,13 @@ In MSYS2, type
 ```c
 qmk compile -kb handwired/evk/v0_1_x -km default
 ```
-The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v0_1_x_default.hex on the local computer.  
+The generated .hex file is located at /qmk_firmware/.build/ on the local computer.  
 I have included a copy of the .hex file in the current GitHub folder.     
 If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", run ["python3 -m pip install pygments"](https://github.com/qmk/qmk_firmware/issues/10602) and ["python3 -m pip install -U qmk"](https://github.com/qmk/qmk_firmware/issues/10602) in MSYS2.  
   
 
 ## 2. Flash Firmware Onto the Micro-controller
-Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the handwired_evk_v1_3_default.hex file onto the Teensy 2.0 microcontroller.
+Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the .hex file onto the Teensy 2.0 microcontroller.
 
     
 
