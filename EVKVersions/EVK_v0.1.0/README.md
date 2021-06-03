@@ -26,6 +26,7 @@
 ![](EVK_v0_1_x_L0.jpg)  
 [Layer1](http://www.keyboard-layout-editor.com/#/gists/1d35c2bdc8fc2de6860daa4e2ee97f45)  
 I manually designed a keymap based on English [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies. [It fares well against other traidtional layouts according to the Keyboard Layout Analyzer.](http://patorjk.com/keyboard-layout-analyzer/#/load/hqrGn4NG)  
+![](EVK_v0_1_x_L1.jpg)  
 
 # [3. Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
 
