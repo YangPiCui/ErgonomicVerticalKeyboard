@@ -1,7 +1,13 @@
 # Electronics Firmware And Software
 
-## 0. Code the QMK Firmware for EVK
-### 1.0 [Setup the QMK build environment](https://docs.qmk.fm/#/newbs_getting_started)  
+## 0. Compile the Firmware in the QMK Configurator 
+Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), follow the [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v1_3, modify the keymap to your liking, compile, and generate the .hex file.  
+Default keymaps for the Configurator are added here: https://github.com/qmk/qmk_configurator/tree/master/public/keymaps  
+It does not use the default keymap.c from the qmk_firmware repo.  
+
+## 1.0 [Alternatively] Code the QMK Firmware for EVK from scratch
+Install [QMK MSYS](https://beta.docs.qmk.fm/tutorial/newbs_getting_started)
+[Or install MSYS2 manually](https://docs.qmk.fm/#/newbs_getting_started)  
 During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
 Open up C:\MSYS64\home\(username)\qmk_utils\activate_msys2.sh, and add cd ~/qmk_firmware, or whatever the path is. That way, when you open up MSYS, it will automatically start in the qmk directory.
 
@@ -124,12 +130,6 @@ The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v0_1_x_
 I have included a copy of the .hex file in the current GitHub folder.     
 If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", run ["python3 -m pip install pygments"](https://github.com/qmk/qmk_firmware/issues/10602) and ["python3 -m pip install -U qmk"](https://github.com/qmk/qmk_firmware/issues/10602) in MSYS2.  
   
-  
-## 1. [Alternatively] Compile the Firmware in the QMK Configurator 
-Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), follow the [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v1_3, modify the keymap to your liking, compile, and generate the .hex file.  
-Default keymaps for the Configurator are added here: https://github.com/qmk/qmk_configurator/tree/master/public/keymaps  
-It does not use the default keymap.c from the qmk_firmware repo.  
-
 
 ## 2. Flash Firmware Onto the Micro-controller
 Use the [Teensy Loader](https://www.pjrc.com/teensy/loader_win10.html) to flash the handwired_evk_v1_3_default.hex file onto the Teensy 2.0 microcontroller.
