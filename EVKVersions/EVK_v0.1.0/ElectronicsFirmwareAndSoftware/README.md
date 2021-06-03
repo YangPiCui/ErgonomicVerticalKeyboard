@@ -21,7 +21,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify t
 * readme.md - update   
 * info.json - update 
 
-#### 1.2.1 "/handwired/evk/v1_3/"    
+#### 1.2.1 "/handwired/evk/v0_1_x/"    
 * readme.md - update   
 * rules.mk - no change  
 * config.h  
@@ -41,7 +41,7 @@ Copy /keyboards/handwired/dactyl_left into /keyboards/handwired/evk and modify t
 ```  
 ![Teensy 2.0 Pinout in C Language](pinout2a.png)
 
-* v1_3.c
+* v0_1_x.c
   * Add the codes to control status LEDs ([Layer Change Code](https://docs.qmk.fm/#/custom_quantum_functions?id=layer-change-code))
 ```c
 void matrix_init_kb(void) {
@@ -66,7 +66,7 @@ bool led_update_kb(led_t led_state) {
 }
 ```
 
-* v1_3_h    
+* v0_1_x.h    
   * map the matrix to physical layout ([How the Configurator Understands Keyboards](https://docs.qmk.fm/#/reference_configurator_support?id=how-the-configurator-understands-keyboards) | [the keymap variables can be whatever as long as they are unique](https://www.reddit.com/r/olkb/comments/42ohxz/crazy_columns_and_tons_of_keys_with_qmk/?utm_source=amp&utm_medium=&utm_content=post_body))
 ```c
 #define LAYOUT(\
@@ -110,18 +110,17 @@ bool led_update_kb(led_t led_state) {
 }
 ```
 
-#### 1.2.2 "/handwired/evk/1_3/keymaps/default"
+#### 1.2.2 "/handwired/evk/v0_1_x/keymaps/default"
 * readme.md - update
-* config.h - no change
 * keymap.c 
   * look up the [default keycodes](https://docs.qmk.fm/#/faq_keymap?id=what-are-the-default-keycodes) and [customize The Layout To Your Liking](https://docs.qmk.fm/#/newbs_building_firmware?id=customize-the-layout-to-your-liking).  
 
 ### 1.3 Compile the Firmware 
 In MSYS2, type
 ```c
-qmk compile -kb handwired/evk/v1_3 -km default
+qmk compile -kb handwired/evk/v0_1_x -km default
 ```
-The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v1_3_default.hex on the local computer.  
+The generated .hex file is located at /qmk_firmware/.build/handwired_evk_v0_1_x_default.hex on the local computer.  
 I have included a copy of the .hex file in the current GitHub folder.     
 If giving "Error: C:/Users/<UserName>/qmk_firmware is too old or not set up correctly!", run ["python3 -m pip install pygments"](https://github.com/qmk/qmk_firmware/issues/10602) and ["python3 -m pip install -U qmk"](https://github.com/qmk/qmk_firmware/issues/10602) in MSYS2.  
   
