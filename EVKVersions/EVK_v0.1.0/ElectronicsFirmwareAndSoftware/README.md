@@ -1,7 +1,7 @@
 # Electronics Firmware And Software
 
 ## 0. Compile the Firmware in the QMK Configurator 
-Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), follow the [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v1_3, modify the keymap to your liking, compile, and generate the .hex file.  
+Open the [QMK Configurator](https://config.qmk.fm/#/handwired/evk/v1_3/LAYOUT), follow the [QMK Configurator Guide](https://docs.qmk.fm/#/newbs_building_firmware_configurator), load /handwired/evk/v0_1_x, modify the keymap to your liking, compile, and generate the .hex file.  
 Default keymaps for the Configurator are added here: https://github.com/qmk/qmk_configurator/tree/master/public/keymaps  
 It does not use the default keymap.c from the qmk_firmware repo.  
 
