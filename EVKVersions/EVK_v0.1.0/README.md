@@ -22,10 +22,10 @@
 ![](Case1.jpg)
 
 # 2. Keymap 
-I manually designed a keymap based on English [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies.  
-[Access this keymap on the Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/2fc38dca845ec5f253bac7c052df82da)  
-![](KeymapLayer0.jpg)  
-[It fares OK against other traidtional layouts according to the Keyboard Layout Analyzer.](http://patorjk.com/keyboard-layout-analyzer/#/load/hqrGn4NG)
+[Layer0](http://www.keyboard-layout-editor.com/#/gists/2fc38dca845ec5f253bac7c052df82da)  
+![](EVK_v0_1_x_L0.jpg)  
+[Layer1](http://www.keyboard-layout-editor.com/#/gists/1d35c2bdc8fc2de6860daa4e2ee97f45)  
+I manually designed a keymap based on English [letter](https://norvig.com/mayzner.html) and [character](http://xahlee.info/comp/computer_language_char_distribution.html) frequencies. [It fares well against other traidtional layouts according to the Keyboard Layout Analyzer.](http://patorjk.com/keyboard-layout-analyzer/#/load/hqrGn4NG)  
 
 # [3. Electronics, Firmware and Software](ElectronicsFirmwareAndSoftware)
 
