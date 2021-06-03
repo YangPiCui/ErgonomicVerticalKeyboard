@@ -6,10 +6,10 @@ Default keymaps for the Configurator are added here: https://github.com/qmk/qmk_
 It does not use the default keymap.c from the qmk_firmware repo.  
 
 ## 1.0 [Alternatively] Code the QMK Firmware for EVK from scratch
-Install [QMK MSYS](https://beta.docs.qmk.fm/tutorial/newbs_getting_started)
+Install [QMK MSYS](https://beta.docs.qmk.fm/tutorial/newbs_getting_started)  
 [Or install MSYS2 manually](https://docs.qmk.fm/#/newbs_getting_started)  
-During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
-Open up C:\MSYS64\home\(username)\qmk_utils\activate_msys2.sh, and add cd ~/qmk_firmware, or whatever the path is. That way, when you open up MSYS, it will automatically start in the qmk directory.
+* During Windows setup, follow [this](https://stackoverflow.com/questions/41932407/which-python-should-i-install-and-how-when-using-msys2) and [this](https://stackoverflow.com/questions/48087004/installing-pip-on-msys) to install Python3 and pip on MSYS2.  
+* Open up C:\MSYS64\home\(username)\qmk_utils\activate_msys2.sh, and add cd ~/qmk_firmware, or whatever the path is. That way, when you open up MSYS, it will automatically start in the qmk directory.
 
 ### 1.1 Fork https://github.com/qmk/qmk_firmware on Github
 [Step-by-step guide to contributing on GitHub](https://www.dataschool.io/how-to-contribute-on-github/)  
