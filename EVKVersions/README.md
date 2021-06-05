@@ -37,7 +37,7 @@ Move the Enter key closer to the space key.
 * Palm Rest x 40->30->28->23->29->28->26, y -65 -> -40, z -20 -> -10;  angle 8->9;  
 move palm rest x 2 mm out
 * Bottom Rest Z -52 -> -51 -> -49 -> -50 -> -45 -> -52 -> -50 -> -49; side extension 10 -> 15; front offset 6->13->10->8
-fix thin walls
+Make Handrest 3D print adjustable
 
 ## [EVK_v0.1.1](EVK_v0.1.1)
 I removed the row steps to let fingers move more freely.
