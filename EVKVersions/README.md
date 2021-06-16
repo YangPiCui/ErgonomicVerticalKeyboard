@@ -1,37 +1,39 @@
-# Versions 
-CSDN博客 翻译中文  
+# Versions  
 
 ## [EVK_v0.1.2](EVK_v0.1.2) (Under Development)  
 I redesigned the Handrest to let hands move more freely.
-* Redesign handrest so I can glue it on before integrating it.
-* Chamfer the keycap stems so they don't get caught on the switches  
-* Tighten switch mount tolerance so the keys don't wiggle side to side
-* Thin the keycap walls slightly
-* Draw the handplate surfaces altogether for a smoother finish  
-* Fix thin walls
-* Pinkey finger's row separation 17 -> 15.3; mid's 21 -> 19.5.
-* Increase keycapBaseModel stemClearance from 0.02mm to 0.03mm  
-* Switch mount wall and other walls' thickness 1.8 -> 1.5 -> 1.65
-* Tilt control and windows keys slightly
-* Increase LED clearance hole diameter.
-* Enter key offset -x 2mm
-Move space key 2mm back
-Move the Enter key closer to the space key.
-* handSeparation 220->230
-* thicknessTopPlate 2.7 -> 2.5mm
-* Enlarge LED clearance holes
-* thicknessText .6mm
-* topPlate keySpacingX keySpacingY 19.5 -> 19 -> 19.5
-* base keywell radius 87 -> 80 -> 60
-* midFingerColumn keySpacing 19.5 -> 19 -> 19.5
-* knuckleRadiusXZPlane 400 -> 100 -> 170 -> 200
-* knuckleRadiusYZPlane 420 -> 500
-* angleIndexToMidXY 3 -> 0 -> 2 -> 3
-* Palm Rest x 40->30->28->23->29->28->26, y -65 -> -40, z -20 -> -10;  angle 8->9;  
-move palm rest x 1 mm in.
-* Bottom Rest Z -52 -> -51 -> -49 -> -50 -> -45 -> -52 -> -50 -> -49; side extension 10 -> 15; front offset 6->13->10->8
-Make Handrest 3D print adjustable
-Acquire standard keycaps.
+* Keys
+  * Chamfer the keycap stems so they don't get caught on the switches  
+  * Tighten switch mount tolerance so the keys don't wiggle side to side
+  * Thin the keycap walls slightly
+  * Move homekey's emboss forward by 1mm.
+  * keycapBaseModel stemClearance 0.02->0.03->0.04
+* Key Positioning
+  * finger home row resting angle p411 47->48
+  * base keywell radius 87 -> 80 -> 60 ->50
+  * Row separation mid 21->19->19.2; pinky 17 -> 15.3; 
+  * topPlate keySpacingX keySpacingY 19.5->19->19.5->19.2
+  * dZIndexToMid 19.5 -> 19 -> 19.5
+  * angleIndexToMidXY 3 -> 0 -> 2 -> 3
+  * knuckleRadiusXZPlane 400 -> 100 -> 170 -> 200
+  * knuckleRadiusYZPlane 420 -> 500
+  * Switch mount wall and other walls' thickness 1.8 -> 1.5 -> 1.65
+  * Fix thin walls
+  Reposition control and windows keys
+  * Spacekey distance to center of rotation 50->48
+  * Enter key offset -x 2->3; y 1; z 20
+  * Increase LED clearance hole diameter.
+  * handSeparation 220->230
+  * thicknessTopPlate 2.7 -> 2.5mm
+* Handrest
+  * Redesign handrest to be a separate glue-on.
+  * Palm Rest x 40->30->23->29->28->26->27, y -65 -> -40, z -20 -> -10;  angle 8->9;  
+  * Bottom Rest Z -52 -> -51 -> -49 -> -50 -> -45 -> -52 -> -50 -> -49; side extension 10 -> 15; front offset 6->13->10->8
+* Miscellaneous
+  * Enlarge LED clearance holes
+  * thicknessText .6mm
+翻译中文 
+CSDN博客 
 
 ## [EVK_v0.1.1](EVK_v0.1.1)
 I removed the row steps to let fingers move more freely.
