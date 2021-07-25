@@ -1,6 +1,17 @@
 # Versions  
+To dos: 
+Rebase Github Pull Request
+翻译中文 
+CSDN博客 
+? Snap-on SwitchMount
 
-## [EVK_v0.1.2](EVK_v0.1.2) (Under Development)  
+## [EVK_v0.1.3](EVK_v0.1.2.1) (Under Development)  
+Cocking the wrist slightly makes typing more comfortable.  
+Revise the keywell to accomodate a slightly cocked wrist.  
+Rotate hands inward slightly.
+
+
+## [EVK_v0.1.2](EVK_v0.1.2) 
 I redesigned the Handrest to let hands move more freely.
 * Keys
   * Chamfer the keycap stems so they don't get caught on the switches  
@@ -19,7 +30,7 @@ I redesigned the Handrest to let hands move more freely.
   * knuckleRadiusYZPlane 420 -> 500
   * Switch mount wall and other walls' thickness 1.8 -> 1.5 -> 1.65
   * Fix thin walls
-  Reposition control and windows keys
+  * ASM_ThumbKeys DCS1 x:40->42
   * Spacekey distance to center of rotation 50->48
   * Enter key offset -x 2->3; y 1; z 20
   * Increase LED clearance hole diameter.
@@ -27,13 +38,11 @@ I redesigned the Handrest to let hands move more freely.
   * thicknessTopPlate 2.7 -> 2.5mm
 * Handrest
   * Redesign handrest to be a separate glue-on.
-  * Palm Rest x 40->30->23->29->28->26->27, y -65 -> -40, z -20 -> -10;  angle 8->9;  
+  * Palm Rest x 40->30->23->29->28->26->27->29, y -65 -> -40, z -20 -> -10;  angle 8->9;  
   * Bottom Rest Z -52 -> -51 -> -49 -> -50 -> -45 -> -52 -> -50 -> -49; side extension 10 -> 15; front offset 6->13->10->8
 * Miscellaneous
   * Enlarge LED clearance holes
   * thicknessText .6mm
-翻译中文 
-CSDN博客 
 
 ## [EVK_v0.1.1](EVK_v0.1.1)
 I removed the row steps to let fingers move more freely.
