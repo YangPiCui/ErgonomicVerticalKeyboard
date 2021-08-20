@@ -6,9 +6,8 @@ CSDN博客
 ? Snap-on SwitchMount
 
 ## [EVK_v0.1.3](EVK_v0.1.2.1) (Under Development)  
-Cocking the wrist slightly makes typing more comfortable.  
-Revise the keywell to accomodate a slightly cocked wrist.  
-Rotate hands inward slightly.
+Reposition the thumb keys.
+
 
 
 ## [EVK_v0.1.2](EVK_v0.1.2) 
