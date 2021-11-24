@@ -1,13 +1,10 @@
 # Versions  
-To dos: 
-Rebase Github Pull Request
-翻译中文 
-CSDN博客 
-? Snap-on SwitchMount
+To dos:  
+Rebase Github Pull Request  
+翻译中文, CSDN博客  
 
-## [EVK_v0.1.3](EVK_v0.1.2.1) (Under Development)  
-Reposition the thumb keys.
-
+## [EVK_v0.1.3](EVK_v0.1.2.1)   
+Minor comfort improvements.  
 
 
 ## [EVK_v0.1.2](EVK_v0.1.2) 
