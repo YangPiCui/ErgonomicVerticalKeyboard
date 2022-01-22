@@ -4,7 +4,8 @@ Rebase Github Pull Request for the firmware
 
 
 ## [EVK_v0.2.0](EVK_v0.2.0) (under development)
-Position keys at 45 degrees to accomodate casual users... 
+People complain they can't blind type.
+Tilt keywell at 45 degrees as a compromise?
 
 
 ## [EVK_v0.1.2](EVK_v0.1.2) 
