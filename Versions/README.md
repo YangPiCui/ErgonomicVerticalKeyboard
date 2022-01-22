@@ -1,7 +1,6 @@
 # Versions  
 To dos:  
-Rebase Github Pull Request  
-翻译中文, CSDN博客  
+Rebase Github Pull Request for the firmware
 
 
 ## [EVK_v0.2.0](EVK_v0.2.0) (under development)
