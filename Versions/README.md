@@ -3,12 +3,9 @@ To dos:
 Rebase Github Pull Request  
 翻译中文, CSDN博客  
 
+
 ## [EVK_v0.2.0](EVK_v0.2.0) (under development)
-Position keys at 45 degrees to accomodate normal users... 
-
-
-## [EVK_v0.1.3](EVK_v0.1.2.1)  
-Minor comfort improvements.  
+Position keys at 45 degrees to accomodate casual users... 
 
 
 ## [EVK_v0.1.2](EVK_v0.1.2) 
