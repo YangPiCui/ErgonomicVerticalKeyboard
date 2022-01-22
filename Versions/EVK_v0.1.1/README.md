@@ -1,7 +1,7 @@
 ![](Keyboard0.JPG)  
 ![](Keyboard1.JPG)  
   
-Please refer to EVK_v0.1.0   
+Please refer to EVK_v0.1.0 for build instructions.    
 
 ### Left Right and Front  
 * Nozzle Diameter 0.4mm  
