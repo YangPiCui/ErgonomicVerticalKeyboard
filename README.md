@@ -40,5 +40,13 @@ I have included all necessary build instructions for each EVK version. It takes 
 [Windows 10 Key Mapping software](https://thegeekpage.com/top-10-best-free-key-mapping-software-for-windows-10/)&nbsp;| [SharpKeys](https://github.com/randyrants/sharpkeys/releases)
 
 
+## Donations
+If this project has benefited you, please consider doing one or more of the following:
+- helping someone you know in any way
+- donating to your favorite charity
+- hiring me to work in the US
+- sending me some BSV(Bitcoin Satoshi Vision) at "1MycbJ25Du9zE5DuPQcgvfUHHTMwgWyjTX"  
+I will not withdraw from this address so you know how much in total I have received for this project. I like it this way.
+
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
