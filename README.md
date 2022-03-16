@@ -41,11 +41,8 @@ I have included all necessary build instructions for each EVK version. It takes 
 
 
 ## Donations
-If this project has benefited you, please consider doing one or more of the following:
-- Helping someone you know in any way.
-- Donating to your favorite charity.
-- Hiring me to work in the US.
-- Sending me some BSV(Bitcoin Satoshi Vision) at "1MycbJ25Du9zE5DuPQcgvfUHHTMwgWyjTX". I will not withdraw from this address so you know how much in total I have received for this project. I like it this way.
+My Siemens NX subscription has just expired. Can someone convince Siemens to make their NX more affordable? It currently costs 4k USD a year. 
+I accept BSV(Bitcoin Satoshi Vision, the real Bitcoin) at "1MycbJ25Du9zE5DuPQcgvfUHHTMwgWyjTX". I will not withdraw from this address so you know how much in total I have received for this project. 
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
