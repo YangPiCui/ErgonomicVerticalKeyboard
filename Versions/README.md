@@ -3,7 +3,7 @@ To dos:
 Rebase Github Pull Request for the firmware
 
 
-## [EVK_v0.2.0](EVK_v0.2.0) (under development)
+## [EVK_v0.2.0](EVK_v0.2.0) (need to renew Siemens NX license)
 People complain they can't blind type.
 Tilt keywell at 45 degrees as a compromise?
 
