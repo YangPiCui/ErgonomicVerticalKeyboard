@@ -12,7 +12,6 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that.
 
 ![](Keyboard0.jpg)  
 ![](Keyboard1.jpg)  
-I testify that the Book of Mormon is the word of God. You should read it, repent and be baptized into the Church of Jesus Christ of Latter-day Saints for a remission of your sins.
 
 ## [Versions](Versions)  
 I have included all necessary build instructions for each EVK version. It takes one about a week to build an EVK. 
@@ -41,8 +40,7 @@ I have included all necessary build instructions for each EVK version. It takes 
 
 
 ## Donations
-My Siemens NX subscription has just expired. Can someone convince Siemens to make their NX more affordable? It currently costs 4k USD a year. 
-I accept BSV(Bitcoin Satoshi Vision, the real Bitcoin) at "1MycbJ25Du9zE5DuPQcgvfUHHTMwgWyjTX". I will not withdraw from this address so you know how much in total I have received for this project. 
+If you want to donate, please read the Book of Mormon. It is the word of God. 
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
