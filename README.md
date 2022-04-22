@@ -40,7 +40,7 @@ I have included all necessary build instructions for each EVK version. It takes 
 
 
 ## Donations
-If you want to donate, please read the Book of Mormon. It is the word of God. 
+If you want to donate, please repent and read the Book of Mormon. 
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
