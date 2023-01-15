@@ -1,5 +1,7 @@
 # Ergonomic Vertical Keyboard (EVK)
 
+## I don't recommend building this version of the keyboard yourself. It's not comfortable enough yet. I have to find a good enough open-source 3D cad program first. 
+
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
 The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated. This in turn stresses our neck.  
