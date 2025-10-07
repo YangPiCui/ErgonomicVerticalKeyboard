@@ -42,7 +42,7 @@ I have included all necessary build instructions for each EVK version. It takes 
 
 
 ## Donations
-If you want to donate, please repent and read the Book of Mormon. 
+If you want to donate, please repent, become as a little child, and be baptized in Jesus Christ's name; or repent, be baptized in Jesus Christ's name, and become as a little child. [Matthew 18:2-5 | 3 Nephi 11:38 | Mosiah 3:19]
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
