@@ -1,22 +1,24 @@
 # Ergonomic Computer Keyboard (ECK)
 
-## I don't recommend building this version of the keyboard yourself. It's not comfortable enough yet. I have to find a good enough open-source 3D cad program first. 
+## slowly working on the next iteration
 
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
-The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated. This in turn stresses our neck.  
+The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated, in turn stressing our neck.  
 Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?    
-The Ergonomic Computer Keyboard (ECK) lets you do exactly that.
-- The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Project](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
+The Ergonomic Computer Keyboard (ECK) allows you to feel exactly like that with the following features.
+- The case orientates the key caps into a tilted formation, so that palms face each other more while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Project](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
 - Concave design accomodate fingers' natural paths. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
-- Compact design to save desk space for the mouse.
-- An efficient, customizable keymap layout. Little fingers' extra columns have been reassigned to other fingers to alleviate sore pinkies.
+- An efficient, customizable keymap layout to distribute load on each finger evenly according to their relative strengths.  
+- Little fingers' extra columns have been reassigned to other fingers to alleviate sore pinkies.  
+- Make the keyboard as compact as possible to save desk space for extra accessories such as the mouse.  
 
 ![](Keyboard0.jpg)  
 ![](Keyboard1.jpg)  
 
 ## [Versions](Versions)  
-I have included all necessary build instructions for each ECK version. It takes one about a week to build an ECK. 
+I have included all necessary build instructions for each ECK version in the Versions folder.  
+It takes one about one work week to build an ECK from start to finish with all the parts.
 
 ## [Keymap Optimization](KeymapOptimization) (Under Development)
 
@@ -42,7 +44,10 @@ I have included all necessary build instructions for each ECK version. It takes 
 
 
 ## Donations
-If you want to donate, please repent, become as a little child, and be baptized in Jesus Christ's name; or repent, be baptized in Jesus Christ's name, and become as a little child. [Matthew 18:2-5 | 3 Nephi 11:38 | Mosiah 3:19]
+If you want to donate, please  
+repent, become as a little child, and be baptized in Jesus Christ's name.  
+repent, be baptized in Jesus Christ's name, and become as a little child.  
+[Matthew 18:2-5 | 3 Nephi 11:38 | Mosiah 3:19]  
 
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
