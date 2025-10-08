@@ -1,6 +1,6 @@
 # Ergonomic Computer Keyboard (ECK)
 
-## slowly working on the next iteration
+## (switching to FreeCAD and slowly working on the next iteration)
 
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
@@ -43,11 +43,6 @@ It takes one about one work week to build an ECK from start to finish with all t
 [Windows 10 Key Mapping software](https://thegeekpage.com/top-10-best-free-key-mapping-software-for-windows-10/)&nbsp;| [SharpKeys](https://github.com/randyrants/sharpkeys/releases)
 
 
-## Donations
-If you want to donate, please  
-repent, become as a little child, and be baptized in Jesus Christ's name.  
-repent, be baptized in Jesus Christ's name, and become as a little child.  
-[Matthew 18:2-5 | 3 Nephi 11:38 | Mosiah 3:19]  
-
+## [Donations] (https://github.com/YangPiCui/ProjectIdeas/blob/main/README.md#how-to-donate-in-descending-preference-for-me)
 
 ###### [ODC Open Database License v1.0](https://choosealicense.com/appendix/)  (free but no patent or commercial use)
