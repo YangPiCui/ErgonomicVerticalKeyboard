@@ -1,4 +1,4 @@
-# Ergonomic Vertical Keyboard (EVK)
+# Ergonomic Computer Keyboard (ECK)
 
 ## I don't recommend building this version of the keyboard yourself. It's not comfortable enough yet. I have to find a good enough open-source 3D cad program first. 
 
@@ -6,7 +6,7 @@
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
 The keyboard and the mouse are the culprits. They force our hands to lay flat on the desk pronated. This in turn stresses our neck.  
 Now put your hands on the desk but rotate your palms to face each other. Do you start to feel your shoulders relaxed, your neck relieved, and your back straightened?    
-The Ergonomic Vertical Keyboard (EVK) lets you do exactly that.
+The Ergonomic Computer Keyboard (ECK) lets you do exactly that.
 - The case orientates the key caps into a vertical formation, so that palms face each other while typing. [[SafeType](https://safetype.com/index.php?id_product=1&controller=product) | [ergodox ez vertical stand](https://www.thingiverse.com/thing:2748084)&nbsp;| [Ergodox EZ tent kit](https://www.thingiverse.com/thing:1433117) | [A Similiar Project](https://thomasbaart.nl/2019/01/20/vertikeeb-making-a-vertical-keyboard-part-1/)]
 - Concave design accomodate fingers' natural paths. [[Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/)  | [British patent 1,016,993](https://geekhack.org/index.php?topic=63415)]  
 - Compact design to save desk space for the mouse.
@@ -16,7 +16,7 @@ The Ergonomic Vertical Keyboard (EVK) lets you do exactly that.
 ![](Keyboard1.jpg)  
 
 ## [Versions](Versions)  
-I have included all necessary build instructions for each EVK version. It takes one about a week to build an EVK. 
+I have included all necessary build instructions for each ECK version. It takes one about a week to build an ECK. 
 
 ## [Keymap Optimization](KeymapOptimization) (Under Development)
 
