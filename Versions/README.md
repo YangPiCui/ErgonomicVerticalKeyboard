@@ -3,12 +3,13 @@ To dos:
 Rebase Github Pull Request for the firmware
 
 
-## [EVK_v0.2.0](EVK_v0.2.0) (need to renew Siemens NX license)
-People complain they can't blind type.
-Tilt keywell at 45 degrees as a compromise?
+## [ECK_v0.2.0](ECK_v0.2.0) (FreeCAD)
+People can't blind type.
+Tilt keywell instead of making it vertical.
+Rename ErgonomicVerticalKeyboard to ErgonomicComputerKeyboard
 
 
-## [EVK_v0.1.2](EVK_v0.1.2) 
+## [EVK_v0.1.2](EVK_v0.1.2) (Siemens NX license expired)
 I redesigned the Handrest to let hands move more freely.
 * Keys
   * Chamfer the keycap stems so they don't get caught on the switches  
