@@ -1,6 +1,7 @@
 # Ergonomic Computer Keyboard (ECK)
 
-## (switching to FreeCAD and slowly working on the next iteration)
+## switching to FreeCAD and (extremely) slowly working on the next iteration
+## let me know if you want to draw the case
 
 ## Introduction
 Do you get a sore neck and stiff fingers from typing? Have you developed a stretched forth neck and a hump back?  
